@@ -1,0 +1,3362 @@
+[
+  {
+    "clause": "Bên B sẽ giao cho Bên A một khoản tiền đặt cọc để đảm bảo thực hiện hợp đồng cho thuê nhà ngay sau.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "sẽ",
+        "head": 4,
+        "dep": "advmod"
+      },
+      {
+        "token": "giao",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "cho",
+        "head": 6,
+        "dep": "case"
+      },
+      {
+        "token": "Bên A",
+        "head": 4,
+        "dep": "obl:iobj"
+      },
+      {
+        "token": "một",
+        "head": 8,
+        "dep": "nummod"
+      },
+      {
+        "token": "khoản",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "tiền",
+        "head": 8,
+        "dep": "nmod"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 9,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "để",
+        "head": 12,
+        "dep": "mark:pcomp"
+      },
+      {
+        "token": "đảm bảo",
+        "head": 8,
+        "dep": "advcl:objective"
+      },
+      {
+        "token": "thực hiện",
+        "head": 12,
+        "dep": "xcomp"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 13,
+        "dep": "obj"
+      },
+      {
+        "token": "cho",
+        "head": 14,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "thuê",
+        "head": 15,
+        "dep": "xcomp"
+      },
+      {
+        "token": "nhà",
+        "head": 16,
+        "dep": "obj"
+      },
+      {
+        "token": "ngay",
+        "head": 19,
+        "dep": "advmod"
+      },
+      {
+        "token": "sau",
+        "head": 16,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Khi ký hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Khi",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "ký",
+        "head": 1,
+        "dep": "acl:tmod"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên B đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên A thì Bên A sẽ không phải hoàn trả lại số tiền đặt cọc này.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên B",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "đơn phương",
+        "head": 20,
+        "dep": "advcl"
+      },
+      {
+        "token": "chấm dứt",
+        "head": 3,
+        "dep": "xcomp"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "mà",
+        "head": 8,
+        "dep": "cc"
+      },
+      {
+        "token": "không",
+        "head": 8,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "thực hiện",
+        "head": 20,
+        "dep": "advcl"
+      },
+      {
+        "token": "nghĩa vụ",
+        "head": 8,
+        "dep": "obj"
+      },
+      {
+        "token": "báo",
+        "head": 9,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "trước",
+        "head": 10,
+        "dep": "xcomp"
+      },
+      {
+        "token": "cho",
+        "head": 13,
+        "dep": "case"
+      },
+      {
+        "token": "Bên",
+        "head": 10,
+        "dep": "obl:iobj"
+      },
+      {
+        "token": "A",
+        "head": 13,
+        "dep": "compound"
+      },
+      {
+        "token": "thì",
+        "head": 20,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên A",
+        "head": 20,
+        "dep": "nsubj"
+      },
+      {
+        "token": "sẽ",
+        "head": 20,
+        "dep": "advmod"
+      },
+      {
+        "token": "không",
+        "head": 20,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "phải",
+        "head": 20,
+        "dep": "aux"
+      },
+      {
+        "token": "hoàn trả",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "lại",
+        "head": 20,
+        "dep": "advmod"
+      },
+      {
+        "token": "số",
+        "head": 20,
+        "dep": "obj"
+      },
+      {
+        "token": "tiền",
+        "head": 22,
+        "dep": "nmod"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 22,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "này",
+        "head": 22,
+        "dep": "det:pmod"
+      },
+      {
+        "token": ".",
+        "head": 20,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên A đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên B thì Bên A sẽ phải hoàn trả lại Bên B số tiền đặt cọc.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 4,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 2,
+        "dep": "nmod"
+      },
+      {
+        "token": "đơn phương",
+        "head": 19,
+        "dep": "advcl"
+      },
+      {
+        "token": "chấm dứt",
+        "head": 4,
+        "dep": "xcomp"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "mà",
+        "head": 9,
+        "dep": "cc"
+      },
+      {
+        "token": "không",
+        "head": 9,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "thực hiện",
+        "head": 4,
+        "dep": "conj"
+      },
+      {
+        "token": "nghĩa vụ",
+        "head": 9,
+        "dep": "obj"
+      },
+      {
+        "token": "báo",
+        "head": 10,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "trước",
+        "head": 11,
+        "dep": "xcomp"
+      },
+      {
+        "token": "cho",
+        "head": 14,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 11,
+        "dep": "obl:iobj"
+      },
+      {
+        "token": "thì",
+        "head": 19,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên A",
+        "head": 19,
+        "dep": "nsubj"
+      },
+      {
+        "token": "sẽ",
+        "head": 19,
+        "dep": "advmod"
+      },
+      {
+        "token": "phải",
+        "head": 19,
+        "dep": "aux"
+      },
+      {
+        "token": "hoàn trả",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "lại",
+        "head": 19,
+        "dep": "advmod"
+      },
+      {
+        "token": "Bên B",
+        "head": 22,
+        "dep": "det"
+      },
+      {
+        "token": "số",
+        "head": 19,
+        "dep": "obj"
+      },
+      {
+        "token": "tiền",
+        "head": 22,
+        "dep": "compound"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 22,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 19,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và phải bồi thường thêm một khoản bằng chính tiền đặt cọc.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "phải",
+        "head": 3,
+        "dep": "aux"
+      },
+      {
+        "token": "bồi thường",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "thêm",
+        "head": 3,
+        "dep": "advmod"
+      },
+      {
+        "token": "một",
+        "head": 6,
+        "dep": "nummod"
+      },
+      {
+        "token": "khoản",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "bằng",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "chính",
+        "head": 9,
+        "dep": "advmod"
+      },
+      {
+        "token": "tiền",
+        "head": 6,
+        "dep": "obl"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 9,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Tiền đặt cọc của Bên B sẽ không được dùng để thanh toán tiền thuê.",
+    "dependencies": [
+      {
+        "token": "Tiền",
+        "head": 8,
+        "dep": "nsubj:pass"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 1,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "của",
+        "head": 4,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 1,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": "sẽ",
+        "head": 8,
+        "dep": "advmod"
+      },
+      {
+        "token": "không",
+        "head": 8,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "được",
+        "head": 8,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "dùng",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "để",
+        "head": 10,
+        "dep": "mark:pcomp"
+      },
+      {
+        "token": "thanh toán",
+        "head": 8,
+        "dep": "advcl:objective"
+      },
+      {
+        "token": "tiền",
+        "head": 10,
+        "dep": "obj"
+      },
+      {
+        "token": "thu",
+        "head": 11,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 8,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên B vi phạm hợp đồng làm phát sinh thiệt hại cho Bên A thì Bên A có quyền khấu trừ tiền đặt cọc để bù đắp các chi phí khắc phục thiệt hại phát sinh.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên B",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "vi phạm",
+        "head": 13,
+        "dep": "advcl"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "làm",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "phát sinh",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 3,
+        "dep": "xcomp"
+      },
+      {
+        "token": "cho",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "Bên",
+        "head": 7,
+        "dep": "obl"
+      },
+      {
+        "token": "A",
+        "head": 9,
+        "dep": "compound"
+      },
+      {
+        "token": "thì",
+        "head": 13,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên A",
+        "head": 13,
+        "dep": "nsubj"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 13,
+        "dep": "obj"
+      },
+      {
+        "token": "khấu trừ",
+        "head": 14,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "tiền",
+        "head": 15,
+        "dep": "obj"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 16,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "để",
+        "head": 19,
+        "dep": "mark:pcomp"
+      },
+      {
+        "token": "bù đắp",
+        "head": 15,
+        "dep": "advcl:objective"
+      },
+      {
+        "token": "các",
+        "head": 21,
+        "dep": "det"
+      },
+      {
+        "token": "chi phí",
+        "head": 19,
+        "dep": "obj"
+      },
+      {
+        "token": "khắc phục",
+        "head": 21,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 22,
+        "dep": "obj"
+      },
+      {
+        "token": "phát sinh",
+        "head": 23,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 13,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Vào thời điểm kết thúc thời hạn thuê.",
+    "dependencies": [
+      {
+        "token": "Vào",
+        "head": 2,
+        "dep": "case"
+      },
+      {
+        "token": "thời điểm",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "kết thúc",
+        "head": 2,
+        "dep": "acl:tmod"
+      },
+      {
+        "token": "thời hạn",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "thu",
+        "head": 4,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hoặc kể từ ngày chấm dứt hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Hoặc",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "kể",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "từ",
+        "head": 4,
+        "dep": "case"
+      },
+      {
+        "token": "ngày",
+        "head": 2,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "chấm dứt",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A sẽ hoàn lại cho Bên B số tiền đặt cọc sau.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "sẽ",
+        "head": 4,
+        "dep": "advmod"
+      },
+      {
+        "token": "hoàn",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "lại",
+        "head": 4,
+        "dep": "advmod"
+      },
+      {
+        "token": "cho",
+        "head": 7,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 4,
+        "dep": "obl:iobj"
+      },
+      {
+        "token": "số",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "tiền",
+        "head": 8,
+        "dep": "compound"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 8,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "sau",
+        "head": 10,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Khi đã khấu trừ khoản chi phí khắc phục thiệt hại.",
+    "dependencies": [
+      {
+        "token": "Khi",
+        "head": 3,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "đã",
+        "head": 3,
+        "dep": "advmod"
+      },
+      {
+        "token": "khấu trừ",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "khoản",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "chi phí",
+        "head": 4,
+        "dep": "nmod"
+      },
+      {
+        "token": "khắc phục",
+        "head": 4,
+        "dep": "acl"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu có.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 2,
+        "dep": "mark"
+      },
+      {
+        "token": "có.",
+        "head": 0,
+        "dep": "root"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B phải thanh toán tiền thuê nhà theo đúng thời hạn đã thỏa thuận vào ngày 05 hàng tháng.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "phải",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "thanh toán",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "tiền",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 5,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "nhà",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "theo",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "đúng",
+        "head": 6,
+        "dep": "obl"
+      },
+      {
+        "token": "thời hạn",
+        "head": 9,
+        "dep": "obj"
+      },
+      {
+        "token": "đã",
+        "head": 12,
+        "dep": "advmod"
+      },
+      {
+        "token": "thỏa thuận",
+        "head": 4,
+        "dep": "xcomp"
+      },
+      {
+        "token": "vào",
+        "head": 14,
+        "dep": "case"
+      },
+      {
+        "token": "ngày",
+        "head": 12,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "05",
+        "head": 14,
+        "dep": "flat:date"
+      },
+      {
+        "token": "hàng",
+        "head": 17,
+        "dep": "advmod"
+      },
+      {
+        "token": "thán",
+        "head": 14,
+        "dep": "nmod"
+      },
+      {
+        "token": "g",
+        "head": 17,
+        "dep": "flat:time"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Tiền thuê nhà không bao gồm các chi phí khác như tiền điện.",
+    "dependencies": [
+      {
+        "token": "Tiền",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "thuê",
+        "head": 1,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "nhà",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "không",
+        "head": 5,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "bao gồm",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "các",
+        "head": 7,
+        "dep": "det"
+      },
+      {
+        "token": "chi phí",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "khác",
+        "head": 7,
+        "dep": "amod"
+      },
+      {
+        "token": "như",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "tiền",
+        "head": 7,
+        "dep": "obl"
+      },
+      {
+        "token": "điện",
+        "head": 10,
+        "dep": "compound"
+      },
+      {
+        "token": ".",
+        "head": 5,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nước.",
+    "dependencies": [
+      {
+        "token": "Nước",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và vệ sinh.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "vệ sinh",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Các chi phí này sẽ do Bên B thanh toán theo mức sử dụng thực tế.",
+    "dependencies": [
+      {
+        "token": "Các",
+        "head": 2,
+        "dep": "det"
+      },
+      {
+        "token": "chi phí",
+        "head": 7,
+        "dep": "nsubj"
+      },
+      {
+        "token": "này",
+        "head": 2,
+        "dep": "det:pmod"
+      },
+      {
+        "token": "sẽ",
+        "head": 7,
+        "dep": "advmod"
+      },
+      {
+        "token": "do",
+        "head": 7,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "Bên B",
+        "head": 7,
+        "dep": "obl:agent"
+      },
+      {
+        "token": "thanh toán",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "theo",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "mức",
+        "head": 7,
+        "dep": "obl"
+      },
+      {
+        "token": "sử dụng",
+        "head": 9,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "thực tế",
+        "head": 9,
+        "dep": "amod"
+      },
+      {
+        "token": ".",
+        "head": 7,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và đơn giá của cơ quan nhà nước có thẩm quyền.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "đơn giá",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "của",
+        "head": 4,
+        "dep": "case"
+      },
+      {
+        "token": "cơ quan",
+        "head": 2,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": "nhà nước",
+        "head": 4,
+        "dep": "nmod"
+      },
+      {
+        "token": "có",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "thẩm quyền",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Việc thanh toán tiền thuê nhà được thực hiện bằng đồng tiền Việt Nam.",
+    "dependencies": [
+      {
+        "token": "Việc",
+        "head": 7,
+        "dep": "nsubj:pass"
+      },
+      {
+        "token": "thanh toán",
+        "head": 1,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "tiền",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 3,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "nhà",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "được",
+        "head": 7,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "thực hiện",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "bằng",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "đồng tiền",
+        "head": 7,
+        "dep": "obl:comp"
+      },
+      {
+        "token": "Việt Nam.",
+        "head": 7,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và thanh toán trực tiếp bằng tiền mặt.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "thanh toán",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "trực tiếp",
+        "head": 2,
+        "dep": "xcomp"
+      },
+      {
+        "token": "bằng",
+        "head": 5,
+        "dep": "case"
+      },
+      {
+        "token": "tiền mặt",
+        "head": 2,
+        "dep": "obl"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên B thanh toán chậm thì phải chịu trách nhiệm theo quy định trong hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên B",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "thanh toán",
+        "head": 7,
+        "dep": "advcl"
+      },
+      {
+        "token": "chậm",
+        "head": 3,
+        "dep": "advmod:adj"
+      },
+      {
+        "token": "thì",
+        "head": 7,
+        "dep": "mark"
+      },
+      {
+        "token": "phải",
+        "head": 7,
+        "dep": "aux"
+      },
+      {
+        "token": "chịu",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "trách nhiệm",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": "theo",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "quy định",
+        "head": 8,
+        "dep": "obl"
+      },
+      {
+        "token": "trong",
+        "head": 12,
+        "dep": "case"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 10,
+        "dep": "obl"
+      },
+      {
+        "token": ".",
+        "head": 7,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A có quyền yêu cầu Bên B thanh toán đầy đủ tiền thuê.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "yêu cầu",
+        "head": 4,
+        "dep": "acl"
+      },
+      {
+        "token": "Bên B",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "thanh toán",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "đầy đủ",
+        "head": 9,
+        "dep": "amod"
+      },
+      {
+        "token": "tiền",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": "thu",
+        "head": 9,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và các chi phí phát sinh đúng hạn.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 5,
+        "dep": "cc"
+      },
+      {
+        "token": "các",
+        "head": 3,
+        "dep": "det"
+      },
+      {
+        "token": "chi phí",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "phát sinh",
+        "head": 3,
+        "dep": "amod"
+      },
+      {
+        "token": "đúng hạn",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 5,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A có quyền yêu cầu Bên B sửa chữa các hư hỏng.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "yêu cầu",
+        "head": 4,
+        "dep": "acl"
+      },
+      {
+        "token": "Bên B",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "sửa chữa",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "các",
+        "head": 9,
+        "dep": "det"
+      },
+      {
+        "token": "hư hỏng",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hoặc thiệt hại do Bên B gây ra trong quá trình sử dụng.",
+    "dependencies": [
+      {
+        "token": "Hoặc",
+        "head": 5,
+        "dep": "mark"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "do",
+        "head": 5,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "gây",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "ra",
+        "head": 5,
+        "dep": "compound:prt"
+      },
+      {
+        "token": "trong",
+        "head": 8,
+        "dep": "case"
+      },
+      {
+        "token": "quá trình",
+        "head": 5,
+        "dep": "obl"
+      },
+      {
+        "token": "sử dụng",
+        "head": 8,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 5,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A có nghĩa vụ bàn giao diện tích thuê đúng thời gian đã thỏa thuận trong hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "nghĩa vụ",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "bàn giao",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "diện tích",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 6,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "đúng",
+        "head": 7,
+        "dep": "xcomp"
+      },
+      {
+        "token": "thời gian",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": "đã",
+        "head": 11,
+        "dep": "advmod"
+      },
+      {
+        "token": "thỏa thuận",
+        "head": 3,
+        "dep": "ccomp"
+      },
+      {
+        "token": "trong",
+        "head": 13,
+        "dep": "case"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 11,
+        "dep": "obl"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A phải đảm bảo quyền sử dụng diện tích thuê của Bên B được diễn ra liên tục.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "phải",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "đảm bảo",
+        "head": 12,
+        "dep": "csubj"
+      },
+      {
+        "token": "quyền",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "sử dụng",
+        "head": 5,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "diện tích",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 7,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "của",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 7,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": "được",
+        "head": 12,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "diễn",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "ra",
+        "head": 12,
+        "dep": "compound:prt"
+      },
+      {
+        "token": "liên tục",
+        "head": 12,
+        "dep": "xcomp"
+      },
+      {
+        "token": ".",
+        "head": 12,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và không bị gián đoạn.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 4,
+        "dep": "cc"
+      },
+      {
+        "token": "không",
+        "head": 4,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "bị",
+        "head": 4,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "gián đoạn",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Trừ trường hợp vi phạm pháp luật.",
+    "dependencies": [
+      {
+        "token": "Trừ",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "trường hợp",
+        "head": 1,
+        "dep": "obj"
+      },
+      {
+        "token": "vi phạm",
+        "head": 2,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "pháp luật",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hoặc hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Hoặc",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên A không được xâm phạm trái phép tài sản của Bên B trong thời gian thuê.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "A",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "không",
+        "head": 4,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "được",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "xâm phạm",
+        "head": 4,
+        "dep": "xcomp"
+      },
+      {
+        "token": "trái phép",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "tài sản",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "của",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 7,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": "trong",
+        "head": 11,
+        "dep": "case"
+      },
+      {
+        "token": "thời gian",
+        "head": 4,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "thu",
+        "head": 11,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên A vi phạm gây thiệt hại thì phải bồi thường cho Bên B.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 4,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên A",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "vi phạm",
+        "head": 4,
+        "dep": "xcomp"
+      },
+      {
+        "token": "gây",
+        "head": 8,
+        "dep": "advcl"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "thì",
+        "head": 8,
+        "dep": "mark"
+      },
+      {
+        "token": "phải",
+        "head": 8,
+        "dep": "aux"
+      },
+      {
+        "token": "bồi thường",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "cho",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B.",
+        "head": 8,
+        "dep": "obl:iobj"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B có quyền nhận bàn giao diện tích thuê đúng như thỏa thuận trong hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "nhận",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "bàn giao",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "diện tích",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 7,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "đúng",
+        "head": 8,
+        "dep": "xcomp"
+      },
+      {
+        "token": "như",
+        "head": 11,
+        "dep": "case"
+      },
+      {
+        "token": "thỏa thuận",
+        "head": 9,
+        "dep": "obl"
+      },
+      {
+        "token": "trong",
+        "head": 13,
+        "dep": "case"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 11,
+        "dep": "obl"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B có quyền sử dụng diện tích thuê làm nơi ở.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "sử dụng",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "diện tích",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 6,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "làm",
+        "head": 7,
+        "dep": "xcomp"
+      },
+      {
+        "token": "nơi",
+        "head": 8,
+        "dep": "obj"
+      },
+      {
+        "token": "ở.",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và các mục đích hợp pháp khác.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 6,
+        "dep": "cc"
+      },
+      {
+        "token": "các",
+        "head": 3,
+        "dep": "det"
+      },
+      {
+        "token": "mục đích",
+        "head": 6,
+        "dep": "nsubj"
+      },
+      {
+        "token": "hợp pháp",
+        "head": 3,
+        "dep": "amod"
+      },
+      {
+        "token": "khá",
+        "head": 6,
+        "dep": "advmod"
+      },
+      {
+        "token": "c",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 6,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B có quyền yêu cầu Bên A sửa chữa các hư hỏng không do lỗi của Bên B để đảm bảo an toàn sử dụng.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "yêu cầu",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "Bên A",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "sửa chữa",
+        "head": 5,
+        "dep": "xcomp"
+      },
+      {
+        "token": "các",
+        "head": 9,
+        "dep": "det"
+      },
+      {
+        "token": "hư hỏng",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": "không",
+        "head": 12,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "do",
+        "head": 12,
+        "dep": "cc"
+      },
+      {
+        "token": "lỗi",
+        "head": 9,
+        "dep": "conj"
+      },
+      {
+        "token": "của",
+        "head": 14,
+        "dep": "case"
+      },
+      {
+        "token": "Bên B",
+        "head": 12,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": "để",
+        "head": 16,
+        "dep": "mark:pcomp"
+      },
+      {
+        "token": "đảm bảo",
+        "head": 12,
+        "dep": "advcl:objective"
+      },
+      {
+        "token": "an toàn",
+        "head": 16,
+        "dep": "xcomp"
+      },
+      {
+        "token": "sử dụng",
+        "head": 16,
+        "dep": "xcomp"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B có nghĩa vụ sử dụng diện tích thuê đúng mục đích đã thỏa thuận.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "nghĩa vụ",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "sử dụng",
+        "head": 4,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "diện tích",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 6,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "đúng",
+        "head": 7,
+        "dep": "xcomp"
+      },
+      {
+        "token": "mục đích",
+        "head": 7,
+        "dep": "obj"
+      },
+      {
+        "token": "đã",
+        "head": 11,
+        "dep": "advmod"
+      },
+      {
+        "token": "thỏa thuận",
+        "head": 3,
+        "dep": "ccomp"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B phải giữ gìn tài sản thuê.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "phải",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "giữ gìn",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "tài sản",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "thu",
+        "head": 5,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và chịu trách nhiệm sửa chữa các hư hỏng do mình gây ra.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "chịu",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "trách nhiệm",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "sửa chữa",
+        "head": 3,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "các",
+        "head": 6,
+        "dep": "det"
+      },
+      {
+        "token": "hư hỏng",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "do",
+        "head": 9,
+        "dep": "case"
+      },
+      {
+        "token": "mình",
+        "head": 9,
+        "dep": "nsubj"
+      },
+      {
+        "token": "gây",
+        "head": 6,
+        "dep": "acl"
+      },
+      {
+        "token": "ra.",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B phải thanh toán tiền đặt cọc.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "compound"
+      },
+      {
+        "token": "phải",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "thanh toán",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "tiền",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "đặt cọc",
+        "head": 5,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và tiền thuê đầy đủ.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "tiền",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "thuê",
+        "head": 2,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "đầy đủ",
+        "head": 3,
+        "dep": "xcomp"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Đúng thời hạn.",
+    "dependencies": [
+      {
+        "token": "Đúng",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "thời hạn",
+        "head": 1,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Khi hết thời hạn thuê.",
+    "dependencies": [
+      {
+        "token": "Khi",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "hết",
+        "head": 1,
+        "dep": "acl:tmod"
+      },
+      {
+        "token": "thời hạn",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "thu",
+        "head": 3,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "ê.",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hoặc chấm dứt hợp đồng.",
+    "dependencies": [
+      {
+        "token": "Hoặc",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "chấm dứt",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Bên B phải trả lại toàn bộ diện tích thuê cho Bên A.",
+    "dependencies": [
+      {
+        "token": "Bên",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "B",
+        "head": 1,
+        "dep": "nmod"
+      },
+      {
+        "token": "phải",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "trả",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "lại",
+        "head": 4,
+        "dep": "advmod"
+      },
+      {
+        "token": "toàn bộ",
+        "head": 7,
+        "dep": "det"
+      },
+      {
+        "token": "diện tích",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "thuê",
+        "head": 7,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "cho",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "Bên A.",
+        "head": 8,
+        "dep": "obl:iobj"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu Bên B muốn cải tạo.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 4,
+        "dep": "mark"
+      },
+      {
+        "token": "Bên B",
+        "head": 4,
+        "dep": "nsubj"
+      },
+      {
+        "token": "muốn",
+        "head": 4,
+        "dep": "aux"
+      },
+      {
+        "token": "cải tạo",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Lắp đặt.",
+    "dependencies": [
+      {
+        "token": "Lắp đặt",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 1,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hoặc thay đổi kết cấu trong diện tích thuê thì phải thông báo bằng văn bản.",
+    "dependencies": [
+      {
+        "token": "Hoặc",
+        "head": 2,
+        "dep": "mark"
+      },
+      {
+        "token": "thay đổi",
+        "head": 9,
+        "dep": "advcl"
+      },
+      {
+        "token": "kết cấu",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "trong",
+        "head": 5,
+        "dep": "case"
+      },
+      {
+        "token": "diện tích",
+        "head": 2,
+        "dep": "obl"
+      },
+      {
+        "token": "thuê",
+        "head": 5,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "thì",
+        "head": 9,
+        "dep": "mark"
+      },
+      {
+        "token": "phải",
+        "head": 9,
+        "dep": "aux"
+      },
+      {
+        "token": "thông báo",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "bằng",
+        "head": 11,
+        "dep": "case"
+      },
+      {
+        "token": "văn bản",
+        "head": 9,
+        "dep": "obl:comp"
+      },
+      {
+        "token": ".",
+        "head": 9,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và chỉ được thực hiện.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 4,
+        "dep": "cc"
+      },
+      {
+        "token": "chỉ",
+        "head": 4,
+        "dep": "advmod"
+      },
+      {
+        "token": "được",
+        "head": 4,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "thực hiện",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 4,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Khi có sự đồng ý của Bên A.",
+    "dependencies": [
+      {
+        "token": "Khi",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "có",
+        "head": 1,
+        "dep": "acl:tmod"
+      },
+      {
+        "token": "sự",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "đồng ý",
+        "head": 3,
+        "dep": "acl:tonp"
+      },
+      {
+        "token": "của",
+        "head": 6,
+        "dep": "case"
+      },
+      {
+        "token": "Bên A.",
+        "head": 3,
+        "dep": "nmod:poss"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu không có sự đồng ý thì mọi thay đổi đều không hợp lệ.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "không",
+        "head": 3,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "có",
+        "head": 11,
+        "dep": "advcl"
+      },
+      {
+        "token": "sự",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "đồng ý",
+        "head": 4,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "thì",
+        "head": 11,
+        "dep": "mark"
+      },
+      {
+        "token": "mọi",
+        "head": 8,
+        "dep": "det"
+      },
+      {
+        "token": "thay đổi",
+        "head": 11,
+        "dep": "advcl"
+      },
+      {
+        "token": "đều",
+        "head": 11,
+        "dep": "advmod"
+      },
+      {
+        "token": "không",
+        "head": 11,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "hợp lệ",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 11,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Một trong hai bên có quyền đơn phương chấm dứt hợp đồng trước thời hạn.",
+    "dependencies": [
+      {
+        "token": "Một",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "trong",
+        "head": 4,
+        "dep": "case"
+      },
+      {
+        "token": "hai",
+        "head": 4,
+        "dep": "nummod"
+      },
+      {
+        "token": "bên",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "quyền",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": "đơn phương",
+        "head": 6,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "chấm dứt",
+        "head": 7,
+        "dep": "xcomp"
+      },
+      {
+        "token": "hợp đồng",
+        "head": 8,
+        "dep": "obj"
+      },
+      {
+        "token": "trước",
+        "head": 9,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "thời hạn",
+        "head": 10,
+        "dep": "compound"
+      },
+      {
+        "token": ".",
+        "head": 5,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nhưng phải thông báo bằng văn bản cho bên còn lại trước ít nhất 30 ngày.",
+    "dependencies": [
+      {
+        "token": "Nhưng",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "phải",
+        "head": 3,
+        "dep": "aux"
+      },
+      {
+        "token": "thông báo",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "bằng",
+        "head": 5,
+        "dep": "case"
+      },
+      {
+        "token": "văn bản",
+        "head": 3,
+        "dep": "obl"
+      },
+      {
+        "token": "cho",
+        "head": 7,
+        "dep": "case"
+      },
+      {
+        "token": "bên",
+        "head": 3,
+        "dep": "obl:iobj"
+      },
+      {
+        "token": "còn",
+        "head": 7,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "lại",
+        "head": 8,
+        "dep": "compound:prt"
+      },
+      {
+        "token": "trước",
+        "head": 13,
+        "dep": "case"
+      },
+      {
+        "token": "ít nhất",
+        "head": 13,
+        "dep": "advmod"
+      },
+      {
+        "token": "30",
+        "head": 13,
+        "dep": "nummod"
+      },
+      {
+        "token": "ngày",
+        "head": 8,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Nếu không thông báo đúng thời hạn thì bên vi phạm phải bồi thường một khoản tiền tương ứng với thời gian không thông báo.",
+    "dependencies": [
+      {
+        "token": "Nếu",
+        "head": 3,
+        "dep": "mark"
+      },
+      {
+        "token": "không",
+        "head": 3,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "thông báo",
+        "head": 10,
+        "dep": "advcl"
+      },
+      {
+        "token": "đúng",
+        "head": 3,
+        "dep": "xcomp"
+      },
+      {
+        "token": "thời hạn",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": "thì",
+        "head": 10,
+        "dep": "mark"
+      },
+      {
+        "token": "bên",
+        "head": 10,
+        "dep": "nsubj"
+      },
+      {
+        "token": "vi phạm",
+        "head": 7,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "phải",
+        "head": 10,
+        "dep": "aux"
+      },
+      {
+        "token": "bồi thường",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "một",
+        "head": 12,
+        "dep": "nummod"
+      },
+      {
+        "token": "khoản",
+        "head": 10,
+        "dep": "obj"
+      },
+      {
+        "token": "tiền",
+        "head": 12,
+        "dep": "nmod"
+      },
+      {
+        "token": "tương ứng",
+        "head": 12,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "với",
+        "head": 16,
+        "dep": "case"
+      },
+      {
+        "token": "thời gian",
+        "head": 14,
+        "dep": "obl"
+      },
+      {
+        "token": "không",
+        "head": 18,
+        "dep": "advmod:neg"
+      },
+      {
+        "token": "thông báo",
+        "head": 16,
+        "dep": "acl:subj"
+      },
+      {
+        "token": ".",
+        "head": 10,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và các thiệt hại phát sinh.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 3,
+        "dep": "cc"
+      },
+      {
+        "token": "các",
+        "head": 3,
+        "dep": "det"
+      },
+      {
+        "token": "thiệt hại",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "phát sinh",
+        "head": 3,
+        "dep": "amod"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hợp đồng có hiệu lực kể từ ngày hai bên ký kết.",
+    "dependencies": [
+      {
+        "token": "Hợp đồng",
+        "head": 2,
+        "dep": "nsubj"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "hiệu lực",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "kể",
+        "head": 3,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "từ",
+        "head": 6,
+        "dep": "case"
+      },
+      {
+        "token": "ngày",
+        "head": 4,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "hai",
+        "head": 8,
+        "dep": "nummod"
+      },
+      {
+        "token": "bên",
+        "head": 6,
+        "dep": "nmod"
+      },
+      {
+        "token": "ký kết",
+        "head": 6,
+        "dep": "acl"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và được thực hiện trên cơ sở hợp tác.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 3,
+        "dep": "cc"
+      },
+      {
+        "token": "được",
+        "head": 3,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "thực hiện",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "trên",
+        "head": 5,
+        "dep": "case"
+      },
+      {
+        "token": "cơ sở",
+        "head": 3,
+        "dep": "obl"
+      },
+      {
+        "token": "hợp tác",
+        "head": 5,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và thiện chí.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "thiện chí",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Mọi sửa đổi bổ sung chỉ có giá trị.",
+    "dependencies": [
+      {
+        "token": "Mọi",
+        "head": 2,
+        "dep": "det"
+      },
+      {
+        "token": "sửa đổi",
+        "head": 5,
+        "dep": "nsubj"
+      },
+      {
+        "token": "bổ sung",
+        "head": 2,
+        "dep": "compound:vmod"
+      },
+      {
+        "token": "chỉ",
+        "head": 5,
+        "dep": "advmod"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "giá trị",
+        "head": 5,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 5,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Khi được lập thành văn bản.",
+    "dependencies": [
+      {
+        "token": "Khi",
+        "head": 3,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "được",
+        "head": 3,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "lập",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "thành văn",
+        "head": 3,
+        "dep": "xcomp"
+      },
+      {
+        "token": "bản",
+        "head": 4,
+        "dep": "obj"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Và có chữ ký của cả hai bên.",
+    "dependencies": [
+      {
+        "token": "Và",
+        "head": 2,
+        "dep": "cc"
+      },
+      {
+        "token": "có",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "chữ ký",
+        "head": 2,
+        "dep": "obj"
+      },
+      {
+        "token": "của",
+        "head": 7,
+        "dep": "case"
+      },
+      {
+        "token": "cả",
+        "head": 7,
+        "dep": "discourse"
+      },
+      {
+        "token": "hai",
+        "head": 7,
+        "dep": "nummod"
+      },
+      {
+        "token": "bên",
+        "head": 3,
+        "dep": "nmod:poss"
+      },
+      {
+        "token": ".",
+        "head": 2,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Hợp đồng được lập thành hai bản có giá trị pháp lý như nhau.",
+    "dependencies": [
+      {
+        "token": "Hợp đồng",
+        "head": 3,
+        "dep": "nsubj:pass"
+      },
+      {
+        "token": "được",
+        "head": 3,
+        "dep": "aux:pass"
+      },
+      {
+        "token": "lập thành",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "hai",
+        "head": 5,
+        "dep": "nummod"
+      },
+      {
+        "token": "bản",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "có",
+        "head": 5,
+        "dep": "acl:subj"
+      },
+      {
+        "token": "giá trị",
+        "head": 6,
+        "dep": "obj"
+      },
+      {
+        "token": "pháp lý",
+        "head": 7,
+        "dep": "amod"
+      },
+      {
+        "token": "như",
+        "head": 10,
+        "dep": "case"
+      },
+      {
+        "token": "nhau",
+        "head": 7,
+        "dep": "obl:comp"
+      },
+      {
+        "token": ".",
+        "head": 3,
+        "dep": "punct"
+      }
+    ]
+  },
+  {
+    "clause": "Mỗi bên giữ một bản.",
+    "dependencies": [
+      {
+        "token": "Mỗi",
+        "head": 2,
+        "dep": "nummod"
+      },
+      {
+        "token": "bên",
+        "head": 3,
+        "dep": "nsubj"
+      },
+      {
+        "token": "giữ",
+        "head": 0,
+        "dep": "root"
+      },
+      {
+        "token": "một",
+        "head": 5,
+        "dep": "nummod"
+      },
+      {
+        "token": "bả",
+        "head": 3,
+        "dep": "obj"
+      },
+      {
+        "token": "n.",
+        "head": 5,
+        "dep": "compound"
+      }
+    ]
+  }
+]
