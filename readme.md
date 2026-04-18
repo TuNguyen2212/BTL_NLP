@@ -12,21 +12,24 @@ Module này tập trung vào việc tiền xử lý văn bản, gồm 3 bước:
 
 ---
 
-📁 project
- ├── 📁 input
- │    └── raw_contracts.txt
- ├── 📁 output
- │    ├── clauses.txt
- │    ├── chunks.txt
- │    └── dependency.json
- ├── 📁 src
- │    ├── clause_splitter.py
- │    ├── np_chunker.py
- │    ├── dependency_parser.py
- │    └── utils.py
- ├── preprocess.py
- └── requirements.txt
+## 📁 Cấu trúc thư mục
 
+```text
+project/
+├── input/
+│   └── raw_contracts.txt
+├── output/
+│   ├── clauses.txt
+│   ├── chunks.txt
+│   └── dependency.json
+├── src/
+│   ├── clause_splitter.py
+│   ├── np_chunker.py
+│   ├── dependency_parser.py
+│   └── utils.py
+├── preprocess.py
+└── requirements.txt
+```
 ---
 
 ## ⚙️ Cài đặt
@@ -116,7 +119,7 @@ thuê   I-NP
   - O: ngoài cụm danh từ
 
 ### 3. Dependency Parsing
-- Sử dụng :contentReference[oaicite:0]{index=0}
+- Sử dụng thư viện Stanza (Stanford NLP)
 - Trích xuất:
   - token
   - head
