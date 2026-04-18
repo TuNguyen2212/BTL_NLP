@@ -12,27 +12,20 @@ Module này tập trung vào việc tiền xử lý văn bản, gồm 3 bước:
 
 ---
 
-## 📁 Cấu trúc thư mục
-
-project/
-│
-├── input/
-│   └── raw_contracts.txt
-│
-├── output/
-│   ├── clauses.txt
-│   ├── chunks.txt
-│   └── dependency.json
-│
-├── src/
-│   ├── clause_splitter.py
-│   ├── np_chunker.py
-│   ├── dependency_parser.py
-│   └── utils.py
-│
-├── preprocess.py   ← file chạy chính
-├── requirements.txt
-└── setup_stanza.py
+📁 project
+ ├── 📁 input
+ │    └── raw_contracts.txt
+ ├── 📁 output
+ │    ├── clauses.txt
+ │    ├── chunks.txt
+ │    └── dependency.json
+ ├── 📁 src
+ │    ├── clause_splitter.py
+ │    ├── np_chunker.py
+ │    ├── dependency_parser.py
+ │    └── utils.py
+ ├── preprocess.py
+ └── requirements.txt
 
 ---
 
