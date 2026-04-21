@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "clause": "Bên B sẽ giao cho Bên A một khoản tiền đặt cọc để đảm bảo thực hiện hợp đồng cho thuê nhà ngay sau.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên A",
+        "start": 18,
+        "end": 23,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 34,
+        "end": 46,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "clause": "Khi ký hợp đồng.",
+    "entities": [
+      {
+        "text": "Khi ký hợp đồng",
+        "label": "DATE",
+        "start": 0,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "clause": "Nếu Bên B đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên A thì Bên A sẽ không phải hoàn trả lại số tiền đặt cọc này.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên A",
+        "start": 81,
+        "end": 86,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 127,
+        "end": 139,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "clause": "Nếu Bên A đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên B thì Bên A sẽ phải hoàn trả lại Bên B số tiền đặt cọc.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 81,
+        "end": 86,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 127,
+        "end": 139,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "clause": "Và phải bồi thường thêm một khoản bằng chính tiền đặt cọc.",
+    "entities": [
+      {
+        "text": "bồi thường",
+        "start": 8,
+        "end": 18,
+        "label": "PENALTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 45,
+        "end": 57,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "clause": "Tiền đặt cọc của Bên B sẽ không được dùng để thanh toán tiền thuê.",
+    "entities": [
+      {
+        "text": "Tiền đặt cọc",
+        "start": 0,
+        "end": 12,
+        "label": "MONEY"
+      },
+      {
+        "text": "Bên B",
+        "start": 17,
+        "end": 22,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền thuê",
+        "start": 56,
+        "end": 65,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "clause": "Nếu Bên B vi phạm hợp đồng làm phát sinh thiệt hại cho Bên A thì Bên A có quyền khấu trừ tiền đặt cọc để bù đắp các chi phí khắc phục thiệt hại phát sinh.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên A",
+        "start": 55,
+        "end": 60,
+        "label": "PARTY"
+      },
+      {
+        "text": "khấu trừ",
+        "start": 80,
+        "end": 88,
+        "label": "PENALTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 89,
+        "end": 101,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "clause": "Vào thời điểm kết thúc thời hạn thuê.",
+    "entities": [
+      {
+        "text": "thời hạn thuê",
+        "start": 23,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "clause": "Hoặc kể từ ngày chấm dứt hợp đồng.",
+    "entities": [
+      {
+        "text": "ngày chấm dứt hợp đồng",
+        "label": "DATE",
+        "start": 11,
+        "end": 33
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "clause": "Bên A sẽ hoàn lại cho Bên B số tiền đặt cọc sau.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 22,
+        "end": 27,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 31,
+        "end": 43,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "clause": "Khi đã khấu trừ khoản chi phí khắc phục thiệt hại.",
+    "entities": [
+      {
+        "text": "khấu trừ",
+        "start": 7,
+        "end": 15,
+        "label": "PENALTY"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "clause": "Nếu có.",
+    "entities": []
+  },
+  {
+    "id": 13,
+    "clause": "Bên B phải thanh toán tiền thuê nhà theo đúng thời hạn đã thỏa thuận vào ngày 05 hàng tháng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền thuê nhà",
+        "start": 22,
+        "end": 35,
+        "label": "MONEY"
+      },
+      {
+        "text": "ngày 05 hàng tháng",
+        "start": 73,
+        "end": 91,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "clause": "Tiền thuê nhà không bao gồm các chi phí khác như tiền điện.",
+    "entities": [
+      {
+        "text": "Tiền thuê nhà",
+        "start": 0,
+        "end": 13,
+        "label": "MONEY"
+      },
+      {
+        "text": "tiền điện",
+        "start": 49,
+        "end": 58,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "clause": "Nước.",
+    "entities": []
+  },
+  {
+    "id": 16,
+    "clause": "Và vệ sinh.",
+    "entities": []
+  },
+  {
+    "id": 17,
+    "clause": "Các chi phí này sẽ do Bên B thanh toán theo mức sử dụng thực tế.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 22,
+        "end": 27,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "clause": "Và đơn giá của cơ quan nhà nước có thẩm quyền.",
+    "entities": []
+  },
+  {
+    "id": 19,
+    "clause": "Việc thanh toán tiền thuê nhà được thực hiện bằng đồng tiền Việt Nam.",
+    "entities": [
+      {
+        "text": "tiền thuê nhà",
+        "start": 16,
+        "end": 29,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "clause": "Và thanh toán trực tiếp bằng tiền mặt.",
+    "entities": [
+      {
+        "text": "tiền mặt",
+        "start": 29,
+        "end": 37,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "clause": "Nếu Bên B thanh toán chậm thì phải chịu trách nhiệm theo quy định trong hợp đồng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      },
+      {
+        "text": "theo quy định trong hợp đồng",
+        "label": "DATE",
+        "start": 52,
+        "end": 80
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "clause": "Bên A có quyền yêu cầu Bên B thanh toán đầy đủ tiền thuê.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 23,
+        "end": 28,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền thuê",
+        "start": 47,
+        "end": 56,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "clause": "Và các chi phí phát sinh đúng hạn.",
+    "entities": []
+  },
+  {
+    "id": 24,
+    "clause": "Bên A có quyền yêu cầu Bên B sửa chữa các hư hỏng.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 23,
+        "end": 28,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "clause": "Hoặc thiệt hại do Bên B gây ra trong quá trình sử dụng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 18,
+        "end": 23,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "clause": "Bên A có nghĩa vụ bàn giao diện tích thuê đúng thời gian đã thỏa thuận trong hợp đồng.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "đúng thời gian đã thỏa thuận",
+        "label": "DATE",
+        "start": 42,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "clause": "Bên A phải đảm bảo quyền sử dụng diện tích thuê của Bên B được diễn ra liên tục.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 52,
+        "end": 57,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "clause": "Và không bị gián đoạn.",
+    "entities": []
+  },
+  {
+    "id": 29,
+    "clause": "Trừ trường hợp vi phạm pháp luật.",
+    "entities": []
+  },
+  {
+    "id": 30,
+    "clause": "Hoặc hợp đồng.",
+    "entities": []
+  },
+  {
+    "id": 31,
+    "clause": "Bên A không được xâm phạm trái phép tài sản của Bên B trong thời gian thuê.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 48,
+        "end": 53,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "clause": "Nếu Bên A vi phạm gây thiệt hại thì phải bồi thường cho Bên B.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      },
+      {
+        "text": "bồi thường",
+        "start": 41,
+        "end": 51,
+        "label": "PENALTY"
+      },
+      {
+        "text": "Bên B",
+        "start": 56,
+        "end": 61,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "clause": "Bên B có quyền nhận bàn giao diện tích thuê đúng như thỏa thuận trong hợp đồng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "clause": "Bên B có quyền sử dụng diện tích thuê làm nơi ở.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "clause": "Và các mục đích hợp pháp khác.",
+    "entities": []
+  },
+  {
+    "id": 36,
+    "clause": "Bên B có quyền yêu cầu Bên A sửa chữa các hư hỏng không do lỗi của Bên B để đảm bảo an toàn sử dụng.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên A",
+        "start": 23,
+        "end": 28,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "clause": "Bên B có nghĩa vụ sử dụng diện tích thuê đúng mục đích đã thỏa thuận.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "clause": "Bên B phải giữ gìn tài sản thuê.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "clause": "Và chịu trách nhiệm sửa chữa các hư hỏng do mình gây ra.",
+    "entities": []
+  },
+  {
+    "id": 40,
+    "clause": "Bên B phải thanh toán tiền đặt cọc.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "tiền đặt cọc",
+        "start": 22,
+        "end": 34,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "clause": "Và tiền thuê đầy đủ.",
+    "entities": [
+      {
+        "text": "tiền thuê",
+        "start": 3,
+        "end": 12,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "clause": "Đúng thời hạn.",
+    "entities": []
+  },
+  {
+    "id": 43,
+    "clause": "Khi hết thời hạn thuê.",
+    "entities": [
+      {
+        "text": "hết thời hạn thuê",
+        "label": "DATE",
+        "start": 4,
+        "end": 21
+      },
+      {
+        "text": "thời hạn thuê",
+        "start": 8,
+        "end": 21,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "clause": "Hoặc chấm dứt hợp đồng.",
+    "entities": []
+  },
+  {
+    "id": 45,
+    "clause": "Bên B phải trả lại toàn bộ diện tích thuê cho Bên A.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 0,
+        "end": 5,
+        "label": "PARTY"
+      },
+      {
+        "text": "Bên A",
+        "start": 46,
+        "end": 51,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "clause": "Nếu Bên B muốn cải tạo.",
+    "entities": [
+      {
+        "text": "Bên B",
+        "start": 4,
+        "end": 9,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "clause": "Lắp đặt.",
+    "entities": []
+  },
+  {
+    "id": 48,
+    "clause": "Hoặc thay đổi kết cấu trong diện tích thuê thì phải thông báo bằng văn bản.",
+    "entities": []
+  },
+  {
+    "id": 49,
+    "clause": "Và chỉ được thực hiện.",
+    "entities": []
+  },
+  {
+    "id": 50,
+    "clause": "Khi có sự đồng ý của Bên A.",
+    "entities": [
+      {
+        "text": "Bên A",
+        "start": 21,
+        "end": 26,
+        "label": "PARTY"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "clause": "Nếu không có sự đồng ý thì mọi thay đổi đều không hợp lệ.",
+    "entities": []
+  },
+  {
+    "id": 52,
+    "clause": "Một trong hai bên có quyền đơn phương chấm dứt hợp đồng trước thời hạn.",
+    "entities": [
+      {
+        "text": "trước thời hạn",
+        "label": "DATE",
+        "start": 56,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "clause": "Nhưng phải thông báo bằng văn bản cho bên còn lại trước ít nhất 30 ngày.",
+    "entities": [
+      {
+        "text": "trước ít nhất 30 ngày",
+        "label": "DATE",
+        "start": 50,
+        "end": 71
+      },
+      {
+        "text": "30 ngày",
+        "start": 64,
+        "end": 71,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "clause": "Nếu không thông báo đúng thời hạn thì bên vi phạm phải bồi thường một khoản tiền tương ứng với thời gian không thông báo.",
+    "entities": [
+      {
+        "text": "bồi thường",
+        "start": 55,
+        "end": 65,
+        "label": "PENALTY"
+      },
+      {
+        "text": "khoản tiền",
+        "start": 70,
+        "end": 80,
+        "label": "MONEY"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "clause": "Và các thiệt hại phát sinh.",
+    "entities": []
+  },
+  {
+    "id": 56,
+    "clause": "Hợp đồng có hiệu lực kể từ ngày hai bên ký kết.",
+    "entities": [
+      {
+        "text": "kể từ ngày hai bên ký kết",
+        "label": "DATE",
+        "start": 21,
+        "end": 46
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "clause": "Và được thực hiện trên cơ sở hợp tác.",
+    "entities": []
+  },
+  {
+    "id": 58,
+    "clause": "Và thiện chí.",
+    "entities": []
+  },
+  {
+    "id": 59,
+    "clause": "Mọi sửa đổi bổ sung chỉ có giá trị.",
+    "entities": []
+  },
+  {
+    "id": 60,
+    "clause": "Khi được lập thành văn bản.",
+    "entities": []
+  },
+  {
+    "id": 61,
+    "clause": "Và có chữ ký của cả hai bên.",
+    "entities": []
+  },
+  {
+    "id": 62,
+    "clause": "Hợp đồng được lập thành hai bản có giá trị pháp lý như nhau.",
+    "entities": []
+  },
+  {
+    "id": 63,
+    "clause": "Mỗi bên giữ một bản.",
+    "entities": []
+  }
+]

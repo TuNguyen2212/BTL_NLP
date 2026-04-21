@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime outputs
+output/
+*.log
+
+# Local models / artifacts
+models/
+!models/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large temporary archives
+*.zip
