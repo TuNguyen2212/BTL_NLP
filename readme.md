@@ -131,3 +131,178 @@ thuê   I-NP
 
 - Phải chạy `setup_stanza.py` trước khi chạy `preprocess.py`
 - Model tải lần đầu khá nặng (~500MB)
+
+---
+
+# Bài 2 - Trích xuất thông tin và Phân tích ngữ nghĩa
+
+## Tổng quan
+
+Bài 2 sử dụng đầu ra của Bài 1 để thực hiện 3 tác vụ:
+
+1. Nhận diện thực thể (Named Entity Recognition - NER)
+2. Gán vai nghĩa ngữ nghĩa (Semantic Role Labeling - SRL)
+3. Phân loại ý định (Intent Classification)
+
+Pipeline hiện tại gồm:
+
+1. NER rule-based
+2. SRL hybrid dựa trên dependency parse và NER
+3. Intent baseline bằng TF-IDF kết hợp Logistic Regression
+
+Ngoài ra, nhóm có thêm nhánh PhoBERT cho Intent Classification để phục vụ so sánh với baseline.
+
+---
+
+## Cấu trúc thư mục
+
+```text
+project/
+├── data/
+│   ├── annotated_ner.json
+│   └── annotated_intent.json
+├── models/
+│   ├── intent_tfidf.pkl
+│   └── intent_phobert/
+├── output/
+│   ├── clauses.txt
+│   ├── dependency.json
+│   ├── ner_results.json
+│   ├── srl_results.json
+│   ├── intent_classification.txt
+│   └── intent_classification_detail.json
+├── src/
+│   ├── ner.py
+│   ├── srl.py
+│   ├── intent.py
+│   └── intent_model.py
+├── config.py
+├── train_intent.py
+└── extract.py
+```
+
+---
+
+## Cài đặt
+
+pip install -r requirements.txt
+
+---
+
+## Cách chạy
+
+### 1. Train baseline cho Intent
+
+python train_intent.py
+
+---
+
+### 2. Chạy toàn bộ pipeline Bài 2
+
+python extract.py
+
+---
+
+### 3. Chạy kèm evaluation
+
+python extract.py --eval
+
+---
+
+### 4. Chạy từng tác vụ riêng
+
+python extract.py --task ner
+python extract.py --task srl
+python extract.py --task intent
+
+---
+
+### 5. So sánh baseline với PhoBERT cho Intent
+
+python src/intent_model.py --eval
+
+---
+
+## Input
+
+Bài 2 sử dụng đầu ra từ Bài 1:
+
+- output/clauses.txt
+- output/dependency.json
+
+Ngoài ra còn dùng dữ liệu gán nhãn để đánh giá:
+
+- data/annotated_ner.json
+- data/annotated_intent.json
+
+---
+
+## Output
+
+### 1. ner_results.json
+
+Lưu danh sách thực thể được trích xuất từ từng clause.
+
+---
+
+### 2. srl_results.json
+
+Lưu predicate, negation và các vai nghĩa chính như:
+
+- Agent
+- Theme
+- Recipient
+- Time
+- Condition
+
+---
+
+### 3. intent_classification.txt
+
+Lưu nhãn intent cho từng clause theo định dạng:
+
+clause<TAB>intent
+
+---
+
+### 4. intent_classification_detail.json
+
+Lưu thêm confidence và nguồn dự đoán của baseline Intent.
+
+---
+
+## Methodology
+
+### 1. NER
+
+- Rule-based matching bằng regex và pattern từ miền hợp đồng pháp lý
+- Các nhãn chính:
+  - PARTY
+  - MONEY
+  - DATE
+  - RATE
+  - PENALTY
+  - LAW
+
+### 2. SRL
+
+- Dựa trên dependency parse từ Bài 1
+- Kết hợp với NER để mở rộng span thực thể
+- Suy ra các vai nghĩa chính bằng heuristic
+
+### 3. Intent Classification
+
+- Baseline: TF-IDF + Logistic Regression
+- Các nhãn intent:
+  - Obligation
+  - Prohibition
+  - Right
+  - Termination Condition
+- Có thêm nhánh PhoBERT để so sánh với baseline
+
+---
+
+## Lưu ý
+
+- Bài 2 chỉ chạy đúng khi Bài 1 đã sinh ra clauses.txt và dependency.json
+- Nếu chưa có models/intent_tfidf.pkl, pipeline sẽ tự train baseline khi chạy task intent
