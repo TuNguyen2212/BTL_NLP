@@ -712,13 +712,7 @@ hợp_đồng	B-NP
 Giá	B-NP
 thuê	O
 là	O
-8	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+8.000.000	O
 đồng	B-NP
 mỗi	O
 tháng	B-NP
@@ -807,13 +801,7 @@ năm	B-NP
 Mức	B-NP
 lương	I-NP
 là	O
-9	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+9.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -879,13 +867,7 @@ thống_nhất	O
 Tổng giá_trị	B-NP
 hợp_đồng	I-NP
 là	O
-50	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+50.000.000	O
 đồng	B-NP
 .	O
 
@@ -953,13 +935,7 @@ tháng	B-NP
 Chi_phí	B-NP
 dịch_vụ	O
 là	O
-5	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+5.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -1001,11 +977,8 @@ Bên	B-NP
 B	I-NP
 với	O
 số_lượng	B-NP
-1	O
-.	O
-
-000	B-NP
-sản_phẩm	O
+1.000	O
+sản_phẩm	B-NP
 .	O
 
 Thời_gian	B-NP
@@ -1098,13 +1071,7 @@ B	I-NP
 vay	O
 số	B-NP
 tiền	I-NP
-100	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+100.000.000	O
 đồng	B-NP
 trong	O
 thời_hạn	B-NP
@@ -1223,15 +1190,9 @@ tháng	B-NP
 .	O
 
 Chi_phí	B-NP
-bảo_trì	I-NP
+bảo_trì	O
 là	O
-2	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+2.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -1270,13 +1231,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-300	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+300.000.000	O
 đồng	B-NP
 .	O
 
@@ -1335,13 +1290,7 @@ hợp_đồng	B-NP
 Giá	B-NP
 thuê	O
 là	O
-15	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+15.000.000	O
 đồng	B-NP
 mỗi	O
 tháng	B-NP
@@ -1414,13 +1363,7 @@ năm	B-NP
 Mức	B-NP
 lương	I-NP
 là	O
-12	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+12.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -1474,13 +1417,7 @@ thỏa_thuận	B-NP
 với	O
 tổng giá_trị	B-NP
 là	O
-120	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+120.000.000	O
 đồng	B-NP
 .	O
 
@@ -1548,13 +1485,7 @@ tháng	B-NP
 Chi_phí	B-NP
 dịch_vụ	O
 là	O
-20	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+20.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -1638,16 +1569,7 @@ tổng	B-NP
 vốn	I-NP
 đầu_tư	O
 là	O
-2	O
-.	O
-
-000	B-NP
-.	O
-
-000	B-NP
-.	O
-
-000	O
+2.000.000.000	O
 đồng	B-NP
 .	O
 
@@ -1680,13 +1602,7 @@ B	I-NP
 vay	O
 số	B-NP
 tiền	I-NP
-200	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+200.000.000	O
 đồng	B-NP
 trong	O
 thời_hạn	B-NP
@@ -1786,13 +1702,7 @@ lần	B-NP
 Chi_phí	B-NP
 bảo_trì	O
 là	O
-5	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+5.000.000	O
 đồng	B-NP
 /	O
 lần	B-NP
@@ -1818,13 +1728,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-400	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+400.000.000	O
 đồng	B-NP
 .	O
 
@@ -1873,13 +1777,7 @@ hợp_đồng	B-NP
 Giá	B-NP
 thuê	O
 là	O
-10	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+10.000.000	O
 đồng	B-NP
 mỗi	O
 tháng	B-NP
@@ -1946,13 +1844,7 @@ tháng	B-NP
 Mức	B-NP
 lương	I-NP
 là	O
-11	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+11.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -1999,13 +1891,7 @@ sản_phẩm nội_thất	B-NP
 với	O
 tổng giá_trị	B-NP
 là	O
-150	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+150.000.000	O
 đồng	B-NP
 .	O
 
@@ -2062,13 +1948,7 @@ tháng	B-NP
 Chi_phí	B-NP
 dịch_vụ	O
 là	O
-8	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+8.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -2143,13 +2023,7 @@ Tổng	B-NP
 vốn	I-NP
 đầu_tư	O
 là	O
-500	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+500.000.000	O
 đồng	B-NP
 .	O
 
@@ -2176,13 +2050,7 @@ B	I-NP
 vay	O
 số	B-NP
 tiền	I-NP
-50	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+50.000.000	O
 đồng	B-NP
 trong	O
 thời_hạn	B-NP
@@ -2268,15 +2136,9 @@ lần	B-NP
 .	O
 
 Chi_phí	B-NP
-bảo_trì	I-NP
+bảo_trì	O
 là	O
-3	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+3.000.000	O
 đồng	B-NP
 /	O
 lần	B-NP
@@ -2301,16 +2163,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-1	O
-.	O
-
-000	B-NP
-.	O
-
-000	B-NP
-.	O
-
-000	O
+1.000.000.000	O
 đồng	B-NP
 .	O
 
@@ -2369,13 +2222,7 @@ quản_lý thời_gian	B-NP
 
 Tổng chi_phí	B-NP
 là	O
-25	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+25.000.000	O
 đồng	B-NP
 .	O
 
@@ -2424,13 +2271,7 @@ ngày	B-NP
 Giá	B-NP
 thuê	O
 là	O
-1	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+1.000.000	O
 đồng	B-NP
 /	O
 ngày	B-NP
@@ -2440,13 +2281,7 @@ Bên	B-NP
 B	I-NP
 phải	O
 đặt_cọc	O
-10	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+10.000.000	O
 đồng	B-NP
 .	O
 
@@ -2471,13 +2306,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-80	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+80.000.000	O
 đồng	B-NP
 .	O
 
@@ -2528,13 +2357,7 @@ tháng	B-NP
 Chi_phí	B-NP
 dịch_vụ	O
 là	O
-15	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+15.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -2635,13 +2458,7 @@ B	I-NP
 vay	O
 số	B-NP
 tiền	I-NP
-30	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+30.000.000	O
 đồng	B-NP
 trong	O
 thời_hạn	B-NP
@@ -2689,16 +2506,9 @@ ngày	B-NP
 đã	O
 thỏa_thuận	O
 với	O
-tổng	B-NP
-chi_phí	I-NP
+tổng chi_phí	B-NP
 là	O
-100	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+100.000.000	O
 đồng	B-NP
 .	O
 
@@ -2726,13 +2536,7 @@ tháng	B-NP
 
 Chi_phí	B-NP
 là	O
-4	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+4.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -2758,13 +2562,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-60	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+60.000.000	O
 đồng	B-NP
 .	O
 
@@ -2815,15 +2613,9 @@ B	I-NP
 .	O
 
 Chi_phí	B-NP
-dịch_vụ	I-NP
+dịch_vụ	O
 là	O
-10	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+10.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -2875,13 +2667,7 @@ ngày	B-NP
 Tổng chi_phí	B-NP
 thuê	O
 là	O
-15	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+15.000.000	O
 đồng	B-NP
 .	O
 
@@ -2889,13 +2675,7 @@ Bên	B-NP
 B	I-NP
 phải	O
 đặt_cọc	O
-5	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+5.000.000	O
 đồng	B-NP
 .	O
 
@@ -2921,13 +2701,7 @@ B	I-NP
 với	O
 tổng giá_trị	B-NP
 là	O
-250	B-NP
-.	O
-
-000	B-NP
-.	O
-
-000	O
+250.000.000	O
 đồng	B-NP
 .	O
 
@@ -2991,13 +2765,7 @@ tháng	B-NP
 Chi_phí	B-NP
 bảo_trì	O
 là	O
-6	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+6.000.000	O
 đồng	B-NP
 /	O
 tháng	B-NP
@@ -3099,13 +2867,7 @@ B	I-NP
 vay	O
 số	B-NP
 tiền	I-NP
-75	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+75.000.000	O
 đồng	B-NP
 trong	O
 thời_hạn	B-NP
@@ -3200,15 +2962,9 @@ lần	B-NP
 .	O
 
 Chi_phí	B-NP
-bảo_trì	I-NP
+bảo_trì	O
 là	O
-2	O
-.	O
-
-500	O
-.	O
-
-000	O
+2.500.000	O
 đồng	B-NP
 /	O
 lần	B-NP
@@ -3238,13 +2994,7 @@ Bên	B-NP
 B	I-NP
 với	O
 giá	B-NP
-500	O
-.	O
-
-000	B-NP
-.	O
-
-000	O
+500.000.000	O
 đồng	B-NP
 .	O
 

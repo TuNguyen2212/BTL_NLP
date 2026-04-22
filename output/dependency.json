@@ -3470,46 +3470,26 @@
     ]
   },
   {
-    "clause": "Giá thuê là 8.",
+    "clause": "Giá thuê là 8.000.000 đồng mỗi tháng.",
     "dependencies": [
       {
         "token": "Giá",
-        "head": 2,
+        "head": 5,
         "dep": "nsubj"
       },
       {
         "token": "thuê",
-        "head": 0,
-        "dep": "root"
+        "head": 1,
+        "dep": "acl"
       },
       {
         "token": "là",
-        "head": 2,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "8.",
-        "head": 2,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng mỗi tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "8.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -3519,22 +3499,22 @@
       },
       {
         "token": "mỗi",
-        "head": 4,
+        "head": 7,
         "dep": "nummod"
       },
       {
         "token": "thán",
-        "head": 2,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
         "token": "g",
-        "head": 4,
-        "dep": "amod"
+        "head": 7,
+        "dep": "flat:time"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -3950,41 +3930,21 @@
     ]
   },
   {
-    "clause": "Mức lương là 9.",
+    "clause": "Mức lương là 9.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Mức lương",
-        "head": 3,
+        "head": 4,
         "dep": "nsubj"
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 4,
+        "dep": "cop"
       },
       {
-        "token": "9.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "9.000.000",
+        "head": 4,
         "dep": "nummod"
       },
       {
@@ -3994,17 +3954,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 4,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 4,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -4295,12 +4255,12 @@
     ]
   },
   {
-    "clause": "Tổng giá trị hợp đồng là 50.",
+    "clause": "Tổng giá trị hợp đồng là 50.000.000 đồng.",
     "dependencies": [
       {
         "token": "Tổng",
-        "head": 5,
-        "dep": "nsubj:pass"
+        "head": 6,
+        "dep": "nsubj"
       },
       {
         "token": "giá trị",
@@ -4314,32 +4274,12 @@
       },
       {
         "token": "là",
-        "head": 5,
+        "head": 6,
         "dep": "cop"
       },
       {
-        "token": "50.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "50.000.000",
+        "head": 6,
         "dep": "nummod"
       },
       {
@@ -4349,12 +4289,12 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 6,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 6,
         "dep": "punct"
       }
     ]
@@ -4660,12 +4600,12 @@
     ]
   },
   {
-    "clause": "Chi phí dịch vụ là 5.",
+    "clause": "Chi phí dịch vụ là 5.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "dịch vụ",
@@ -4674,32 +4614,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "5.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "5.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -4709,17 +4629,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -4855,7 +4775,7 @@
     ]
   },
   {
-    "clause": "Bên A nhận gia công sản phẩm theo yêu cầu của Bên B với số lượng 1.",
+    "clause": "Bên A nhận gia công sản phẩm theo yêu cầu của Bên B với số lượng 1.000 sản phẩm.",
     "dependencies": [
       {
         "token": "Bên",
@@ -4904,32 +4824,22 @@
       },
       {
         "token": "số lượng",
-        "head": 6,
+        "head": 3,
         "dep": "obl"
       },
       {
-        "token": "1.",
-        "head": 10,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000 sản phẩm.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "1.000",
+        "head": 12,
         "dep": "nummod"
       },
       {
         "token": "sản phẩm",
-        "head": 0,
-        "dep": "root"
+        "head": 10,
+        "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 1,
         "dep": "punct"
       }
     ]
@@ -5320,7 +5230,7 @@
     ]
   },
   {
-    "clause": "Bên A cho Bên B vay số tiền 100.",
+    "clause": "Bên A cho Bên B vay số tiền 100.000.000 đồng trong thời hạn 6 tháng kể từ ngày nhận tiền.",
     "dependencies": [
       {
         "token": "Bên",
@@ -5358,83 +5268,63 @@
         "dep": "compound"
       },
       {
-        "token": "100.",
-        "head": 6,
-        "dep": "compound"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng trong thời hạn 6 tháng kể từ ngày nhận tiền.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "100.000.000",
+        "head": 9,
         "dep": "nummod"
       },
       {
         "token": "đồng",
-        "head": 7,
-        "dep": "nsubj"
+        "head": 5,
+        "dep": "obj"
       },
       {
         "token": "trong",
-        "head": 4,
+        "head": 11,
         "dep": "case"
       },
       {
         "token": "thời hạn",
-        "head": 2,
-        "dep": "obl"
+        "head": 9,
+        "dep": "obl:tmod"
       },
       {
         "token": "6",
-        "head": 6,
+        "head": 13,
         "dep": "nummod"
       },
       {
         "token": "tháng",
-        "head": 4,
-        "dep": "obl:tmod"
+        "head": 11,
+        "dep": "nmod"
       },
       {
         "token": "kể",
-        "head": 0,
-        "dep": "root"
+        "head": 11,
+        "dep": "acl"
       },
       {
         "token": "từ",
-        "head": 9,
+        "head": 16,
         "dep": "case"
       },
       {
         "token": "ngày",
-        "head": 7,
+        "head": 14,
         "dep": "obl:tmod"
       },
       {
         "token": "nhận",
-        "head": 9,
+        "head": 16,
         "dep": "compound:vmod"
       },
       {
         "token": "tiền",
-        "head": 10,
+        "head": 17,
         "dep": "obj"
       },
       {
         "token": ".",
-        "head": 7,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -5970,12 +5860,12 @@
     ]
   },
   {
-    "clause": "Chi phí bảo trì là 2.",
+    "clause": "Chi phí bảo trì là 2.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "bảo trì",
@@ -5984,32 +5874,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "2.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "2.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -6019,17 +5889,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -6150,7 +6020,7 @@
     ]
   },
   {
-    "clause": "Bên A chuyển nhượng quyền sử dụng tài sản cho Bên B với giá 300.",
+    "clause": "Bên A chuyển nhượng quyền sử dụng tài sản cho Bên B với giá 300.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -6199,47 +6069,27 @@
       },
       {
         "token": "giá",
-        "head": 5,
+        "head": 3,
         "dep": "obl"
       },
       {
-        "token": "300.",
-        "head": 10,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "300.000.000",
+        "head": 12,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 10,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 12,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -6485,46 +6335,26 @@
     ]
   },
   {
-    "clause": "Giá thuê là 15.",
+    "clause": "Giá thuê là 15.000.000 đồng mỗi tháng.",
     "dependencies": [
       {
         "token": "Giá",
-        "head": 2,
+        "head": 5,
         "dep": "nsubj"
       },
       {
         "token": "thuê",
-        "head": 0,
-        "dep": "root"
+        "head": 1,
+        "dep": "acl"
       },
       {
         "token": "là",
-        "head": 2,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "15.",
-        "head": 2,
-        "dep": "obj"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng mỗi tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "15.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -6534,22 +6364,22 @@
       },
       {
         "token": "mỗi",
-        "head": 4,
+        "head": 7,
         "dep": "nummod"
       },
       {
         "token": "thán",
-        "head": 2,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
         "token": "g",
-        "head": 4,
-        "dep": "amod"
+        "head": 7,
+        "dep": "flat:time"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -6875,41 +6705,21 @@
     ]
   },
   {
-    "clause": "Mức lương là 12.",
+    "clause": "Mức lương là 12.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Mức lương",
-        "head": 3,
+        "head": 4,
         "dep": "nsubj"
       },
       {
         "token": "là",
-        "head": 3,
+        "head": 4,
         "dep": "cop"
       },
       {
-        "token": "12.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "12.000.000",
+        "head": 4,
         "dep": "nummod"
       },
       {
@@ -6919,17 +6729,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 4,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 4,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -7105,7 +6915,7 @@
     ]
   },
   {
-    "clause": "Bên A bán cho Bên B 500 đơn vị hàng hóa theo thỏa thuận với tổng giá trị là 120.",
+    "clause": "Bên A bán cho Bên B 500 đơn vị hàng hóa theo thỏa thuận với tổng giá trị là 120.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -7119,8 +6929,8 @@
       },
       {
         "token": "bán",
-        "head": 0,
-        "dep": "root"
+        "head": 16,
+        "dep": "csubj"
       },
       {
         "token": "cho",
@@ -7130,7 +6940,7 @@
       {
         "token": "Bên B",
         "head": 3,
-        "dep": "obl:with"
+        "dep": "obl:iobj"
       },
       {
         "token": "500",
@@ -7174,32 +6984,12 @@
       },
       {
         "token": "là",
-        "head": 15,
+        "head": 16,
         "dep": "cop"
       },
       {
-        "token": "120.",
-        "head": 12,
-        "dep": "nummod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "120.000.000",
+        "head": 16,
         "dep": "nummod"
       },
       {
@@ -7209,12 +6999,12 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 16,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 16,
         "dep": "punct"
       }
     ]
@@ -7510,12 +7300,12 @@
     ]
   },
   {
-    "clause": "Chi phí dịch vụ là 20.",
+    "clause": "Chi phí dịch vụ là 20.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 4,
-        "dep": "nsubj:pass"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "dịch vụ",
@@ -7524,32 +7314,12 @@
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "20.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "20.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -7559,17 +7329,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -7920,7 +7690,7 @@
     ]
   },
   {
-    "clause": "Hai bên thống nhất hợp tác đầu tư dự án bất động sản với tổng vốn đầu tư là 2.",
+    "clause": "Hai bên thống nhất hợp tác đầu tư dự án bất động sản với tổng vốn đầu tư là 2.000.000.000 đồng.",
     "dependencies": [
       {
         "token": "Hai",
@@ -7974,57 +7744,27 @@
       },
       {
         "token": "là",
-        "head": 9,
-        "dep": "cop"
+        "head": 13,
+        "dep": "cc"
       },
       {
-        "token": "2.",
-        "head": 3,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "2.000.000.000",
+        "head": 13,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 9,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 13,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -8135,7 +7875,7 @@
     ]
   },
   {
-    "clause": "Bên A cho Bên B vay số tiền 200.",
+    "clause": "Bên A cho Bên B vay số tiền 200.000.000 đồng trong thời hạn 12 tháng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -8173,63 +7913,43 @@
         "dep": "compound"
       },
       {
-        "token": "200.",
-        "head": 6,
-        "dep": "compound"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng trong thời hạn 12 tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "200.000.000",
+        "head": 9,
         "dep": "nummod"
       },
       {
         "token": "đồng",
-        "head": 0,
-        "dep": "root"
+        "head": 6,
+        "dep": "nmod"
       },
       {
         "token": "trong",
-        "head": 4,
+        "head": 11,
         "dep": "case"
       },
       {
         "token": "thời hạn",
-        "head": 2,
-        "dep": "obl"
+        "head": 3,
+        "dep": "obl:tmod"
       },
       {
         "token": "12",
-        "head": 6,
+        "head": 13,
         "dep": "nummod"
       },
       {
         "token": "thán",
-        "head": 4,
-        "dep": "obl:tmod"
+        "head": 11,
+        "dep": "nmod"
       },
       {
         "token": "g",
-        "head": 6,
-        "dep": "amod"
+        "head": 13,
+        "dep": "flat:time"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -8685,12 +8405,12 @@
     ]
   },
   {
-    "clause": "Chi phí bảo trì là 5.",
+    "clause": "Chi phí bảo trì là 5.000.000 đồng/lần.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "bảo trì",
@@ -8699,32 +8419,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "5.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/lần.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "5.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -8734,12 +8434,12 @@
       },
       {
         "token": "/lần",
-        "head": 2,
+        "head": 5,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -8800,7 +8500,7 @@
     ]
   },
   {
-    "clause": "Bên A chuyển nhượng quyền sở hữu xe cho Bên B với giá 400.",
+    "clause": "Bên A chuyển nhượng quyền sở hữu xe cho Bên B với giá 400.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -8849,47 +8549,27 @@
       },
       {
         "token": "giá",
-        "head": 5,
+        "head": 3,
         "dep": "obl"
       },
       {
-        "token": "400.",
-        "head": 10,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "400.000.000",
+        "head": 12,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 10,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 12,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -9105,46 +8785,26 @@
     ]
   },
   {
-    "clause": "Giá thuê là 10.",
+    "clause": "Giá thuê là 10.000.000 đồng mỗi tháng.",
     "dependencies": [
       {
         "token": "Giá",
-        "head": 2,
+        "head": 5,
         "dep": "nsubj"
       },
       {
         "token": "thuê",
-        "head": 0,
-        "dep": "root"
+        "head": 1,
+        "dep": "acl"
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "10.",
-        "head": 2,
-        "dep": "obj"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng mỗi tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "10.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -9154,22 +8814,22 @@
       },
       {
         "token": "mỗi",
-        "head": 4,
+        "head": 7,
         "dep": "nummod"
       },
       {
         "token": "thán",
-        "head": 2,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
         "token": "g",
-        "head": 4,
-        "dep": "amod"
+        "head": 7,
+        "dep": "flat:time"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -9470,17 +9130,12 @@
     ]
   },
   {
-    "clause": "Mức lương là 11.",
+    "clause": "Mức lương là 11.000.000 đồng/tháng.",
     "dependencies": [
       {
-        "token": "Mức",
+        "token": "Mức lương",
         "head": 4,
         "dep": "nsubj"
-      },
-      {
-        "token": "lương",
-        "head": 1,
-        "dep": "nmod"
       },
       {
         "token": "là",
@@ -9488,28 +9143,8 @@
         "dep": "cop"
       },
       {
-        "token": "11.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "11.000.000",
+        "head": 4,
         "dep": "nummod"
       },
       {
@@ -9519,17 +9154,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 4,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 4,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -9690,7 +9325,7 @@
     ]
   },
   {
-    "clause": "Bên A bán cho Bên B 300 sản phẩm nội thất với tổng giá trị là 150.",
+    "clause": "Bên A bán cho Bên B 300 sản phẩm nội thất với tổng giá trị là 150.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -9704,8 +9339,8 @@
       },
       {
         "token": "bán",
-        "head": 0,
-        "dep": "root"
+        "head": 14,
+        "dep": "csubj"
       },
       {
         "token": "cho",
@@ -9749,32 +9384,12 @@
       },
       {
         "token": "là",
-        "head": 13,
+        "head": 14,
         "dep": "cop"
       },
       {
-        "token": "150.",
-        "head": 3,
-        "dep": "parataxis"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "150.000.000",
+        "head": 14,
         "dep": "nummod"
       },
       {
@@ -9784,12 +9399,12 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 14,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 14,
         "dep": "punct"
       }
     ]
@@ -10040,12 +9655,12 @@
     ]
   },
   {
-    "clause": "Chi phí dịch vụ là 8.",
+    "clause": "Chi phí dịch vụ là 8.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "dịch vụ",
@@ -10054,32 +9669,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "8.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "8.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -10089,17 +9684,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -10430,11 +10025,11 @@
     ]
   },
   {
-    "clause": "Tổng vốn đầu tư là 500.",
+    "clause": "Tổng vốn đầu tư là 500.000.000 đồng.",
     "dependencies": [
       {
         "token": "Tổng vốn",
-        "head": 4,
+        "head": 5,
         "dep": "nsubj"
       },
       {
@@ -10444,32 +10039,12 @@
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "500.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "500.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -10479,12 +10054,12 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -10565,7 +10140,7 @@
     ]
   },
   {
-    "clause": "Bên A cho Bên B vay số tiền 50.",
+    "clause": "Bên A cho Bên B vay số tiền 50.000.000 đồng trong thời hạn 3 tháng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -10603,58 +10178,38 @@
         "dep": "compound"
       },
       {
-        "token": "50.",
-        "head": 6,
-        "dep": "compound"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng trong thời hạn 3 tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "50.000.000",
+        "head": 9,
         "dep": "nummod"
       },
       {
         "token": "đồng",
-        "head": 0,
-        "dep": "root"
+        "head": 6,
+        "dep": "nmod"
       },
       {
         "token": "trong",
-        "head": 4,
+        "head": 11,
         "dep": "case"
       },
       {
         "token": "thời hạn",
-        "head": 2,
-        "dep": "obl"
-      },
-      {
-        "token": "3",
-        "head": 6,
-        "dep": "nummod"
-      },
-      {
-        "token": "tháng",
-        "head": 4,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
+        "token": "3",
+        "head": 13,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "tháng",
+        "head": 11,
+        "dep": "nmod"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -11025,12 +10580,12 @@
     ]
   },
   {
-    "clause": "Chi phí bảo trì là 3.",
+    "clause": "Chi phí bảo trì là 3.000.000 đồng/lần.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "bảo trì",
@@ -11039,32 +10594,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "3.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/lần.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "3.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -11074,12 +10609,12 @@
       },
       {
         "token": "/lần",
-        "head": 2,
+        "head": 5,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -11130,7 +10665,7 @@
     ]
   },
   {
-    "clause": "Bên A chuyển nhượng quyền sử dụng đất cho Bên B với giá 1.",
+    "clause": "Bên A chuyển nhượng quyền sử dụng đất cho Bên B với giá 1.000.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -11174,62 +10709,32 @@
       },
       {
         "token": "với",
-        "head": 10,
-        "dep": "case"
+        "head": 3,
+        "dep": "xcomp"
       },
       {
         "token": "giá",
-        "head": 8,
-        "dep": "obl:with"
+        "head": 9,
+        "dep": "obj"
       },
       {
-        "token": "1.",
-        "head": 3,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "1.000.000.000",
+        "head": 12,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 10,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 12,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 9,
         "dep": "punct"
       }
     ]
@@ -11510,46 +11015,26 @@
     ]
   },
   {
-    "clause": "Tổng chi phí là 25.",
+    "clause": "Tổng chi phí là 25.000.000 đồng.",
     "dependencies": [
       {
         "token": "Tổng",
-        "head": 4,
-        "dep": "nsubj:pass"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "chi phí",
         "head": 1,
-        "dep": "compound"
+        "dep": "nmod"
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "25.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "25.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -11559,12 +11044,12 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -11780,46 +11265,26 @@
     ]
   },
   {
-    "clause": "Giá thuê là 1.",
+    "clause": "Giá thuê là 1.000.000 đồng/ngày.",
     "dependencies": [
       {
         "token": "Giá",
-        "head": 2,
+        "head": 5,
         "dep": "nsubj"
       },
       {
         "token": "thuê",
-        "head": 0,
-        "dep": "root"
+        "head": 1,
+        "dep": "compound:vmod"
       },
       {
         "token": "là",
-        "head": 2,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "1.",
-        "head": 2,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/ngày.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "1.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -11829,18 +11294,18 @@
       },
       {
         "token": "/ngày",
-        "head": 2,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
   },
   {
-    "clause": "Bên B phải đặt cọc 10.",
+    "clause": "Bên B phải đặt cọc 10.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -11850,7 +11315,7 @@
       {
         "token": "B",
         "head": 1,
-        "dep": "compound"
+        "dep": "nmod"
       },
       {
         "token": "phải",
@@ -11863,43 +11328,23 @@
         "dep": "root"
       },
       {
-        "token": "10.",
-        "head": 4,
-        "dep": "obj"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "10.000.000",
+        "head": 6,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
+        "head": 4,
+        "dep": "obj"
       },
       {
         "token": "g",
-        "head": 2,
+        "head": 6,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -11965,7 +11410,7 @@
     ]
   },
   {
-    "clause": "Bên A bán bản quyền phần mềm cho Bên B với giá 80.",
+    "clause": "Bên A bán bản quyền phần mềm cho Bên B với giá 80.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -11975,7 +11420,7 @@
       {
         "token": "A",
         "head": 1,
-        "dep": "nmod"
+        "dep": "compound"
       },
       {
         "token": "bán",
@@ -12013,43 +11458,23 @@
         "dep": "obl"
       },
       {
-        "token": "80.",
-        "head": 9,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "80.000.000",
+        "head": 11,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 9,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 11,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -12275,12 +11700,12 @@
     ]
   },
   {
-    "clause": "Chi phí dịch vụ là 15.",
+    "clause": "Chi phí dịch vụ là 15.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 4,
-        "dep": "nsubj:pass"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "dịch vụ",
@@ -12289,32 +11714,12 @@
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "15.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "15.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -12324,17 +11729,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -12745,7 +12150,7 @@
     ]
   },
   {
-    "clause": "Bên A cho Bên B vay số tiền 30.",
+    "clause": "Bên A cho Bên B vay số tiền 30.000.000 đồng trong thời hạn 2 tháng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -12783,58 +12188,38 @@
         "dep": "compound"
       },
       {
-        "token": "30.",
-        "head": 6,
-        "dep": "compound"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng trong thời hạn 2 tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "30.000.000",
+        "head": 9,
         "dep": "nummod"
       },
       {
         "token": "đồng",
-        "head": 0,
-        "dep": "root"
+        "head": 6,
+        "dep": "nmod"
       },
       {
         "token": "trong",
-        "head": 4,
+        "head": 11,
         "dep": "case"
       },
       {
         "token": "thời hạn",
-        "head": 2,
-        "dep": "obl"
-      },
-      {
-        "token": "2",
-        "head": 6,
-        "dep": "nummod"
-      },
-      {
-        "token": "tháng",
-        "head": 4,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
+        "token": "2",
+        "head": 13,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "tháng",
+        "head": 11,
+        "dep": "nmod"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -12985,7 +12370,7 @@
     ]
   },
   {
-    "clause": "Sự kiện sẽ được tổ chức vào ngày đã thỏa thuận với tổng chi phí là 100.",
+    "clause": "Sự kiện sẽ được tổ chức vào ngày đã thỏa thuận với tổng chi phí là 100.000.000 đồng.",
     "dependencies": [
       {
         "token": "Sự kiện",
@@ -13044,47 +12429,27 @@
       },
       {
         "token": "là",
-        "head": 13,
+        "head": 14,
         "dep": "cop"
       },
       {
-        "token": "100.",
-        "head": 10,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "100.000.000",
+        "head": 14,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
+        "head": 10,
+        "dep": "nmod"
       },
       {
         "token": "g",
-        "head": 2,
+        "head": 14,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -13215,41 +12580,21 @@
     ]
   },
   {
-    "clause": "Chi phí là 4.",
+    "clause": "Chi phí là 4.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 4,
+        "dep": "nsubj"
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 4,
+        "dep": "cop"
       },
       {
-        "token": "4.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "4.000.000",
+        "head": 4,
         "dep": "nummod"
       },
       {
@@ -13259,17 +12604,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 4,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 4,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -13320,7 +12665,7 @@
     ]
   },
   {
-    "clause": "Bên A chuyển nhượng quyền sử dụng tên miền internet cho Bên B với giá 60.",
+    "clause": "Bên A chuyển nhượng quyền sử dụng tên miền internet cho Bên B với giá 60.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -13374,47 +12719,27 @@
       },
       {
         "token": "giá",
-        "head": 5,
+        "head": 3,
         "dep": "obl"
       },
       {
-        "token": "60.",
-        "head": 11,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "60.000.000",
+        "head": 13,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 11,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 13,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -13640,12 +12965,12 @@
     ]
   },
   {
-    "clause": "Chi phí dịch vụ là 10.",
+    "clause": "Chi phí dịch vụ là 10.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 4,
-        "dep": "nsubj:pass"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "dịch vụ",
@@ -13654,32 +12979,12 @@
       },
       {
         "token": "là",
-        "head": 4,
+        "head": 5,
         "dep": "cop"
       },
       {
-        "token": "10.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "10.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -13689,17 +12994,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -13920,22 +13225,17 @@
     ]
   },
   {
-    "clause": "Tổng chi phí thuê là 15.",
+    "clause": "Tổng chi phí thuê là 15.000.000 đồng.",
     "dependencies": [
       {
-        "token": "Tổng",
+        "token": "Tổng chi phí",
         "head": 5,
-        "dep": "nsubj:pass"
-      },
-      {
-        "token": "chi phí",
-        "head": 1,
-        "dep": "compound"
+        "dep": "nsubj"
       },
       {
         "token": "thuê",
         "head": 1,
-        "dep": "acl"
+        "dep": "compound:vmod"
       },
       {
         "token": "là",
@@ -13943,28 +13243,8 @@
         "dep": "cop"
       },
       {
-        "token": "15.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "15.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -13974,18 +13254,18 @@
       },
       {
         "token": "g",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
   },
   {
-    "clause": "Bên B phải đặt cọc 5.",
+    "clause": "Bên B phải đặt cọc 5.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -14008,43 +13288,23 @@
         "dep": "root"
       },
       {
-        "token": "5.",
-        "head": 4,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "5.000.000",
+        "head": 6,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
+        "head": 4,
+        "dep": "obj"
       },
       {
         "token": "g",
-        "head": 2,
+        "head": 6,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 4,
         "dep": "punct"
       }
     ]
@@ -14110,12 +13370,12 @@
     ]
   },
   {
-    "clause": "Bên A bán nguyên vật liệu xây dựng cho Bên B với tổng giá trị là 250.",
+    "clause": "Bên A bán nguyên vật liệu xây dựng cho Bên B với tổng giá trị là 250.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
-        "head": 12,
-        "dep": "obj"
+        "head": 13,
+        "dep": "nsubj"
       },
       {
         "token": "A",
@@ -14154,7 +13414,7 @@
       },
       {
         "token": "tổng",
-        "head": 12,
+        "head": 13,
         "dep": "nsubj"
       },
       {
@@ -14164,32 +13424,12 @@
       },
       {
         "token": "là",
-        "head": 12,
+        "head": 13,
         "dep": "cop"
       },
       {
-        "token": "250.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "250.000.000",
+        "head": 13,
         "dep": "nummod"
       },
       {
@@ -14199,12 +13439,12 @@
       },
       {
         "token": "g",
-        "head": 2,
+        "head": 13,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 13,
         "dep": "punct"
       }
     ]
@@ -14490,12 +13730,12 @@
     ]
   },
   {
-    "clause": "Chi phí bảo trì là 6.",
+    "clause": "Chi phí bảo trì là 6.000.000 đồng/tháng.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "bảo trì",
@@ -14504,32 +13744,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "6.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "6.000.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -14539,17 +13759,17 @@
       },
       {
         "token": "/thán",
-        "head": 2,
-        "dep": "nmod"
+        "head": 5,
+        "dep": "punct"
       },
       {
         "token": "g",
-        "head": 3,
+        "head": 5,
         "dep": "amod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -15000,7 +14220,7 @@
     ]
   },
   {
-    "clause": "Bên A cho Bên B vay số tiền 75.",
+    "clause": "Bên A cho Bên B vay số tiền 75.000.000 đồng trong thời hạn 5 tháng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -15038,58 +14258,38 @@
         "dep": "compound"
       },
       {
-        "token": "75.",
-        "head": 6,
-        "dep": "compound"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng trong thời hạn 5 tháng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "75.000.000",
+        "head": 9,
         "dep": "nummod"
       },
       {
         "token": "đồng",
-        "head": 0,
-        "dep": "root"
+        "head": 6,
+        "dep": "nmod"
       },
       {
         "token": "trong",
-        "head": 4,
+        "head": 11,
         "dep": "case"
       },
       {
         "token": "thời hạn",
-        "head": 2,
-        "dep": "obl"
-      },
-      {
-        "token": "5",
-        "head": 6,
-        "dep": "nummod"
-      },
-      {
-        "token": "tháng",
-        "head": 4,
+        "head": 5,
         "dep": "obl:tmod"
       },
       {
+        "token": "5",
+        "head": 13,
+        "dep": "obl:tmod"
+      },
+      {
+        "token": "tháng",
+        "head": 11,
+        "dep": "nmod"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
@@ -15525,12 +14725,12 @@
     ]
   },
   {
-    "clause": "Chi phí bảo trì là 2.",
+    "clause": "Chi phí bảo trì là 2.500.000 đồng/lần.",
     "dependencies": [
       {
         "token": "Chi phí",
-        "head": 0,
-        "dep": "root"
+        "head": 5,
+        "dep": "nsubj"
       },
       {
         "token": "bảo trì",
@@ -15539,32 +14739,12 @@
       },
       {
         "token": "là",
-        "head": 1,
-        "dep": "discourse"
+        "head": 5,
+        "dep": "cop"
       },
       {
-        "token": "2.",
-        "head": 1,
-        "dep": "punct"
-      }
-    ]
-  },
-  {
-    "clause": "500.",
-    "dependencies": [
-      {
-        "token": "500.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng/lần.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "2.500.000",
+        "head": 5,
         "dep": "nummod"
       },
       {
@@ -15574,12 +14754,12 @@
       },
       {
         "token": "/lần",
-        "head": 2,
+        "head": 5,
         "dep": "nmod"
       },
       {
         "token": ".",
-        "head": 2,
+        "head": 5,
         "dep": "punct"
       }
     ]
@@ -15655,7 +14835,7 @@
     ]
   },
   {
-    "clause": "Bên A chuyển nhượng cổ phần trong công ty cho Bên B với giá 500.",
+    "clause": "Bên A chuyển nhượng cổ phần trong công ty cho Bên B với giá 500.000.000 đồng.",
     "dependencies": [
       {
         "token": "Bên",
@@ -15704,47 +14884,27 @@
       },
       {
         "token": "giá",
-        "head": 8,
-        "dep": "obl:with"
+        "head": 3,
+        "dep": "obl"
       },
       {
-        "token": "500.",
-        "head": 10,
-        "dep": "nmod"
-      }
-    ]
-  },
-  {
-    "clause": "000.",
-    "dependencies": [
-      {
-        "token": "000.",
-        "head": 0,
-        "dep": "root"
-      }
-    ]
-  },
-  {
-    "clause": "000 đồng.",
-    "dependencies": [
-      {
-        "token": "000",
-        "head": 2,
+        "token": "500.000.000",
+        "head": 12,
         "dep": "nummod"
       },
       {
         "token": "đồn",
-        "head": 0,
-        "dep": "root"
-      },
-      {
-        "token": "g",
-        "head": 2,
+        "head": 10,
         "dep": "nmod"
       },
       {
+        "token": "g",
+        "head": 12,
+        "dep": "flat:time"
+      },
+      {
         "token": ".",
-        "head": 2,
+        "head": 3,
         "dep": "punct"
       }
     ]
