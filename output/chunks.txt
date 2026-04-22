@@ -687,3 +687,2583 @@ một	O
 bản	B-NP
 .	O
 
+Bên	B-NP
+A đồng_ý	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+căn_hộ	O
+tại	O
+địa_chỉ	B-NP
+đã	O
+thỏa_thuận	O
+với	O
+thời_hạn	B-NP
+12	O
+tháng	B-NP
+kể	O
+từ	O
+ngày	B-NP
+ký	O
+hợp_đồng	B-NP
+.	O
+
+Giá	B-NP
+thuê	O
+là	O
+8	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Thanh_toán	O
+vào	O
+ngày	B-NP
+05	O
+hàng	B-NP
+tháng	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+đặt_cọc	O
+một	O
+khoản	B-NP
+tiền	I-NP
+tương_đương	O
+một	O
+tháng	B-NP
+tiền	I-NP
+thuê	O
+.	O
+
+Khoản	B-NP
+tiền	I-NP
+này	O
+sẽ	O
+được	O
+hoàn_trả	O
+.	O
+
+Khi	B-NP
+kết_thúc	O
+hợp_đồng	B-NP
+.	O
+
+Nếu	O
+không	O
+có	O
+thiệt_hại	B-NP
+phát_sinh	O
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+bàn_giao	O
+nhà	B-NP
+đúng	O
+hiện_trạng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+sử_dụng	O
+tài_sản	B-NP
+đúng	O
+mục_đích	B-NP
+.	O
+
+Và	O
+giữ_gìn tài_sản	B-NP
+.	O
+
+Bên	B-NP
+A tuyển_dụng	I-NP
+Bên	I-NP
+B	I-NP
+vào	O
+vị_trí	B-NP
+nhân_viên	I-NP
+hành_chính	O
+trong	O
+thời_hạn	B-NP
+1	O
+năm	B-NP
+.	O
+
+Mức	B-NP
+lương	I-NP
+là	O
+9	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+hoàn_thành	I-NP
+công_việc	O
+được	O
+giao	O
+.	O
+
+Và	O
+tuân_thủ	B-NP
+nội_quy	O
+công_ty	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+nghĩa_vụ	B-NP
+trả	O
+lương	B-NP
+đầy_đủ	O
+.	O
+
+Và	O
+đúng	O
+hạn	B-NP
+.	O
+
+Hai	O
+bên	B-NP
+có	O
+quyền	B-NP
+chấm_dứt hợp_đồng	O
+.	O
+
+Nếu	O
+báo	O
+trước	B-NP
+30	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+A_bán	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+100	O
+sản_phẩm	B-NP
+theo	O
+danh_mục	B-NP
+đã	O
+thống_nhất	O
+.	O
+
+Tổng giá_trị	B-NP
+hợp_đồng	I-NP
+là	O
+50	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+100	O
+%	B-NP
+trước	I-NP
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+giao	O
+hàng	B-NP
+trong	O
+vòng	B-NP
+7	O
+ngày	B-NP
+kể	O
+từ	O
+.	O
+
+Khi	B-NP
+nhận	O
+đủ	O
+tiền	B-NP
+.	O
+
+Nếu	O
+giao	O
+hàng	B-NP
+chậm	O
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+chịu	O
+trách_nhiệm	O
+bồi_thường	O
+theo	O
+thỏa_thuận	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+vệ_sinh	B-NP
+văn_phòng	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+6	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+dịch_vụ	O
+là	O
+5	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+vào	O
+cuối	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+đảm_bảo	I-NP
+chất_lượng	O
+dịch_vụ	B-NP
+.	O
+
+Và	O
+tuân_thủ	O
+các	O
+quy_định	B-NP
+an_toàn	O
+.	O
+
+Bên	B-NP
+A_nhận	I-NP
+gia_công	O
+sản_phẩm	O
+theo	O
+yêu_cầu	B-NP
+của	O
+Bên	B-NP
+B	I-NP
+với	O
+số_lượng	B-NP
+1	O
+.	O
+
+000	B-NP
+sản_phẩm	O
+.	O
+
+Thời_gian	B-NP
+hoàn_thành	O
+là	O
+30	O
+ngày	B-NP
+kể	O
+từ	O
+ngày	B-NP
+nhận	O
+nguyên_vật_liệu	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+tiến_độ	B-NP
+đã	O
+thỏa_thuận	O
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+chất_lượng	O
+sản_phẩm	B-NP
+đúng	O
+yêu_cầu	B-NP
+.	O
+
+Hai	O
+bên	B-NP
+thống_nhất	I-NP
+hợp_tác	I-NP
+mở	O
+cửa_hàng	B-NP
+kinh_doanh	O
+.	O
+
+Và	O
+cùng	O
+góp	O
+vốn	B-NP
+.	O
+
+Lợi_nhuận	B-NP
+được	O
+chia	O
+theo	O
+tỷ_lệ	B-NP
+60	O
+%	B-NP
+cho	O
+Bên_A	B-NP
+.	O
+
+Và	O
+40	O
+%	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Mọi	O
+quyết_định	B-NP
+quan_trọng	I-NP
+liên_quan	O
+đến	O
+hoạt_động	B-NP
+kinh_doanh	I-NP
+phải	O
+có	O
+sự	B-NP
+đồng_ý	O
+của	O
+cả	O
+hai	O
+bên	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+vay	O
+số	B-NP
+tiền	I-NP
+100	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+trong	O
+thời_hạn	B-NP
+6	O
+tháng	B-NP
+kể	O
+từ	O
+ngày	B-NP
+nhận	O
+tiền	B-NP
+.	O
+
+Lãi_suất	B-NP
+là	O
+1	O
+%	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+hoàn_trả	O
+đầy_đủ	O
+cả	O
+gốc	B-NP
+.	O
+
+Và	O
+lãi	B-NP
+.	O
+
+Khi	B-NP
+đến	O
+hạn	B-NP
+.	O
+
+Nếu	O
+chậm	O
+thanh_toán	O
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+chịu	O
+phạt	O
+theo	O
+thỏa_thuận	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+vận_chuyển	O
+hàng	B-NP
+hóa	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+yêu_cầu	B-NP
+.	O
+
+Thời_gian	B-NP
+giao	O
+hàng	B-NP
+là	O
+3	O
+ngày	B-NP
+kể	O
+từ	O
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A_chịu trách_nhiệm	I-NP
+về	O
+an_toàn	O
+hàng	B-NP
+hóa	O
+trong	O
+quá_trình	B-NP
+vận_chuyển	O
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+chi_phí	O
+sau	B-NP
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A thực_hiện	I-NP
+bảo_trì	I-NP
+hệ_thống	O
+điện	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+định_kỳ	O
+mỗi	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+bảo_trì	I-NP
+là	O
+2	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+đảm_bảo	O
+hệ_thống	B-NP
+hoạt_động	I-NP
+ổn_định	O
+sau	B-NP
+.	O
+
+Khi	B-NP
+bảo_trì	O
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+thanh_toán	O
+đúng	O
+hạn	B-NP
+.	O
+
+Bên	B-NP
+A_chuyển_nhượng	I-NP
+quyền	I-NP
+sử_dụng tài_sản	O
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+300	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+tiến_độ	B-NP
+đã	O
+thỏa_thuận	O
+.	O
+
+Sau	B-NP
+.	O
+
+Khi	B-NP
+hoàn_tất	O
+thanh_toán	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+bàn_giao	I-NP
+tài_sản	O
+đầy_đủ	B-NP
+.	O
+
+Và	O
+hợp_pháp	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Bên	B-NP
+A đồng_ý	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+mặt_bằng	B-NP
+kinh_doanh	O
+trong	O
+thời_hạn	B-NP
+24	O
+tháng	B-NP
+kể	O
+từ	O
+ngày	B-NP
+ký	O
+hợp_đồng	B-NP
+.	O
+
+Giá	B-NP
+thuê	O
+là	O
+15	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Và	O
+được	O
+thanh_toán	O
+vào	O
+ngày	B-NP
+01	O
+hàng	B-NP
+tháng	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+đặt_cọc	O
+2	O
+tháng	B-NP
+tiền	I-NP
+thuê	O
+để	O
+đảm_bảo	O
+thực_hiện	O
+hợp_đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+sử_dụng	O
+mặt_bằng	B-NP
+đúng	O
+mục_đích	B-NP
+.	O
+
+Và	O
+không	O
+được	O
+tự_ý	O
+sửa_chữa	B-NP
+.	O
+
+Khi	B-NP
+chưa	O
+có	O
+sự	B-NP
+đồng_ý	O
+của	O
+Bên_A	B-NP
+.	O
+
+Bên	B-NP
+A tuyển_dụng	I-NP
+Bên	I-NP
+B	I-NP
+vào	O
+vị_trí	B-NP
+kỹ_thuật_viên	O
+với	O
+thời_hạn	B-NP
+hợp_đồng	I-NP
+2	O
+năm	B-NP
+.	O
+
+Mức	B-NP
+lương	I-NP
+là	O
+12	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Chưa	O
+bao_gồm	O
+phụ_cấp	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+tuân_thủ	O
+quy_định	O
+an_toàn_lao_động	B-NP
+.	O
+
+Và	O
+hoàn_thành	B-NP
+công_việc	O
+đúng	O
+tiến_độ	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+đóng	O
+bảo_hiểm	B-NP
+đầy_đủ	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+quy_định	B-NP
+.	O
+
+Bên	B-NP
+A_bán	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+500	O
+đơn_vị	B-NP
+hàng	I-NP
+hóa	O
+theo	O
+thỏa_thuận	B-NP
+với	O
+tổng giá_trị	B-NP
+là	O
+120	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	I-NP
+50	O
+%	B-NP
+trước	I-NP
+.	O
+
+Và	O
+50	O
+%	B-NP
+sau	I-NP
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+giao	O
+hàng	B-NP
+đúng	O
+chất_lượng	B-NP
+.	O
+
+Và	O
+thời_gian	B-NP
+.	O
+
+Nếu	O
+hàng	B-NP
+hóa	O
+không	O
+đạt	O
+yêu_cầu	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+quyền	B-NP
+từ_chối	O
+nhận	O
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+bảo_vệ	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+12	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+dịch_vụ	O
+là	O
+20	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+an_ninh	B-NP
+trật_tự	O
+tại	O
+khu_vực	B-NP
+được	O
+giao	O
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+chi_phí	O
+vào	O
+cuối	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A_nhận	I-NP
+thi_công	O
+công_trình	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+thiết_kế	B-NP
+đã	O
+được	O
+phê_duyệt	O
+.	O
+
+Thời_gian	B-NP
+thi_công	O
+là	O
+90	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+từng	O
+giai_đoạn	B-NP
+hoàn_thành	I-NP
+công_việc	O
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+chất_lượng	B-NP
+.	O
+
+Và	O
+an_toàn	B-NP
+trong	O
+quá_trình	B-NP
+thi_công	O
+.	O
+
+Hai	O
+bên	B-NP
+thống_nhất	I-NP
+hợp_tác	O
+đầu_tư	B-NP
+dự_án bất_động_sản	O
+với	O
+tổng	B-NP
+vốn	I-NP
+đầu_tư	O
+là	O
+2	O
+.	O
+
+000	B-NP
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Lợi_nhuận	B-NP
+được	O
+chia	O
+theo	O
+tỷ_lệ	B-NP
+góp	O
+vốn	B-NP
+.	O
+
+Các	O
+quyết_định	B-NP
+quan_trọng	O
+phải	O
+được	O
+sự	B-NP
+đồng_thuận	O
+của	O
+hai	O
+bên	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+vay	O
+số	B-NP
+tiền	I-NP
+200	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+trong	O
+thời_hạn	B-NP
+12	O
+tháng	B-NP
+.	O
+
+Lãi_suất	B-NP
+áp_dụng	O
+là	O
+0	O
+.	O
+
+8	O
+%	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	O
+thanh_toán	B-NP
+lãi	O
+hàng	B-NP
+tháng	I-NP
+.	O
+
+Và	O
+hoàn_trả	B-NP
+gốc	I-NP
+.	O
+
+Khi	B-NP
+đến	O
+hạn	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+giao_nhận	O
+hàng	B-NP
+hóa	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+từng	O
+đơn	B-NP
+hàng	I-NP
+.	O
+
+Thời_gian	B-NP
+giao	O
+hàng	B-NP
+phụ_thuộc	I-NP
+vào_khoảng_cách	O
+.	O
+
+Và	O
+được	O
+thông_báo	O
+trước	B-NP
+.	O
+
+Bên	B-NP
+A_chịu trách_nhiệm	I-NP
+.	O
+
+Nếu	O
+hàng	B-NP
+hóa	I-NP
+bị	O
+mất	O
+.	O
+
+Hoặc	O
+hư_hỏng	B-NP
+.	O
+
+Bên	B-NP
+A thực_hiện	I-NP
+bảo_trì	I-NP
+hệ_thống	O
+máy_lạnh	O
+cho	O
+Bên	B-NP
+B	I-NP
+mỗi	O
+quý	B-NP
+một	O
+lần	B-NP
+.	O
+
+Chi_phí	B-NP
+bảo_trì	O
+là	O
+5	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+lần	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+thiết_bị	B-NP
+hoạt_động	O
+ổn_định	B-NP
+sau	I-NP
+bảo_trì	I-NP
+.	O
+
+Bên	B-NP
+A_chuyển_nhượng	I-NP
+quyền_sở_hữu	O
+xe	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+400	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+đầy_đủ	O
+trước	B-NP
+.	O
+
+Khi	B-NP
+nhận	O
+xe	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+cung_cấp	O
+đầy_đủ	B-NP
+giấy_tờ	O
+hợp_lệ	B-NP
+.	O
+
+Bên	B-NP
+A đồng_ý	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+kho	B-NP
+chứa	O
+hàng	B-NP
+trong	O
+thời_hạn	B-NP
+18	O
+tháng	B-NP
+kể	O
+từ	O
+ngày	B-NP
+ký	O
+hợp_đồng	B-NP
+.	O
+
+Giá	B-NP
+thuê	O
+là	O
+10	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Và	O
+được	O
+thanh_toán	O
+vào	O
+ngày	B-NP
+10	O
+hàng	B-NP
+tháng	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+đặt_cọc	O
+một	O
+khoản	B-NP
+tiền	I-NP
+tương_đương	O
+hai	O
+tháng	B-NP
+tiền	I-NP
+thuê	O
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+bảo_quản	O
+hàng	B-NP
+hóa	O
+.	O
+
+Và	O
+không	O
+được	O
+sử_dụng	O
+kho	B-NP
+vào	O
+mục_đích	B-NP
+trái	O
+pháp_luật	B-NP
+.	O
+
+Bên	B-NP
+A tuyển_dụng	I-NP
+Bên	I-NP
+B	I-NP
+vào	O
+vị_trí	B-NP
+kế_toán	O
+với	O
+thời_hạn	B-NP
+hợp_đồng	I-NP
+12	O
+tháng	B-NP
+.	O
+
+Mức	B-NP
+lương	I-NP
+là	O
+11	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+quản_lý	I-NP
+sổ_sách	O
+kế_toán	B-NP
+.	O
+
+Và	O
+báo_cáo	B-NP
+tài_chính	O
+đúng	O
+thời_hạn	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+nghĩa_vụ	B-NP
+cung_cấp	I-NP
+đầy_đủ	O
+thông_tin	B-NP
+.	O
+
+Và	O
+công_cụ	B-NP
+làm_việc	O
+cần_thiết	B-NP
+.	O
+
+Bên	B-NP
+A_bán	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+300	O
+sản_phẩm nội_thất	B-NP
+với	O
+tổng giá_trị	B-NP
+là	O
+150	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	I-NP
+30	O
+%	B-NP
+trước	I-NP
+.	O
+
+Và	O
+phần	B-NP
+còn	O
+lại	O
+sau	B-NP
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+hàng	B-NP
+hóa	I-NP
+đúng	O
+mẫu_mã	B-NP
+.	O
+
+Và	O
+chất_lượng	B-NP
+đã	O
+cam_kết	O
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+vệ_sinh	B-NP
+công_nghiệp	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+3	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+dịch_vụ	O
+là	O
+8	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+vệ_sinh	B-NP
+sạch_sẽ	O
+theo	O
+tiêu_chuẩn	B-NP
+đã	O
+thỏa_thuận	O
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+vào	O
+cuối	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A_nhận	I-NP
+sửa_chữa	O
+hệ_thống	B-NP
+điện	I-NP
+nước	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_gian	B-NP
+15	O
+ngày	B-NP
+.	O
+
+Chi_phí	B-NP
+sửa_chữa	O
+được	O
+tính	O
+theo	O
+khối_lượng	B-NP
+công_việc	O
+thực_tế	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+an_toàn	B-NP
+trong	O
+quá_trình	B-NP
+thi_công	O
+.	O
+
+Hai	O
+bên	B-NP
+thống_nhất	I-NP
+hợp_tác	I-NP
+kinh_doanh	O
+quán	B-NP
+cà_phê	I-NP
+.	O
+
+Tổng	B-NP
+vốn	I-NP
+đầu_tư	O
+là	O
+500	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Lợi_nhuận	B-NP
+được	O
+chia	O
+đều	O
+.	O
+
+Mọi	O
+hoạt_động	B-NP
+tài_chính	O
+phải	O
+được	O
+ghi_chép	O
+minh_bạch	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+vay	O
+số	B-NP
+tiền	I-NP
+50	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+trong	O
+thời_hạn	B-NP
+3	O
+tháng	B-NP
+.	O
+
+Lãi_suất	B-NP
+là	O
+1	O
+.	O
+
+2	O
+%	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+hoàn_trả	O
+đúng	O
+hạn	B-NP
+cả	O
+gốc	B-NP
+.	O
+
+Và	O
+lãi	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp dịch_vụ	I-NP
+chuyển	O
+phát	O
+nhanh	O
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Thời_gian	B-NP
+giao	O
+hàng	B-NP
+từ	O
+1	O
+đến	O
+2	O
+ngày	B-NP
+tùy	O
+khu_vực	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+bồi_thường	O
+.	O
+
+Nếu	O
+làm	O
+mất	O
+hàng	B-NP
+hóa	I-NP
+.	O
+
+Bên	B-NP
+A thực_hiện	I-NP
+bảo_trì	I-NP
+hệ_thống	O
+camera	B-NP
+giám_sát	O
+cho	O
+Bên	B-NP
+B	I-NP
+mỗi	O
+6	O
+tháng	B-NP
+một	O
+lần	B-NP
+.	O
+
+Chi_phí	B-NP
+bảo_trì	I-NP
+là	O
+3	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+lần	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+hệ_thống	B-NP
+hoạt_động	O
+ổn_định	B-NP
+.	O
+
+Bên	B-NP
+A_chuyển_nhượng	I-NP
+quyền	I-NP
+sử_dụng	O
+đất	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+1	O
+.	O
+
+000	B-NP
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+tiến_độ	B-NP
+đã	O
+thỏa_thuận	O
+.	O
+
+Sau	B-NP
+.	O
+
+Khi	B-NP
+hoàn_tất	O
+.	O
+
+Bên	B-NP
+A bàn_giao	I-NP
+đầy_đủ	I-NP
+giấy_tờ	O
+pháp_lý	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+đào_tạo	B-NP
+kỹ_năng	O
+mềm	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+2	O
+tháng	B-NP
+.	O
+
+Nội_dung	B-NP
+đào_tạo	O
+bao_gồm	B-NP
+kỹ_năng	O
+giao_tiếp	B-NP
+.	O
+
+Làm_việc	B-NP
+nhóm	I-NP
+.	O
+
+Và	O
+quản_lý thời_gian	B-NP
+.	O
+
+Tổng chi_phí	B-NP
+là	O
+25	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Và	O
+được	O
+thanh_toán	O
+thành	O
+hai	O
+đợt	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+đảm_bảo	I-NP
+chất_lượng	O
+giảng_dạy	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+tham_gia	I-NP
+đầy_đủ	O
+các	O
+buổi	B-NP
+học	O
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+xe	B-NP
+ô_tô	O
+trong	O
+thời_hạn	B-NP
+7	O
+ngày	B-NP
+.	O
+
+Giá	B-NP
+thuê	O
+là	O
+1	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+đặt_cọc	O
+10	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Và	O
+chịu	O
+trách_nhiệm	O
+đối_với	O
+mọi	O
+hư_hỏng	B-NP
+phát_sinh	O
+trong	O
+thời_gian	B-NP
+thuê	O
+.	O
+
+Bên	B-NP
+A_bán	I-NP
+bản_quyền	O
+phần_mềm	O
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+80	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+được	O
+quyền	B-NP
+sử_dụng phần_mềm	O
+trong	O
+phạm_vi	B-NP
+nội_bộ	O
+.	O
+
+Và	O
+không	O
+được	O
+sao_chép	O
+.	O
+
+Hoặc	O
+phân_phối	O
+lại	O
+.	O
+
+Nếu	O
+không	O
+có	O
+sự	B-NP
+đồng_ý	O
+của	O
+Bên_A	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+quảng_cáo	B-NP
+trực_tuyến	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+3	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+dịch_vụ	O
+là	O
+15	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+tối_ưu_chiến_dịch	O
+quảng_cáo	B-NP
+để	O
+đạt	O
+hiệu_quả	B-NP
+tốt	O
+nhất	O
+.	O
+
+Bên	B-NP
+A_nhận	I-NP
+thiết_kế	O
+logo	O
+.	O
+
+Và	O
+bộ	B-NP
+nhận_diện	I-NP
+thương_hiệu	O
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Thời_gian	B-NP
+thực_hiện	O
+là	O
+20	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	I-NP
+50	O
+%	B-NP
+trước	I-NP
+.	O
+
+Và	O
+50	O
+%	B-NP
+sau	I-NP
+.	O
+
+Khi	B-NP
+hoàn_thành	O
+.	O
+
+Hai	O
+bên	B-NP
+thống_nhất	I-NP
+hợp_tác	O
+sản_xuất	B-NP
+nội_dung	O
+số	B-NP
+trên	O
+nền_tảng_mạng	B-NP
+xã_hội	I-NP
+.	O
+
+Doanh_thu	B-NP
+từ	O
+quảng_cáo	B-NP
+sẽ	O
+được	O
+chia	O
+theo	O
+tỷ_lệ	B-NP
+70	O
+%	B-NP
+cho	O
+Bên_A	B-NP
+.	O
+
+Và	O
+30	O
+%	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+vay	O
+số	B-NP
+tiền	I-NP
+30	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+trong	O
+thời_hạn	B-NP
+2	O
+tháng	B-NP
+.	O
+
+Lãi_suất	B-NP
+là	O
+1	O
+%	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	B-NP
+hoàn_trả	O
+đầy_đủ	B-NP
+.	O
+
+Khi	B-NP
+đến	O
+hạn	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+tổ_chức	B-NP
+sự_kiện	O
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Sự_kiện	B-NP
+sẽ	O
+được	O
+tổ_chức	O
+vào	O
+ngày	B-NP
+đã	O
+thỏa_thuận	O
+với	O
+tổng	B-NP
+chi_phí	I-NP
+là	O
+100	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+A_chịu trách_nhiệm	I-NP
+về	O
+toàn_bộ	B-NP
+khâu	I-NP
+tổ_chức	O
+.	O
+
+Bên	B-NP
+A thực_hiện	I-NP
+bảo_trì	I-NP
+hệ_thống mạng	O
+nội_bộ	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+6	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+là	O
+4	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+hệ_thống	B-NP
+hoạt_động	O
+ổn_định	B-NP
+.	O
+
+Bên	B-NP
+A_chuyển_nhượng quyền	I-NP
+sử_dụng	I-NP
+tên	I-NP
+miền	I-NP
+internet	O
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+60	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+đầy_đủ	O
+trước	B-NP
+.	O
+
+Khi	B-NP
+nhận	O
+quyền	B-NP
+sử_dụng	I-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+tư_vấn	B-NP
+pháp_lý	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+6	O
+tháng	B-NP
+kể	O
+từ	O
+ngày	B-NP
+ký	O
+hợp_đồng	B-NP
+.	O
+
+Nội_dung	B-NP
+tư_vấn	O
+bao_gồm	O
+các	O
+vấn_đề	B-NP
+liên_quan	O
+đến	O
+hoạt_động	B-NP
+kinh_doanh	I-NP
+của	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Chi_phí	B-NP
+dịch_vụ	I-NP
+là	O
+10	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Và	O
+được	O
+thanh_toán	O
+vào	O
+đầu	B-NP
+mỗi	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+bảo_mật	O
+thông_tin	B-NP
+.	O
+
+Và	O
+cung_cấp	B-NP
+ý_kiến	O
+tư_vấn	B-NP
+chính_xác	O
+.	O
+
+Kịp_thời	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+thuê	O
+thiết_bị	B-NP
+âm_thanh	O
+phục_vụ	B-NP
+sự_kiện	O
+trong	O
+thời_hạn	B-NP
+3	O
+ngày	B-NP
+.	O
+
+Tổng chi_phí	B-NP
+thuê	O
+là	O
+15	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+đặt_cọc	O
+5	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Và	O
+hoàn_trả	B-NP
+thiết_bị	O
+đúng	O
+thời_hạn	B-NP
+.	O
+
+Đúng	O
+tình_trạng	B-NP
+ban_đầu	I-NP
+.	O
+
+Bên	B-NP
+A_bán	I-NP
+nguyên_vật_liệu	O
+xây_dựng	O
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+tổng giá_trị	B-NP
+là	O
+250	B-NP
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	I-NP
+70	O
+%	B-NP
+trước	I-NP
+.	O
+
+Khi	B-NP
+giao	O
+hàng	B-NP
+.	O
+
+Và	O
+30	O
+%	B-NP
+sau	I-NP
+.	O
+
+Khi	B-NP
+nhận	O
+hàng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+trách_nhiệm	B-NP
+giao	O
+hàng	B-NP
+đúng	O
+số_lượng	B-NP
+.	O
+
+Chất_lượng	B-NP
+.	O
+
+Và	O
+thời_gian	B-NP
+đã	O
+thỏa_thuận	O
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+bảo_trì	B-NP
+thang_máy	O
+cho	O
+Bên	B-NP
+B	I-NP
+trong	O
+thời_hạn	B-NP
+12	O
+tháng	B-NP
+.	O
+
+Chi_phí	B-NP
+bảo_trì	O
+là	O
+6	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+thang_máy	B-NP
+hoạt_động	O
+an_toàn	B-NP
+.	O
+
+Và	O
+xử_lý	B-NP
+sự_cố	O
+kịp_thời	B-NP
+.	O
+
+Bên	B-NP
+A_nhận	I-NP
+thi_công	O
+hệ_thống	B-NP
+phòng	I-NP
+cháy	O
+chữa_cháy	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+thiết_kế	B-NP
+đã	O
+phê_duyệt	O
+.	O
+
+Thời_gian	B-NP
+thi_công	I-NP
+là	O
+60	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+tiến_độ	B-NP
+thi_công	I-NP
+.	O
+
+Và	O
+nghiệm_thu	O
+từng	O
+giai_đoạn	B-NP
+.	O
+
+Hai	O
+bên	B-NP
+thống_nhất	I-NP
+hợp_tác	O
+phát_triển	B-NP
+ứng_dụng	O
+di_động	B-NP
+.	O
+
+Bên	B-NP
+A_chịu	I-NP
+trách_nhiệm	O
+kỹ_thuật	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+chịu	O
+trách_nhiệm	O
+kinh_doanh	B-NP
+.	O
+
+Lợi_nhuận	B-NP
+được	O
+chia	O
+theo	O
+tỷ_lệ	B-NP
+50/50	O
+sau	B-NP
+.	O
+
+Khi	B-NP
+trừ	O
+chi_phí	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+vay	O
+số	B-NP
+tiền	I-NP
+75	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+trong	O
+thời_hạn	B-NP
+5	O
+tháng	B-NP
+.	O
+
+Lãi_suất	B-NP
+áp_dụng	O
+là	O
+1	O
+.	O
+
+1	O
+%	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+trách_nhiệm	O
+thanh_toán	B-NP
+lãi	O
+hàng	B-NP
+tháng	I-NP
+.	O
+
+Và	O
+hoàn_trả	B-NP
+gốc	I-NP
+.	O
+
+Khi	B-NP
+đến	O
+hạn	B-NP
+.	O
+
+Bên	B-NP
+A_cung_cấp	I-NP
+dịch_vụ	O
+in_ấn	B-NP
+tài_liệu	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+từng	O
+đơn đặt_hàng	B-NP
+.	O
+
+Chi_phí	B-NP
+được	O
+tính	O
+theo	O
+số_lượng	B-NP
+.	O
+
+Và	O
+loại	B-NP
+tài_liệu	I-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+chất_lượng	B-NP
+in	O
+rõ_ràng	B-NP
+.	O
+
+Đúng	O
+yêu_cầu	B-NP
+.	O
+
+Bên	B-NP
+A thực_hiện	I-NP
+bảo_trì	I-NP
+hệ_thống	O
+chiếu	B-NP
+sáng	I-NP
+cho	O
+Bên	B-NP
+B	I-NP
+mỗi	O
+2	O
+tháng	B-NP
+một	O
+lần	B-NP
+.	O
+
+Chi_phí	B-NP
+bảo_trì	I-NP
+là	O
+2	O
+.	O
+
+500	O
+.	O
+
+000	O
+đồng	B-NP
+/	O
+lần	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+phải	O
+đảm_bảo	O
+hệ_thống	B-NP
+hoạt_động	I-NP
+ổn_định	O
+sau	B-NP
+.	O
+
+Khi	B-NP
+bảo_trì	O
+.	O
+
+Bên	B-NP
+A chuyển_nhượng	I-NP
+cổ_phần	O
+trong	O
+công_ty	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+với	O
+giá	B-NP
+500	O
+.	O
+
+000	B-NP
+.	O
+
+000	O
+đồng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh_toán	O
+theo	O
+thỏa_thuận	B-NP
+.	O
+
+Và	O
+được	O
+hưởng	O
+quyền_lợi	B-NP
+tương_ứng	O
+với	O
+số	B-NP
+cổ_phần	I-NP
+đã	O
+mua	O
+.	O
+
