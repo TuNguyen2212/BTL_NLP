@@ -3,9 +3,26 @@ import re
 CONNECTORS = ["và", "hoặc", "nhưng", "nếu", "khi", "trong trường hợp"]
 
 
-def split_sentences(text):
+def normalize_text(text):
+    # Xoá khoảng trắng thừa
     text = re.sub(r'\s+', ' ', text.strip())
-    return re.split(r'[.!?]\s*', text)
+
+    # Đảm bảo sau dấu chấm, ?, ! luôn có 1 dấu cách
+    text = re.sub(r'([.!?])(?!\s)', r'\1 ', text)
+
+    return text
+
+
+def split_sentences(text):
+    text = normalize_text(text)
+
+    # Chỉ tách khi:
+    # - Có dấu .!? 
+    # - Sau đó là dấu cách
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+
+    # Loại bỏ câu rỗng
+    return [s.strip() for s in sentences if s.strip()]
 
 
 def split_clauses(sentence):
@@ -17,9 +34,14 @@ def split_clauses(sentence):
         c = c.strip()
         if not c:
             continue
-        if not c.endswith("."):
-            c += "."
+
+        # Đảm bảo kết thúc bằng dấu chấm
+        if not re.search(r'[.!?]$', c):
+            c += '.'
+
+        # Viết hoa chữ cái đầu
         c = c[0].upper() + c[1:]
+
         results.append(c)
 
     return results
