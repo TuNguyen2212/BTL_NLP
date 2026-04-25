@@ -104,10 +104,14 @@ Output: `clauses.txt`, `chunks.txt`, `dependency.json`
 ```bash
 # Train TF-IDF + Logistic Regression
 python train_intent.py
+```
 
+```bash
 # Train + cross-validation + so sánh rule-based
 python train_intent.py --eval --compare
+```
 
+```bash
 # So sánh TF-IDF vs PhoBERT (cần có model PhoBERT)
 python train_intent.py --phobert
 ```
@@ -119,13 +123,24 @@ python train_intent.py --phobert
 ```bash
 # Chạy toàn bộ pipeline
 python extract.py
+```
 
+```bash
 # Chạy + evaluation
 python extract.py --eval
+```
 
 # Chạy từng task
+
+```bash
 python extract.py --task ner
+```
+
+```bash
 python extract.py --task srl
+```
+
+```bash
 python extract.py --task intent
 ```
 

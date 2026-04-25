@@ -15,10 +15,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Runtime outputs
-output/
-*.log
-
 # Local models / artifacts
 models/
 !models/.gitkeep
