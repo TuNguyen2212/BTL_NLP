@@ -17,6 +17,7 @@ from config import (
     INTENT_MODEL_PATH,
 )
 
+
 def preflight_check():
     print("=" * 60)
     print(" INPUT CHECK")
@@ -35,12 +36,12 @@ def preflight_check():
             all_ok = False
 
     model_ok = os.path.exists(INTENT_MODEL_PATH)
-    hint = "" if model_ok else " <- will be trained automatically before intent inference"
+    hint = "" if model_ok else " <- auto-train before inference"
     print(f"  {'[OK]' if model_ok else '[--]'}  Intent TF-IDF model{hint}")
 
     print()
     if not all_ok:
-        print("[ERROR] Missing required inputs. Please run Assignment 1 first.")
+        print("[ERROR] Missing required inputs. Run Assignment 1 first.")
         sys.exit(1)
 
 
@@ -53,7 +54,6 @@ def run_task_ner(eval_mode: bool = False):
     from src.ner import run_ner
 
     results = run_ner()
-
     elapsed = time.time() - t0
     print(f"  Completed in {elapsed:.2f}s")
 
@@ -66,13 +66,11 @@ def run_task_ner(eval_mode: bool = False):
         for label, scores in report.items():
             if label == "macro":
                 print(
-                    f"    {'MACRO':10} | P={scores['precision']:.3f}  "
-                    f"R={scores['recall']:.3f}  F1={scores['f1']:.3f}"
+                    f"    {'MACRO':10} | P={scores['precision']:.3f}  R={scores['recall']:.3f}  F1={scores['f1']:.3f}"
                 )
             elif scores["tp"] + scores["fp"] + scores["fn"] > 0:
                 print(
-                    f"    {label:10} | P={scores['precision']:.3f}  "
-                    f"R={scores['recall']:.3f}  F1={scores['f1']:.3f}"
+                    f"    {label:10} | P={scores['precision']:.3f}  R={scores['recall']:.3f}  F1={scores['f1']:.3f}"
                 )
     print()
     return results
@@ -86,7 +84,7 @@ def run_task_intent(eval_mode: bool = False):
     t0 = time.time()
 
     if not os.path.exists(INTENT_MODEL_PATH):
-        print("  TF-IDF model not found, training one before inference...")
+        print("  TF-IDF model not found, training...")
         from train_intent import load_data, train
 
         texts, labels = load_data()
@@ -96,7 +94,6 @@ def run_task_intent(eval_mode: bool = False):
     from src.intent import run_intent
 
     results = run_intent()
-
     elapsed = time.time() - t0
     print(f"  Completed in {elapsed:.2f}s")
 
@@ -124,7 +121,6 @@ def run_task_srl(eval_mode: bool = False):
     t0 = time.time()
     results = run_srl()
     elapsed = time.time() - t0
-
     print(f"  Completed in {elapsed:.2f}s")
     print()
     return results

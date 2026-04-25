@@ -1,571 +1,1024 @@
-Bên	B-NP
-B	I-NP
-sẽ	O
-giao	O
-cho	O
+Hai	O
+bên	B-NP
+thống nhất	O
+ký kết	O
+hợp đồng	B-NP
+thuê	O
+mặt bằng	B-NP
+kinh doanh	O
+với	O
+các	O
+điều khoản	B-NP
+và	O
+điều kiện	B-NP
+sau	I-NP
+đây	O
+,	O
+trên	O
+cơ sở	B-NP
+tự nguyện	O
+,	O
+bình đẳng	O
+và	O
+phù hợp	O
+với	O
+quy định	B-NP
+của	O
+Bộ luật Dân sự	B-NP
+năm	I-NP
+2015	O
+và	O
+các	O
+văn bản	B-NP
+pháp luật	I-NP
+hiện hành	I-NP
+có	O
+liên quan	O
+.	O
+
 Bên	B-NP
 A	I-NP
-một	O
-khoản	B-NP
-tiền	I-NP
-đặt_cọc	O
-để	O
-đảm_bảo	O
-thực_hiện	O
-hợp_đồng	B-NP
+đồng ý	O
 cho	O
+Bên	B-NP
+B	I-NP
 thuê	O
-nhà	B-NP
-ngay	O
+mặt bằng	B-NP
+kinh doanh	O
+có	O
+diện tích	B-NP
+120	O
+m²	B-NP
+(	O
+một trăm	O
+hai	O
+mươi	O
+mét vuông	B-NP
+)	O
+tọa lạc	O
+tại	O
+số	B-NP
+45	O
+Đường	B-NP
+Lê Lợi	I-NP
+,	O
+Phường	B-NP
+Bến Nghé	I-NP
+,	O
+Quận	B-NP
+1	O
+,	O
+Thành phố	B-NP
+Hồ Chí Minh	I-NP
+(	O
 sau	B-NP
+đây	O
+gọi	O
+là	O
+"	O
+Mặt bằng	B-NP
+thuê	O
+"	O
+)	O
 .	O
 
-Khi	B-NP
-ký	O
-hợp_đồng	B-NP
+Mặt bằng	B-NP
+thuê	O
+bao gồm	O
+:	O
+một	O
+phòng	B-NP
+kinh doanh	O
+chính	O
+rộng	O
+100	O
+m²	B-NP
+,	O
+một	O
+khu	B-NP
+vệ sinh	O
+rộng	O
+10	O
+m²	B-NP
+và	O
+một	O
+kho	B-NP
+chứa	O
+hàng	B-NP
+rộng	O
+10	O
+m²	B-NP
+,	O
+được	O
+bàn giao	O
+kèm	O
+theo	O
+toàn bộ	O
+cơ sở hạ tầng	B-NP
+điện	I-NP
+,	O
+nước	B-NP
+và	O
+hệ thống	B-NP
+phòng	I-NP
+cháy	O
+chữa cháy	O
+đã	O
+được	O
+lắp đặt	O
+sẵn	O
+.	O
+
+Bên	B-NP
+B	I-NP
+chỉ	O
+được	O
+phép	B-NP
+sử dụng	O
+Mặt bằng	B-NP
+thuê	O
+vào	O
+mục đích	B-NP
+kinh doanh	O
+bán lẻ	O
+hàng tiêu dùng	B-NP
+.	O
+
+Không	O
+được	O
+sử dụng	O
+vào	O
+các	O
+mục đích	B-NP
+khác	O
+khi	O
+chưa	O
+có	O
+sự	B-NP
+đồng ý	O
+bằng	O
+văn bản	B-NP
+của	O
+Bên A	B-NP
+.	O
+
+Thời hạn	B-NP
+thuê	O
+là	O
+24	O
+(	O
+hai	O
+mươi	O
+bốn	O
+)	O
+tháng	B-NP
+,	O
+bắt đầu	O
+từ	O
+ngày	B-NP
+01/03/2025	O
+và	O
+kết thúc	O
+vào	O
+ngày	B-NP
+28/02/2027	O
+.	O
+
+Trước	B-NP
+khi	O
+hết	O
+hạn	B-NP
+hợp đồng	I-NP
+ít nhất	O
+60	O
+(	O
+sáu mươi	B-NP
+)	O
+ngày	B-NP
 .	O
 
 Nếu	O
 Bên	B-NP
 B	I-NP
-đơn_phương	O
-chấm_dứt	B-NP
-hợp_đồng	O
+có	O
+nhu cầu	B-NP
+tiếp tục	O
+thuê	O
+,	O
+Bên	B-NP
+B	I-NP
+phải	O
+thông báo	O
+bằng	O
+văn bản	B-NP
+cho	O
+Bên A	B-NP
+.	O
+
+Hai	O
+bên	B-NP
+sẽ	O
+thương lượng	O
+lại	O
+các	O
+điều khoản	B-NP
+hợp đồng	I-NP
+cho	O
+thời hạn	B-NP
+tiếp theo	O
+.	O
+
+Nếu	O
+Bên	B-NP
+B	I-NP
+không	O
+thông báo	O
+gia hạn	B-NP
+thuê	O
+trong	O
+thời hạn	B-NP
+nêu	O
+trên	B-NP
+,	O
+hợp đồng	B-NP
+sẽ	O
+tự động	O
+chấm dứt	O
+hiệu lực	O
+vào	O
+ngày	B-NP
+28/02/2027	O
 mà	O
 không	O
-thực_hiện	O
-nghĩa_vụ	B-NP
-báo	O
-trước	B-NP
-cho	O
-Bên_A	B-NP
-thì	O
-Bên_A	B-NP
-sẽ	O
-không	O
+cần	O
+thêm	O
+bất kỳ	O
+thủ tục	B-NP
+nào	O
+.	O
+
+Giá	B-NP
+thuê	O
+Mặt bằng	B-NP
+là	O
+18.000.000	O
+đồng	B-NP
+(	O
+mười	O
+tám	O
+triệu	O
+đồng	B-NP
+)	O
+mỗi	O
+tháng	B-NP
+,	O
+chưa	O
+bao gồm	O
+thuế giá trị	B-NP
+gia tăng	O
+(	O
+VAT	B-NP
+)	O
+theo	O
+quy định	B-NP
+của	O
+Luật Thuế	B-NP
+giá trị	I-NP
+gia tăng	O
+hiện hành	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+thanh toán	O
+tiền	B-NP
+thuê	O
+vào	O
+ngày	B-NP
+05	O
+(	O
+năm	O
+)	O
+của	O
+mỗi	O
+tháng	B-NP
+,	O
+bằng	O
+hình thức	B-NP
+chuyển khoản	I-NP
+ngân hàng	I-NP
+vào	O
+tài khoản	B-NP
+số	I-NP
+0000000000000	O
+tại	O
+Ngân hàng	B-NP
+TMCP Vietcombank	I-NP
+,	O
+Chi nhánh	B-NP
+Hồ Chí Minh	I-NP
+,	O
+chủ tài khoản	O
+:	O
+Nguyễn Văn A	B-NP
+.	O
+
+Trường hợp	B-NP
+Bên	I-NP
+B	I-NP
+thanh toán	O
+chậm	O
+quá	O
+07	O
+(	O
+bảy	O
+)	O
+ngày	B-NP
+so	O
+với	O
+ngày	B-NP
+đến	O
+hạn	B-NP
+,	O
+Bên	B-NP
+B	I-NP
 phải	O
-hoàn_trả	O
-lại	O
+trả	O
+thêm	O
+khoản	B-NP
+phạt	O
+chậm	O
+thanh toán	O
+bằng	O
+0,5	B-NP
+%	I-NP
+(	O
+không	O
+phẩy	O
+năm	B-NP
+phần trăm	O
+)	O
+trên	O
 số	B-NP
 tiền	I-NP
-đặt_cọc	I-NP
-này	O
-.	O
-
-Nếu	O
-Bên	B-NP
-A_đơn_phương	I-NP
-chấm_dứt	O
-hợp_đồng	B-NP
-mà	O
-không	O
-thực_hiện	O
-nghĩa_vụ	B-NP
-báo	O
-trước	B-NP
+chậm	O
+thanh toán	O
 cho	O
-Bên	B-NP
-B	I-NP
-thì	O
-Bên_A	B-NP
-sẽ	O
-phải	O
-hoàn_trả	O
-lại	O
-Bên	B-NP
-B	I-NP
-số	I-NP
-tiền	I-NP
-đặt_cọc	O
-.	O
-
-Và	O
-phải	O
-bồi_thường	O
-thêm	O
-một	O
-khoản	B-NP
-bằng	O
-chính	O
-tiền	B-NP
-đặt_cọc	I-NP
+mỗi	O
+ngày	B-NP
+chậm trễ	O
+,	O
+tính	O
+từ	O
+ngày	B-NP
+đến	O
+hạn	O
+cho	O
+đến	O
+ngày	B-NP
+thực tế	I-NP
+thanh toán	O
 .	O
 
 Tiền	B-NP
-đặt_cọc	I-NP
-của	O
+thuê	O
+có thể	O
+được	O
+điều chỉnh	O
+sau	B-NP
+mỗi	O
+12	O
+(	O
+mười	O
+hai	O
+)	O
+tháng	B-NP
+,	O
+mức	B-NP
+điều chỉnh	O
+tăng	O
+không	O
+quá	O
+10	O
+%	B-NP
+(	O
+mười	O
+phần trăm	B-NP
+)	O
+so	O
+với	O
+giá	B-NP
+thuê	O
+hiện tại	B-NP
+và	O
+phải	O
+được	O
+thông báo	O
+bằng	O
+văn bản	B-NP
+cho	O
 Bên	B-NP
 B	I-NP
-sẽ	O
+trước	O
+ít nhất	O
+30	O
+(	O
+ba mươi	B-NP
+)	O
+ngày	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+phải	O
+nộp	O
+khoản	B-NP
+tiền	I-NP
+đặt cọc	O
+tương đương	O
+02	B-NP
+(	O
+hai	O
+)	O
+tháng	B-NP
+tiền	I-NP
+thuê	O
+,	O
+tức là	O
+36.000.000	O
+đồng	B-NP
+(	O
+ba mươi	O
+sáu	O
+triệu	O
+đồng	B-NP
+)	O
+,	O
+ngay	O
+sau	B-NP
+khi	O
+ký kết	O
+hợp đồng	B-NP
+này	O
+nhưng	O
+không	O
+muộn	O
+hơn	O
+ngày	B-NP
+05/03/2025	O
+.	O
+
+Tiền	B-NP
+đặt cọc	O
+được	O
+giữ	O
+nguyên	O
+trong	O
+suốt	O
+thời gian	B-NP
+hợp đồng	I-NP
+có	O
+hiệu lực	B-NP
+và	O
 không	O
 được	O
 dùng	O
 để	O
-thanh_toán	O
+thay thế	O
+cho	O
 tiền	B-NP
 thuê	O
-.	O
-
-Nếu	O
-Bên	B-NP
-B	I-NP
-vi_phạm	O
-hợp_đồng	B-NP
-làm	O
-phát_sinh	B-NP
-thiệt_hại	O
-cho	O
-Bên_A	B-NP
-thì	O
-Bên_A	B-NP
-có	O
-quyền	B-NP
-khấu_trừ	O
-tiền	B-NP
-đặt_cọc	O
-để	O
-bù_đắp	O
-các	O
-chi_phí	B-NP
-khắc_phục	I-NP
-thiệt_hại	O
-phát_sinh	B-NP
-.	O
-
-Vào	O
-thời_điểm	B-NP
-kết_thúc	I-NP
-thời_hạn	O
-thuê	O
-.	O
-
-Hoặc	O
-kể	O
-từ	O
-ngày	B-NP
-chấm_dứt	O
-hợp_đồng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-sẽ	O
-hoàn	O
-lại	O
-cho	O
-Bên	B-NP
-B	I-NP
-số	I-NP
-tiền	I-NP
-đặt_cọc	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-đã	O
-khấu_trừ	O
+tháng	B-NP
+cuối	I-NP
+hoặc	O
+bất kỳ	O
 khoản	B-NP
-chi_phí	O
-khắc_phục	B-NP
-thiệt_hại	O
+thanh toán	O
+nào	O
+khác	O
 .	O
 
-Nếu	O
-có	O
-.	O
-
+Khi	O
+hợp đồng	B-NP
+kết thúc	O
+,	O
+Bên A	B-NP
+hoàn trả	O
+tiền	B-NP
+đặt cọc	O
+cho	O
 Bên	B-NP
 B	I-NP
-phải	O
-thanh_toán	O
-tiền	B-NP
-thuê	O
-nhà	B-NP
-theo	O
-đúng	O
-thời_hạn	B-NP
-đã	O
-thỏa_thuận	O
-vào	O
+trong	O
+vòng	B-NP
+15	O
+(	O
+mười lăm	B-NP
+)	O
 ngày	B-NP
-05	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Tiền	B-NP
-thuê	O
-nhà	B-NP
-không	O
-bao_gồm	O
+làm việc	O
+sau	B-NP
+khi	O
+Bên	B-NP
+B	I-NP
+bàn giao	O
+lại	O
+Mặt bằng	B-NP
+,	O
+sau	B-NP
+khi	O
+đã	O
+khấu trừ	O
 các	O
-chi_phí	B-NP
-khác	O
-như	O
+khoản	B-NP
+:	O
 tiền	B-NP
-điện	I-NP
-.	O
-
-Nước	B-NP
-.	O
-
-Và	O
-vệ_sinh	B-NP
-.	O
-
-Các	O
-chi_phí	B-NP
-này	O
-sẽ	O
+thuê	O
+còn	O
+nợ	O
+,	O
+chi phí	B-NP
+sửa chữa	O
+hư hỏng	B-NP
 do	O
 Bên	B-NP
 B	I-NP
-thanh_toán	O
-theo	O
-mức	B-NP
-sử_dụng	I-NP
-thực_tế	O
-.	O
-
-Và	O
-đơn_giá	B-NP
-của	O
-cơ_quan	B-NP
-nhà_nước	I-NP
+gây	O
+ra	O
+và	O
+các	O
+khoản	B-NP
+phạt	O
+phát sinh	O
+(	O
+nếu	O
 có	O
-thẩm_quyền	B-NP
-.	O
-
-Việc	B-NP
-thanh_toán	O
-tiền	B-NP
-thuê	O
-nhà	B-NP
-được	O
-thực_hiện	O
-bằng	O
-đồng_tiền	B-NP
-Việt_Nam	I-NP
-.	O
-
-Và	O
-thanh_toán	B-NP
-trực_tiếp	O
-bằng	O
-tiền_mặt	B-NP
+)	O
 .	O
 
 Nếu	O
 Bên	B-NP
 B	I-NP
-thanh_toán	O
-chậm	O
-thì	O
-phải	O
-chịu	O
-trách_nhiệm	O
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+trước	O
+thời hạn	B-NP
+mà	O
+không	O
+tuân thủ	O
+điều kiện	B-NP
+báo	O
+trước	O
 theo	O
-quy_định	B-NP
-trong	O
-hợp_đồng	B-NP
+Điều	B-NP
+7	O
+của	O
+hợp đồng	B-NP
+này	O
+,	O
+Bên A	B-NP
+có	O
+quyền	B-NP
+giữ	O
+lại	O
+toàn bộ	O
+tiền	B-NP
+đặt cọc	O
+như	O
+một	O
+khoản	B-NP
+bồi thường	O
+thiệt hại	O
+và	O
+không	O
+phải	O
+bồi thường	O
+thêm	O
+bất kỳ	O
+khoản	B-NP
+nào	O
+khác	O
 .	O
 
 Bên	B-NP
 A	I-NP
 có	O
+các	O
 quyền	B-NP
-yêu_cầu	I-NP
-Bên	I-NP
-B	I-NP
-thanh_toán	O
-đầy_đủ	O
-tiền	B-NP
-thuê	O
+sau	I-NP
 .	O
 
-Và	O
+Yêu cầu	B-NP
+Bên	I-NP
+B	I-NP
+thanh toán	O
+đầy đủ	O
+tiền	B-NP
+thuê	O
+và	O
 các	O
-chi_phí phát_sinh	B-NP
+khoản	B-NP
+phát sinh	O
 đúng	O
+hạn	B-NP
+theo	O
+hợp đồng	B-NP
+.	O
+
+Kiểm tra	O
+Mặt bằng	B-NP
+định kỳ	I-NP
+mỗi	O
+03	B-NP
+(	O
+ba	O
+)	O
+tháng	B-NP
+một	O
+lần	B-NP
+với	O
+thông báo	O
+trước	O
+ít nhất	O
+48	B-NP
+(	O
+bốn mươi	B-NP
+tám	O
+)	O
+giờ	B-NP
+.	O
+
+Kiểm tra	O
+đột xuất	O
+trong	O
+trường hợp	B-NP
+nghi ngờ	O
+vi phạm	O
+hợp đồng	B-NP
+.	O
+
+Đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+và	O
+yêu cầu	O
+Bên	B-NP
+B	I-NP
+bàn giao	O
+Mặt bằng	B-NP
+trong	O
+vòng	B-NP
+15	O
+(	O
+mười lăm	B-NP
+)	O
+ngày	B-NP
+nếu	O
+Bên	B-NP
+B	I-NP
+vi phạm	O
+nghiêm trọng	O
+các	O
+điều khoản	B-NP
+hợp đồng	I-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+các	O
+nghĩa vụ	B-NP
+sau	I-NP
+.	O
+
+Bàn giao	O
+Mặt bằng	B-NP
+cho	O
+Bên	B-NP
+B	I-NP
+đúng	O
+ngày	B-NP
+01/03/2025	O
+trong	O
+tình trạng	B-NP
+sạch sẽ	O
+,	O
+an toàn	O
+và	O
+hoạt động	O
+bình thường	O
+.	O
+
+Đảm bảo	O
+quyền	B-NP
+sử dụng	O
+Mặt bằng	B-NP
+của	O
+Bên	B-NP
+B	I-NP
+không	O
+bị	O
+gián đoạn	O
+trong	O
+suốt	O
+thời hạn	B-NP
+hợp đồng	I-NP
+,	O
+trừ	O
+các	O
+trường hợp	B-NP
+bất khả kháng	O
+hoặc	O
+vi phạm	O
+hợp đồng	B-NP
+của	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Thực hiện	O
+bảo trì	B-NP
+,	O
+sửa chữa	O
+các	O
+hư hỏng	B-NP
+thuộc	O
+kết cấu	B-NP
+xây dựng	O
+của	O
+Mặt bằng	B-NP
+trong	O
+vòng	B-NP
+07	I-NP
+(	O
+bảy	O
+)	O
+ngày	B-NP
+làm việc	O
+kể	O
+từ	O
+khi	O
+nhận	O
+được	O
+thông báo	O
+bằng	O
+văn bản	B-NP
+từ	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Không	O
+tự ý	O
+vào	O
+Mặt bằng	B-NP
+khi	O
+Bên	B-NP
+B	I-NP
+không	O
+có mặt	O
+,	O
+trừ	O
+các	O
+trường hợp	B-NP
+khẩn cấp	O
+như	O
+hỏa hoạn	B-NP
+,	O
+sự cố	B-NP
+điện	I-NP
+nước	I-NP
+đe dọa	I-NP
+an toàn	O
+tài sản	B-NP
+và	O
+tính mạng	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+các	O
+quyền	B-NP
+sau	I-NP
+.	O
+
+Nhận	O
+bàn giao	O
+Mặt bằng	B-NP
+đúng	O
+theo	O
+mô tả	O
+tại	O
+Điều	B-NP
+1	O
+của	O
+hợp đồng	B-NP
+này	O
+.	O
+
+Sử dụng	O
+Mặt bằng	B-NP
+ổn định	O
+,	O
+liên tục	O
+trong	O
+suốt	O
+thời hạn	B-NP
+hợp đồng	I-NP
+.	O
+
+Yêu cầu	B-NP
+Bên A	I-NP
+sửa chữa	O
+các	O
+hư hỏng	B-NP
+thuộc	O
+trách nhiệm	B-NP
+của	O
+Bên A	B-NP
+trong	O
+thời hạn	B-NP
+hợp lý	O
+.	O
+
+Được	O
+ưu tiên	O
+ký	O
+hợp đồng	B-NP
+thuê	O
+mới	O
+với	O
+cùng	O
+điều kiện	B-NP
+nếu	O
+Bên A	B-NP
+cho	O
+thuê	O
+tiếp	O
+sau	B-NP
+khi	O
+hợp đồng	B-NP
+hết	O
 hạn	B-NP
 .	O
 
 Bên	B-NP
-A	I-NP
-có	O
-quyền	B-NP
-yêu_cầu	I-NP
-Bên	I-NP
 B	I-NP
-sửa_chữa	O
+có	O
 các	O
-hư_hỏng	B-NP
+nghĩa vụ	B-NP
+sau	I-NP
 .	O
 
-Hoặc	O
-thiệt_hại	B-NP
-do	O
-Bên	B-NP
-B	I-NP
-gây	O
-ra	O
-trong	O
-quá_trình	B-NP
-sử_dụng	O
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-nghĩa_vụ	B-NP
-bàn_giao	I-NP
-diện_tích	O
+Thanh toán	O
+tiền	B-NP
 thuê	O
+và	O
+các	O
+chi phí	B-NP
+phát sinh	O
+đầy đủ	O
+,	O
 đúng	O
-thời_gian	B-NP
+hạn	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+3	O
+.	O
+
+Sử dụng	O
+Mặt bằng	B-NP
+đúng	O
+mục đích	B-NP
 đã	O
-thỏa_thuận	O
-trong	O
-hợp_đồng	B-NP
+thỏa thuận	O
+tại	O
+Điều	B-NP
+1	O
 .	O
 
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-quyền	B-NP
-sử_dụng	O
-diện_tích	B-NP
-thuê	O
+Không	O
+tự ý	O
+thay đổi	O
+kết cấu	B-NP
+,	O
+sửa chữa	O
+cải tạo	O
+khi	O
+chưa	O
+có	O
+sự	B-NP
+đồng ý	O
+bằng	O
+văn bản	B-NP
 của	O
-Bên	B-NP
-B	I-NP
-được	O
-diễn	O
-ra	O
-liên_tục	O
+Bên A	B-NP
 .	O
 
-Và	O
-không	O
-bị	O
-gián_đoạn	O
-.	O
-
-Trừ	O
-trường_hợp	B-NP
-vi_phạm	O
-pháp_luật	B-NP
-.	O
-
-Hoặc	O
-hợp_đồng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-không	O
-được	O
-xâm_phạm	O
-trái_phép	B-NP
-tài_sản	I-NP
-của	O
-Bên	B-NP
-B	I-NP
+Bảo quản	B-NP
+,	O
+giữ gìn	O
+Mặt bằng	B-NP
+và	O
+tài sản	B-NP
+gắn	O
+liền	O
 trong	O
-thời_gian	B-NP
-thuê	O
-.	O
-
-Nếu	O
-Bên	B-NP
-A_vi_phạm	I-NP
-gây	O
-thiệt_hại	O
-thì	O
-phải	O
-bồi_thường	O
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-quyền	B-NP
-nhận	O
-bàn_giao	B-NP
-diện_tích	O
-thuê	O
-đúng	O
-như	O
-thỏa_thuận	B-NP
-trong	O
-hợp_đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-quyền	B-NP
-sử_dụng	O
-diện_tích	B-NP
-thuê	O
-làm	O
-nơi	B-NP
-ở	O
-.	O
-
-Và	O
+tình trạng	B-NP
+tốt	O
+,	O
+chịu	O
+trách nhiệm	B-NP
+sửa chữa	O
 các	O
-mục_đích	B-NP
-hợp_pháp	I-NP
-khác	O
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-quyền	B-NP
-yêu_cầu	O
-Bên_A sửa_chữa	O
-các	O
-hư_hỏng	B-NP
-không	O
+hư hỏng	B-NP
 do	O
 lỗi	B-NP
+sử dụng	O
 của	O
-Bên	B-NP
-B	I-NP
-để	O
-đảm_bảo	O
-an_toàn	O
-sử_dụng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-nghĩa_vụ	B-NP
-sử_dụng	I-NP
-diện_tích	O
-thuê	O
-đúng	O
-mục_đích	B-NP
-đã	O
-thỏa_thuận	O
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-giữ_gìn	O
-tài_sản	O
-thuê	O
-.	O
-
-Và	O
-chịu	O
-trách_nhiệm	O
-sửa_chữa	O
-các	O
-hư_hỏng	B-NP
-do	O
 mình	O
 gây	O
 ra	O
 .	O
 
-Bên	B-NP
-B	I-NP
-phải	O
-thanh_toán	O
-tiền	B-NP
-đặt_cọc	O
-.	O
-
-Và	O
-tiền	B-NP
-thuê	O
-đầy_đủ	B-NP
-.	O
-
-Đúng	O
-thời_hạn	B-NP
-.	O
-
-Khi	B-NP
-hết	O
-thời_hạn	B-NP
-thuê	O
-.	O
-
-Hoặc	O
-chấm_dứt	O
-hợp_đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-trả	O
-lại	O
-toàn_bộ	O
-diện_tích	O
-thuê	O
-cho	O
-Bên_A	B-NP
-.	O
-
-Nếu	O
-Bên	B-NP
-B	I-NP
-muốn	O
-cải_tạo	O
-.	O
-
-Lắp_đặt	B-NP
-.	O
-
-Hoặc	O
-thay_đổi	B-NP
-kết_cấu	O
-trong	O
-diện_tích	B-NP
-thuê	O
-thì	O
-phải	O
-thông_báo	O
-bằng	O
-văn_bản	B-NP
-.	O
-
-Và	O
-chỉ	O
+Không	O
 được	O
-thực_hiện	O
-.	O
-
-Khi	B-NP
-có	O
-sự	B-NP
-đồng_ý	O
+cho	O
+thuê	O
+lại	O
+Mặt bằng	B-NP
+hoặc	O
+bất kỳ	O
+phần nào	B-NP
 của	O
-Bên_A	B-NP
+Mặt bằng	B-NP
+cho	O
+bên	B-NP
+thứ	I-NP
+ba	O
+dưới	O
+bất kỳ	O
+hình thức	B-NP
+nào	O
 .	O
 
-Nếu	O
-không	O
-có	O
-sự	B-NP
-đồng_ý	O
-thì	O
-mọi	O
-thay_đổi	B-NP
-đều	O
-không	O
-hợp_lệ	O
+Chấp hành	O
+đầy đủ	O
+các	O
+quy định	B-NP
+của	O
+pháp luật	B-NP
+hiện hành	I-NP
+liên quan	O
+đến	O
+hoạt động	O
+kinh doanh	O
+tại	O
+Mặt bằng	B-NP
+,	O
+bao gồm	O
+các	O
+quy định	B-NP
+về	O
+phòng	B-NP
+cháy	O
+chữa cháy	O
+theo	O
+Luật Phòng	B-NP
+cháy	O
+và	O
+chữa cháy	O
+,	O
+vệ sinh	O
+môi trường	B-NP
+và	O
+an ninh	B-NP
+trật tự	I-NP
+.	O
+
+Bàn giao	O
+lại	O
+Mặt bằng	O
+cho	O
+Bên A	B-NP
+khi	O
+hợp đồng	B-NP
+chấm dứt	O
+trong	O
+tình trạng	B-NP
+tương đương	O
+lúc	B-NP
+nhận	O
+bàn giao	O
+,	O
+trừ hao mòn	B-NP
+tự nhiên	O
+theo	O
+thời gian	B-NP
 .	O
 
 Một	O
@@ -574,1789 +1027,914 @@ hai	O
 bên	B-NP
 có	O
 quyền	B-NP
-đơn_phương	O
-chấm_dứt	B-NP
-hợp_đồng	O
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
 trước	O
-thời_hạn	B-NP
-.	O
-
-Nhưng	O
-phải	O
-thông_báo	O
+thời hạn	B-NP
 bằng	O
-văn_bản	B-NP
+cách	B-NP
+thông báo	O
+bằng	O
+văn bản	B-NP
 cho	O
 bên	B-NP
-còn	O
-lại	O
-trước	O
-ít_nhất	B-NP
-30	O
-ngày	B-NP
-.	O
-
-Nếu	O
-không	O
-thông_báo	O
-đúng	O
-thời_hạn	B-NP
-thì	O
-bên	B-NP
-vi_phạm	I-NP
-phải	O
-bồi_thường	O
-một	O
-khoản	B-NP
-tiền	I-NP
-tương_ứng	O
-với	O
-thời_gian	B-NP
-không	O
-thông_báo	O
-.	O
-
-Và	O
-các	O
-thiệt_hại	B-NP
-phát_sinh	O
-.	O
-
-Hợp_đồng	B-NP
-có	O
-hiệu_lực	B-NP
-kể	O
-từ	O
-ngày	B-NP
-hai	O
-bên	B-NP
-ký_kết	I-NP
-.	O
-
-Và	O
-được	O
-thực_hiện	O
-trên	O
-cơ_sở	B-NP
-hợp_tác	I-NP
-.	O
-
-Và	O
-thiện_chí	B-NP
-.	O
-
-Mọi	O
-sửa_đổi bổ_sung	B-NP
-chỉ	O
-có	O
-giá_trị	B-NP
-.	O
-
-Khi	B-NP
-được	O
-lập	O
-thành	O
-văn_bản	B-NP
-.	O
-
-Và	O
-có	O
-chữ_ký	B-NP
-của	O
-cả	O
-hai	O
-bên	B-NP
-.	O
-
-Hợp_đồng	B-NP
-được	O
-lập	O
-thành	O
-hai	O
-bản	B-NP
-có	O
-giá_trị pháp_lý	B-NP
-như	O
-nhau	B-NP
-.	O
-
-Mỗi	O
-bên	B-NP
-giữ	O
-một	O
-bản	B-NP
-.	O
-
-Bên	B-NP
-A đồng_ý	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-thuê	O
-căn_hộ	O
-tại	O
-địa_chỉ	B-NP
-đã	O
-thỏa_thuận	O
-với	O
-thời_hạn	B-NP
-12	O
-tháng	B-NP
-kể	O
-từ	O
-ngày	B-NP
-ký	O
-hợp_đồng	B-NP
-.	O
-
-Giá	B-NP
-thuê	O
-là	O
-8.000.000	O
-đồng	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Thanh_toán	O
-vào	O
-ngày	B-NP
-05	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-đặt_cọc	O
-một	O
-khoản	B-NP
-tiền	I-NP
-tương_đương	O
-một	O
-tháng	B-NP
-tiền	I-NP
-thuê	O
-.	O
-
-Khoản	B-NP
-tiền	I-NP
-này	O
-sẽ	O
-được	O
-hoàn_trả	O
-.	O
-
-Khi	B-NP
-kết_thúc	O
-hợp_đồng	B-NP
-.	O
-
-Nếu	O
-không	O
-có	O
-thiệt_hại	B-NP
-phát_sinh	O
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-bàn_giao	O
-nhà	B-NP
-đúng	O
-hiện_trạng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-sử_dụng	O
-tài_sản	B-NP
-đúng	O
-mục_đích	B-NP
-.	O
-
-Và	O
-giữ_gìn tài_sản	B-NP
-.	O
-
-Bên	B-NP
-A tuyển_dụng	I-NP
-Bên	I-NP
-B	I-NP
-vào	O
-vị_trí	B-NP
-nhân_viên	I-NP
-hành_chính	O
-trong	O
-thời_hạn	B-NP
-1	O
-năm	B-NP
-.	O
-
-Mức	B-NP
-lương	I-NP
-là	O
-9.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-hoàn_thành	I-NP
-công_việc	O
-được	O
-giao	O
-.	O
-
-Và	O
-tuân_thủ	B-NP
-nội_quy	O
-công_ty	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-nghĩa_vụ	B-NP
-trả	O
-lương	B-NP
-đầy_đủ	O
-.	O
-
-Và	O
-đúng	O
-hạn	B-NP
-.	O
-
-Hai	O
-bên	B-NP
-có	O
-quyền	B-NP
-chấm_dứt hợp_đồng	O
-.	O
-
-Nếu	O
-báo	O
+kia	O
 trước	B-NP
-30	O
-ngày	B-NP
-.	O
-
-Bên	B-NP
-A_bán	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-100	O
-sản_phẩm	B-NP
-theo	O
-danh_mục	B-NP
-đã	O
-thống_nhất	O
-.	O
-
-Tổng giá_trị	B-NP
-hợp_đồng	I-NP
-là	O
-50.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-100	O
-%	B-NP
-trước	I-NP
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-giao	O
-hàng	B-NP
-trong	O
-vòng	B-NP
-7	O
-ngày	B-NP
-kể	O
-từ	O
-.	O
-
-Khi	B-NP
-nhận	O
-đủ	O
-tiền	B-NP
-.	O
-
-Nếu	O
-giao	O
-hàng	B-NP
-chậm	O
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-chịu	O
-trách_nhiệm	O
-bồi_thường	O
-theo	O
-thỏa_thuận	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-vệ_sinh	B-NP
-văn_phòng	O
-cho	O
-Bên	B-NP
-B	I-NP
-trong	O
-thời_hạn	B-NP
-6	O
-tháng	B-NP
-.	O
-
-Chi_phí	B-NP
-dịch_vụ	O
-là	O
-5.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-vào	O
-cuối	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-đảm_bảo	I-NP
-chất_lượng	O
-dịch_vụ	B-NP
-.	O
-
-Và	O
-tuân_thủ	O
-các	O
-quy_định	B-NP
-an_toàn	O
-.	O
-
-Bên	B-NP
-A_nhận	I-NP
-gia_công	O
-sản_phẩm	O
-theo	O
-yêu_cầu	B-NP
-của	O
-Bên	B-NP
-B	I-NP
-với	O
-số_lượng	B-NP
-1.000	O
-sản_phẩm	B-NP
-.	O
-
-Thời_gian	B-NP
-hoàn_thành	O
-là	O
-30	O
-ngày	B-NP
-kể	O
-từ	O
-ngày	B-NP
-nhận	O
-nguyên_vật_liệu	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-theo	O
-tiến_độ	B-NP
-đã	O
-thỏa_thuận	O
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-chất_lượng	O
-sản_phẩm	B-NP
-đúng	O
-yêu_cầu	B-NP
-.	O
-
-Hai	O
-bên	B-NP
-thống_nhất	I-NP
-hợp_tác	I-NP
-mở	O
-cửa_hàng	B-NP
-kinh_doanh	O
-.	O
-
-Và	O
-cùng	O
-góp	O
-vốn	B-NP
-.	O
-
-Lợi_nhuận	B-NP
-được	O
-chia	O
-theo	O
-tỷ_lệ	B-NP
+ít nhất	O
 60	O
-%	B-NP
-cho	O
-Bên_A	B-NP
+(	O
+sáu mươi	B-NP
+)	O
+ngày	B-NP
 .	O
 
-Và	O
-40	O
-%	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Mọi	O
-quyết_định	B-NP
-quan_trọng	I-NP
-liên_quan	O
-đến	O
-hoạt_động	B-NP
-kinh_doanh	I-NP
-phải	O
-có	O
-sự	B-NP
-đồng_ý	O
-của	O
-cả	O
-hai	O
+Nếu	O
 bên	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-vay	O
-số	B-NP
-tiền	I-NP
-100.000.000	O
-đồng	B-NP
-trong	O
-thời_hạn	B-NP
-6	O
-tháng	B-NP
-kể	O
-từ	O
-ngày	B-NP
-nhận	O
-tiền	B-NP
-.	O
-
-Lãi_suất	B-NP
-là	O
-1	O
-%	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-hoàn_trả	O
-đầy_đủ	O
-cả	O
-gốc	B-NP
-.	O
-
-Và	O
-lãi	B-NP
-.	O
-
-Khi	B-NP
-đến	O
-hạn	B-NP
-.	O
-
-Nếu	O
-chậm	O
-thanh_toán	O
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-chịu	O
-phạt	O
-theo	O
-thỏa_thuận	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-vận_chuyển	O
-hàng	B-NP
-hóa	O
-cho	O
-Bên	B-NP
-B	I-NP
-theo	O
-yêu_cầu	B-NP
-.	O
-
-Thời_gian	B-NP
-giao	O
-hàng	B-NP
-là	O
-3	O
-ngày	B-NP
-kể	O
-từ	O
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
-.	O
-
-Bên	B-NP
-A_chịu trách_nhiệm	I-NP
-về	O
-an_toàn	O
-hàng	B-NP
-hóa	O
-trong	O
-quá_trình	B-NP
-vận_chuyển	O
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-chi_phí	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
-.	O
-
-Bên	B-NP
-A thực_hiện	I-NP
-bảo_trì	I-NP
-hệ_thống	O
-điện	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-định_kỳ	O
-mỗi	O
-tháng	B-NP
-.	O
-
-Chi_phí	B-NP
-bảo_trì	O
-là	O
-2.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-đảm_bảo	O
-hệ_thống	B-NP
-hoạt_động	I-NP
-ổn_định	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-bảo_trì	O
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-thanh_toán	O
-đúng	O
-hạn	B-NP
-.	O
-
-Bên	B-NP
-A_chuyển_nhượng	I-NP
-quyền	I-NP
-sử_dụng tài_sản	O
-cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-300.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-theo	O
-tiến_độ	B-NP
-đã	O
-thỏa_thuận	O
-.	O
-
-Sau	B-NP
-.	O
-
-Khi	B-NP
-hoàn_tất	O
-thanh_toán	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-bàn_giao	I-NP
-tài_sản	O
-đầy_đủ	B-NP
-.	O
-
-Và	O
-hợp_pháp	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Bên	B-NP
-A đồng_ý	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-thuê	O
-mặt_bằng	B-NP
-kinh_doanh	O
-trong	O
-thời_hạn	B-NP
-24	O
-tháng	B-NP
-kể	O
-từ	O
-ngày	B-NP
-ký	O
-hợp_đồng	B-NP
-.	O
-
-Giá	B-NP
-thuê	O
-là	O
-15.000.000	O
-đồng	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Và	O
-được	O
-thanh_toán	O
-vào	O
-ngày	B-NP
-01	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-đặt_cọc	O
-2	O
-tháng	B-NP
-tiền	I-NP
-thuê	O
-để	O
-đảm_bảo	O
-thực_hiện	O
-hợp_đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-sử_dụng	O
-mặt_bằng	B-NP
-đúng	O
-mục_đích	B-NP
-.	O
-
-Và	O
+chấm dứt	O
 không	O
-được	O
-tự_ý	O
-sửa_chữa	B-NP
-.	O
-
-Khi	B-NP
-chưa	O
-có	O
-sự	B-NP
-đồng_ý	O
-của	O
-Bên_A	B-NP
-.	O
-
-Bên	B-NP
-A tuyển_dụng	I-NP
-Bên	I-NP
-B	I-NP
-vào	O
-vị_trí	B-NP
-kỹ_thuật_viên	O
-với	O
-thời_hạn	B-NP
-hợp_đồng	I-NP
-2	O
-năm	B-NP
-.	O
-
-Mức	B-NP
-lương	I-NP
-là	O
-12.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Chưa	O
-bao_gồm	O
-phụ_cấp	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-tuân_thủ	O
-quy_định	O
-an_toàn_lao_động	B-NP
-.	O
-
-Và	O
-hoàn_thành	B-NP
-công_việc	O
+thông báo	O
 đúng	O
-tiến_độ	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-đóng	O
-bảo_hiểm	B-NP
-đầy_đủ	O
-cho	O
-Bên	B-NP
-B	I-NP
+thời hạn	B-NP
+60	O
+ngày	B-NP
 theo	O
-quy_định	B-NP
-.	O
-
-Bên	B-NP
-A_bán	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-500	O
-đơn_vị	B-NP
-hàng	I-NP
-hóa	O
-theo	O
-thỏa_thuận	B-NP
-với	O
-tổng giá_trị	B-NP
-là	O
-120.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	I-NP
-50	O
-%	B-NP
-trước	I-NP
-.	O
-
-Và	O
-50	O
-%	B-NP
-sau	I-NP
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-giao	O
-hàng	B-NP
-đúng	O
-chất_lượng	B-NP
-.	O
-
-Và	O
-thời_gian	B-NP
-.	O
-
-Nếu	O
-hàng	B-NP
-hóa	O
-không	O
-đạt	O
-yêu_cầu	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-quyền	B-NP
-từ_chối	O
-nhận	O
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-bảo_vệ	O
-cho	O
-Bên	B-NP
-B	I-NP
-trong	O
-thời_hạn	B-NP
-12	O
-tháng	B-NP
-.	O
-
-Chi_phí	B-NP
-dịch_vụ	O
-là	O
-20.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-an_ninh	B-NP
-trật_tự	O
+quy định	B-NP
 tại	O
-khu_vực	B-NP
-được	O
-giao	O
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-chi_phí	O
-vào	O
-cuối	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A_nhận	I-NP
-thi_công	O
-công_trình	O
-cho	O
-Bên	B-NP
-B	I-NP
-theo	O
-thiết_kế	B-NP
-đã	O
-được	O
-phê_duyệt	O
-.	O
-
-Thời_gian	B-NP
-thi_công	O
-là	O
-90	O
-ngày	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-theo	O
-từng	O
-giai_đoạn	B-NP
-hoàn_thành	I-NP
-công_việc	O
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-chất_lượng	B-NP
-.	O
-
-Và	O
-an_toàn	B-NP
-trong	O
-quá_trình	B-NP
-thi_công	O
-.	O
-
-Hai	O
+khoản	B-NP
+7.1	I-NP
+,	O
 bên	B-NP
-thống_nhất	I-NP
-hợp_tác	O
-đầu_tư	B-NP
-dự_án bất_động_sản	O
-với	O
-tổng	B-NP
-vốn	I-NP
-đầu_tư	O
-là	O
-2.000.000.000	O
-đồng	B-NP
-.	O
-
-Lợi_nhuận	B-NP
-được	O
-chia	O
-theo	O
-tỷ_lệ	B-NP
-góp	O
-vốn	B-NP
-.	O
-
-Các	O
-quyết_định	B-NP
-quan_trọng	O
+vi phạm	O
 phải	O
-được	O
-sự	B-NP
-đồng_thuận	O
-của	O
-hai	O
+bồi thường	O
+cho	O
 bên	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-vay	O
-số	B-NP
-tiền	I-NP
-200.000.000	O
-đồng	B-NP
-trong	O
-thời_hạn	B-NP
-12	O
-tháng	B-NP
-.	O
-
-Lãi_suất	B-NP
-áp_dụng	O
-là	O
-0	O
-.	O
-
-8	O
-%	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	O
-thanh_toán	B-NP
-lãi	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Và	O
-hoàn_trả	B-NP
-gốc	I-NP
-.	O
-
-Khi	B-NP
-đến	O
-hạn	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-giao_nhận	O
-hàng	B-NP
-hóa	O
-cho	O
-Bên	B-NP
-B	I-NP
-theo	O
-từng	O
-đơn	B-NP
-hàng	I-NP
-.	O
-
-Thời_gian	B-NP
-giao	O
-hàng	B-NP
-phụ_thuộc	I-NP
-vào_khoảng_cách	O
-.	O
-
-Và	O
-được	O
-thông_báo	O
-trước	B-NP
-.	O
-
-Bên	B-NP
-A_chịu trách_nhiệm	I-NP
-.	O
-
-Nếu	O
-hàng	B-NP
-hóa	I-NP
-bị	O
-mất	O
-.	O
-
-Hoặc	O
-hư_hỏng	B-NP
-.	O
-
-Bên	B-NP
-A thực_hiện	I-NP
-bảo_trì	I-NP
-hệ_thống	O
-máy_lạnh	O
-cho	O
-Bên	B-NP
-B	I-NP
-mỗi	O
-quý	B-NP
-một	O
-lần	B-NP
-.	O
-
-Chi_phí	B-NP
-bảo_trì	O
-là	O
-5.000.000	O
-đồng	B-NP
-/	O
-lần	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-thiết_bị	B-NP
-hoạt_động	O
-ổn_định	B-NP
-sau	I-NP
-bảo_trì	I-NP
-.	O
-
-Bên	B-NP
-A_chuyển_nhượng	I-NP
-quyền_sở_hữu	O
-xe	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-400.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-đầy_đủ	O
-trước	B-NP
-.	O
-
-Khi	B-NP
-nhận	O
-xe	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-cung_cấp	O
-đầy_đủ	B-NP
-giấy_tờ	O
-hợp_lệ	B-NP
-.	O
-
-Bên	B-NP
-A đồng_ý	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-thuê	O
-kho	B-NP
-chứa	O
-hàng	B-NP
-trong	O
-thời_hạn	B-NP
-18	O
-tháng	B-NP
-kể	O
-từ	O
-ngày	B-NP
-ký	O
-hợp_đồng	B-NP
-.	O
-
-Giá	B-NP
-thuê	O
-là	O
-10.000.000	O
-đồng	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Và	O
-được	O
-thanh_toán	O
-vào	O
-ngày	B-NP
-10	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-đặt_cọc	O
+còn	O
+lại	O
 một	O
 khoản	B-NP
 tiền	I-NP
-tương_đương	O
-hai	O
-tháng	B-NP
-tiền	I-NP
-thuê	O
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-bảo_quản	O
-hàng	B-NP
-hóa	O
-.	O
-
-Và	O
-không	O
-được	O
-sử_dụng	O
-kho	B-NP
-vào	O
-mục_đích	B-NP
-trái	O
-pháp_luật	B-NP
-.	O
-
-Bên	B-NP
-A tuyển_dụng	I-NP
-Bên	I-NP
-B	I-NP
-vào	O
-vị_trí	B-NP
-kế_toán	O
+tương đương	O
 với	O
-thời_hạn	B-NP
-hợp_đồng	I-NP
-12	O
-tháng	B-NP
-.	O
-
-Mức	B-NP
-lương	I-NP
-là	O
-11.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-quản_lý	I-NP
-sổ_sách	O
-kế_toán	B-NP
-.	O
-
-Và	O
-báo_cáo	B-NP
-tài_chính	O
-đúng	O
-thời_hạn	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-nghĩa_vụ	B-NP
-cung_cấp	I-NP
-đầy_đủ	O
-thông_tin	B-NP
-.	O
-
-Và	O
-công_cụ	B-NP
-làm_việc	O
-cần_thiết	B-NP
-.	O
-
-Bên	B-NP
-A_bán	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-300	O
-sản_phẩm nội_thất	B-NP
-với	O
-tổng giá_trị	B-NP
-là	O
-150.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	I-NP
-30	O
-%	B-NP
-trước	I-NP
-.	O
-
-Và	O
-phần	B-NP
+số	B-NP
+ngày	I-NP
+thông báo	O
 còn	O
-lại	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-hàng	B-NP
-hóa	I-NP
-đúng	O
-mẫu_mã	B-NP
-.	O
-
-Và	O
-chất_lượng	B-NP
-đã	O
-cam_kết	O
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-vệ_sinh	B-NP
-công_nghiệp	O
-cho	O
-Bên	B-NP
-B	I-NP
-trong	O
-thời_hạn	B-NP
-3	O
-tháng	B-NP
-.	O
-
-Chi_phí	B-NP
-dịch_vụ	O
-là	O
-8.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-vệ_sinh	B-NP
-sạch_sẽ	O
-theo	O
-tiêu_chuẩn	B-NP
-đã	O
-thỏa_thuận	O
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-vào	O
-cuối	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A_nhận	I-NP
-sửa_chữa	O
-hệ_thống	B-NP
-điện	I-NP
-nước	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-trong	O
-thời_gian	B-NP
-15	O
-ngày	B-NP
-.	O
-
-Chi_phí	B-NP
-sửa_chữa	O
-được	O
+thiếu	O
+,	O
 tính	O
 theo	O
-khối_lượng	B-NP
-công_việc	O
-thực_tế	B-NP
+đơn giá	B-NP
+thuê	O
+hàng	B-NP
+ngày	I-NP
+(	O
+tiền	B-NP
+thuê	O
+hàng	B-NP
+tháng	I-NP
+chia	O
+cho	O
+30	O
+ngày	B-NP
+)	O
+.	O
+
+Hợp đồng	B-NP
+đương nhiên	O
+chấm dứt	O
+trong	O
+các	O
+trường hợp	B-NP
+sau	I-NP
+mà	O
+không	O
+cần	O
+thông báo	O
+trước	B-NP
+.	O
+
+Mặt bằng	B-NP
+bị	O
+phá hủy	O
+hoàn toàn	O
+do	O
+thiên tai	B-NP
+,	O
+hỏa hoạn	B-NP
+hoặc	O
+các	O
+sự kiện	B-NP
+bất khả kháng	I-NP
+khác	O
+mà	O
+không thể	O
+khôi phục	O
+được	O
+.	O
+
+Cơ quan	B-NP
+nhà nước	I-NP
+có	O
+thẩm quyền	O
+ra	O
+quyết định	B-NP
+thu hồi	O
+đất	B-NP
+hoặc	O
+Mặt bằng	O
+vì	O
+mục đích	B-NP
+công cộng	O
+theo	O
+quy định	B-NP
+của	O
+Luật	B-NP
+Đất đai	I-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+bị	O
+tuyên bố	O
+phá sản	O
+theo	O
+quyết định	B-NP
+của	O
+Tòa án	B-NP
+nhân dân	I-NP
+có	O
+thẩm quyền	B-NP
 .	O
 
 Bên	B-NP
 A	I-NP
-phải	O
-đảm_bảo	O
-an_toàn	B-NP
+có	O
+quyền	B-NP
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+ngay lập tức	O
+mà	O
+không	O
+cần	O
+bồi thường	O
+nếu	O
+Bên	B-NP
+B	I-NP
+vi phạm	O
+một	O
 trong	O
-quá_trình	B-NP
-thi_công	O
+các	O
+nghĩa vụ	B-NP
+sau	I-NP
+:	O
+chậm	O
+thanh toán	O
+tiền	B-NP
+thuê	O
+quá	O
+30	O
+(	O
+ba mươi	B-NP
+)	O
+ngày	B-NP
+,	O
+tự ý	O
+cho	O
+thuê	O
+lại	O
+Mặt bằng	B-NP
+.	O
+
+Sử dụng	O
+Mặt bằng	B-NP
+vào	O
+mục đích	B-NP
+trái	O
+pháp luật	B-NP
+.	O
+
+Mọi	O
+tranh chấp	B-NP
+phát sinh	O
+từ	O
+hoặc	O
+liên quan	O
+đến	O
+hợp đồng	B-NP
+này	O
+trước tiên	B-NP
+sẽ	O
+được	O
+các	O
+bên	B-NP
+giải quyết	O
+thông qua	O
+thương lượng	B-NP
+,	O
+hòa	O
+giải	B-NP
+trên	O
+tinh thần	B-NP
+hợp tác	O
+và	O
+thiện chí	O
+.	O
+
+Nếu	O
+các	O
+bên	B-NP
+không thể	O
+giải quyết	O
+tranh chấp	O
+bằng	O
+thương lượng	B-NP
+trong	O
+vòng	B-NP
+30	O
+(	O
+ba mươi	B-NP
+)	O
+ngày	B-NP
+kể	O
+từ	O
+khi	O
+một	O
+bên	B-NP
+gửi	O
+thông báo	O
+tranh chấp	O
+bằng	O
+văn bản	B-NP
+,	O
+tranh chấp	O
+sẽ	O
+được	O
+đưa	O
+ra	O
+giải quyết	O
+tại	O
+Tòa án	B-NP
+nhân dân	I-NP
+có	O
+thẩm quyền	B-NP
+tại	O
+Thành phố	B-NP
+Hồ Chí Minh	I-NP
+theo	O
+quy định	B-NP
+của	O
+Bộ luật Tố tụng dân sự	B-NP
+năm	I-NP
+2015	O
+.	O
+
+Hợp đồng	B-NP
+này	O
+được	O
+lập	O
+thành	O
+04	B-NP
+(	O
+bốn	O
+)	O
+bản	B-NP
+có	O
+giá trị	B-NP
+pháp lý	I-NP
+như	O
+nhau	B-NP
+,	O
+mỗi	O
+bên	B-NP
+giữ	O
+02	B-NP
+(	O
+hai	O
+)	O
+bản	B-NP
+.	O
+
+Mọi	O
+sửa đổi	B-NP
+,	O
+bổ sung	O
+hợp đồng	B-NP
+chỉ	O
+có	O
+giá trị	B-NP
+khi	O
+được	O
+lập	O
+thành	O
+văn bản	B-NP
+và	O
+có	O
+chữ ký	B-NP
+xác nhận	O
+của	O
+cả	O
+hai	O
+bên	B-NP
+hoặc	O
+người	B-NP
+được	O
+ủy	O
+quyền	B-NP
+hợp pháp	O
+.	O
+
+Hợp đồng	B-NP
+có	O
+hiệu lực	B-NP
+kể	O
+từ	O
+ngày	B-NP
+hai	O
+bên	B-NP
+ký kết	I-NP
+và	O
+được	O
+điều chỉnh	O
+bởi	O
+pháp luật	B-NP
+Việt Nam	I-NP
+,	O
+cụ thể	O
+là	O
+Bộ luật Dân sự	O
+năm	B-NP
+2015	O
+và	O
+các	O
+văn bản	B-NP
+hướng dẫn	O
+thi hành	O
 .	O
 
 Hai	O
 bên	B-NP
-thống_nhất	I-NP
-hợp_tác	I-NP
-kinh_doanh	O
-quán	B-NP
-cà_phê	I-NP
+thống nhất	O
+giao kết	B-NP
+hợp đồng	I-NP
+lao động	O
+theo	O
+quy định	B-NP
+của	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+và	O
+Nghị định	O
+số	B-NP
+145	O
+/	O
+2020	B-NP
+/	O
+NĐ-CP	B-NP
+ngày	I-NP
+14/12/2020	O
+của	O
+Chính phủ	B-NP
+quy định	I-NP
+chi tiết	I-NP
+và	O
+hướng dẫn	O
+thi hành	O
+một số	O
+điều	B-NP
+của	O
+Bộ luật Lao động	B-NP
+,	O
+với	O
+các	O
+điều khoản	B-NP
+cụ thể	O
+như	O
+sau	B-NP
+.	O
+
+Loại	B-NP
+hợp đồng	I-NP
+:	O
+Hợp đồng	B-NP
+lao động	I-NP
+xác định	O
+thời hạn	B-NP
+12	O
+(	O
+mười	O
+hai	O
+)	O
+tháng	B-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+tuyển dụng	I-NP
+Bên	I-NP
+B	I-NP
+vào	O
+làm việc	O
+tại	O
+vị trí	B-NP
+Lập trình viên	I-NP
+Backend	I-NP
+(	O
+Backend Developer	B-NP
+)	O
+,	O
+thuộc	O
+Phòng	B-NP
+Kỹ thuật	I-NP
+và	O
+Phát triển	O
+sản phẩm	B-NP
+.	O
+
+Nơi	B-NP
+làm việc	O
+chính	O
+:	O
+120	B-NP
+Đường	I-NP
+Điện Biên Phủ	I-NP
+,	O
+Phường	B-NP
+15	O
+,	O
+Quận	B-NP
+Bình Thạnh	I-NP
+,	O
+Thành phố	B-NP
+Hồ Chí Minh	I-NP
+.	O
+
+Trong	O
+trường hợp	B-NP
+cần thiết	O
+,	O
+Bên A	B-NP
+có thể	O
+yêu cầu	O
+Bên	B-NP
+B	I-NP
+làm việc	O
+tại	O
+các	O
+địa điểm	B-NP
+khác	O
+nhưng	O
+phải	O
+thông báo	O
+trước	O
+ít nhất	O
+07	B-NP
+(	O
+bảy	O
+)	O
+ngày	B-NP
+.	O
+
+Mô tả	O
+công việc	B-NP
+chính	O
+của	O
+Bên	B-NP
+B	I-NP
+bao gồm	O
+:	O
+thiết kế	O
+và	O
+phát triển	O
+các	O
+tính năng	B-NP
+backend	O
+cho	O
+hệ thống	B-NP
+phần mềm	I-NP
+của	O
+Bên A	B-NP
+;	O
+viết	O
+mã	B-NP
+nguồn	I-NP
+theo	O
+đúng	O
+tiêu chuẩn	B-NP
+kỹ thuật	I-NP
+được	O
+quy định	O
+;	O
+tham gia	O
+kiểm thử	O
+phần mềm	B-NP
+và	O
+sửa	O
+lỗi	B-NP
+;	O
+lập	O
+tài liệu	B-NP
+kỹ thuật	I-NP
+cho	O
+các	O
+module	B-NP
+được	O
+phụ trách	O
+;	O
+và	O
+tham dự	O
+các	O
+cuộc	B-NP
+họp	O
+kỹ thuật	B-NP
+theo	O
+lịch	B-NP
+của	O
+phòng ban	B-NP
+.	O
+
+Thời hạn	O
+hợp đồng	B-NP
+:	O
+12	O
+(	O
+mười	O
+hai	O
+)	O
+tháng	B-NP
+,	O
+bắt đầu	O
+từ	O
+ngày	B-NP
+10/03/2025	O
+đến	O
+ngày	B-NP
+09/03/2026	O
+.	O
+
+Giờ	B-NP
+làm việc	O
+:	O
+từ	O
+08	O
+giờ	B-NP
+00	O
+đến	O
+17	O
+giờ	B-NP
+00	O
+,	O
+từ	O
+Thứ Hai	B-NP
+đến	O
+Thứ Sáu	B-NP
+hàng	I-NP
+tuần	I-NP
+,	O
+nghỉ	O
+trưa	B-NP
+60	O
+(	O
+sáu mươi	O
+)	O
+phút	B-NP
+từ	O
+12	O
+giờ	B-NP
+00	O
+đến	O
+13	O
+giờ	B-NP
+00	I-NP
 .	O
 
 Tổng	B-NP
-vốn	I-NP
-đầu_tư	O
+thời gian	I-NP
+làm việc	O
 là	O
-500.000.000	O
-đồng	B-NP
-.	O
-
-Lợi_nhuận	B-NP
-được	O
-chia	O
-đều	O
-.	O
-
-Mọi	O
-hoạt_động	B-NP
-tài_chính	O
-phải	O
-được	O
-ghi_chép	O
-minh_bạch	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-vay	O
-số	B-NP
-tiền	I-NP
-50.000.000	O
-đồng	B-NP
-trong	O
-thời_hạn	B-NP
-3	O
-tháng	B-NP
-.	O
-
-Lãi_suất	B-NP
-là	O
-1	O
-.	O
-
-2	O
-%	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-hoàn_trả	O
-đúng	O
-hạn	B-NP
-cả	O
-gốc	B-NP
-.	O
-
-Và	O
-lãi	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp dịch_vụ	I-NP
-chuyển	O
-phát	O
-nhanh	O
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Thời_gian	B-NP
-giao	O
-hàng	B-NP
-từ	O
-1	O
-đến	O
-2	O
-ngày	B-NP
-tùy	O
-khu_vực	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-bồi_thường	O
-.	O
-
-Nếu	O
-làm	O
-mất	O
-hàng	B-NP
-hóa	I-NP
-.	O
-
-Bên	B-NP
-A thực_hiện	I-NP
-bảo_trì	I-NP
-hệ_thống	O
-camera	B-NP
-giám_sát	O
-cho	O
-Bên	B-NP
-B	I-NP
+40	O
+(	O
+bốn mươi	O
+)	O
+giờ	B-NP
 mỗi	O
-6	O
-tháng	B-NP
-một	O
-lần	B-NP
-.	O
-
-Chi_phí	B-NP
-bảo_trì	O
-là	O
-3.000.000	O
-đồng	B-NP
-/	O
-lần	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-hệ_thống	B-NP
-hoạt_động	O
-ổn_định	B-NP
-.	O
-
-Bên	B-NP
-A_chuyển_nhượng	I-NP
-quyền	I-NP
-sử_dụng	O
-đất	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-1.000.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	O
+tuần	B-NP
 theo	O
-tiến_độ	B-NP
-đã	O
-thỏa_thuận	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+105	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
 .	O
 
-Sau	B-NP
-.	O
-
-Khi	B-NP
-hoàn_tất	O
-.	O
-
-Bên	B-NP
-A bàn_giao	I-NP
-đầy_đủ	I-NP
-giấy_tờ	O
-pháp_lý	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-đào_tạo	B-NP
-kỹ_năng	O
-mềm	O
-cho	O
+Trường hợp	B-NP
+Bên A	I-NP
+yêu cầu	O
 Bên	B-NP
 B	I-NP
-trong	O
-thời_hạn	B-NP
-2	O
+làm	O
+thêm	O
+giờ	B-NP
+ngoài	O
+giờ	B-NP
+làm việc	O
+tiêu chuẩn	B-NP
+,	O
+Bên A	B-NP
+phải	O
+có	O
+sự	B-NP
+đồng ý	O
+của	O
+Bên	B-NP
+B	I-NP
+và	O
+phải	O
+trả	O
+tiền lương	B-NP
+làm	O
+thêm	O
+giờ	B-NP
+theo	O
+đúng	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+98	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+,	O
+cụ thể	O
+:	O
+ngày	B-NP
+thường	O
+trả	O
+150	B-NP
+%	O
+,	O
+ngày	B-NP
+nghỉ	O
+hàng	B-NP
+tuần	I-NP
+trả	O
+200	O
+%	B-NP
+,	O
+ngày	B-NP
+lễ	I-NP
+và	O
+ngày	B-NP
+nghỉ	O
+có	O
+hưởng	O
+lương	B-NP
+trả	O
+300	O
+%	B-NP
+so	O
+với	O
+đơn giá	B-NP
+tiền lương	I-NP
+của	O
+giờ	B-NP
+làm việc	O
+bình thường	O
+.	O
+
+Mức	B-NP
+lương	I-NP
+cơ bản	O
+:	O
+15.000.000	O
+đồng	B-NP
+(	O
+mười	O
+lăm triệu	O
+đồng	B-NP
+)	O
+mỗi	O
 tháng	B-NP
 .	O
 
-Nội_dung	B-NP
-đào_tạo	O
-bao_gồm	B-NP
-kỹ_năng	O
-giao_tiếp	B-NP
-.	O
-
-Làm_việc	B-NP
-nhóm	I-NP
-.	O
-
-Và	O
-quản_lý thời_gian	B-NP
-.	O
-
-Tổng chi_phí	B-NP
-là	O
-25.000.000	O
-đồng	B-NP
-.	O
-
-Và	O
+Phụ cấp	B-NP
+:	O
+Bên	B-NP
+B	I-NP
 được	O
-thanh_toán	O
-thành	O
-hai	O
-đợt	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-có	O
-trách_nhiệm	B-NP
-đảm_bảo	I-NP
-chất_lượng	O
-giảng_dạy	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-có	O
-trách_nhiệm	B-NP
-tham_gia	I-NP
-đầy_đủ	O
+hưởng	O
 các	O
-buổi	B-NP
-học	O
+khoản	B-NP
+phụ cấp	O
+sau	B-NP
 .	O
 
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-thuê	O
-xe	B-NP
-ô_tô	O
-trong	O
-thời_hạn	B-NP
-7	O
-ngày	B-NP
-.	O
-
-Giá	B-NP
-thuê	O
-là	O
+Phụ cấp	B-NP
+đi lại	O
+:	O
 1.000.000	O
 đồng	B-NP
 /	O
-ngày	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-đặt_cọc	O
-10.000.000	O
-đồng	B-NP
-.	O
-
-Và	O
-chịu	O
-trách_nhiệm	O
-đối_với	O
-mọi	O
-hư_hỏng	B-NP
-phát_sinh	O
-trong	O
-thời_gian	B-NP
-thuê	O
-.	O
-
-Bên	B-NP
-A_bán	I-NP
-bản_quyền	O
-phần_mềm	O
-cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-80.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-được	O
-quyền	B-NP
-sử_dụng phần_mềm	O
-trong	O
-phạm_vi	B-NP
-nội_bộ	O
-.	O
-
-Và	O
-không	O
-được	O
-sao_chép	O
-.	O
-
-Hoặc	O
-phân_phối	O
-lại	O
-.	O
-
-Nếu	O
-không	O
-có	O
-sự	B-NP
-đồng_ý	O
-của	O
-Bên_A	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-quảng_cáo	B-NP
-trực_tuyến	O
-cho	O
-Bên	B-NP
-B	I-NP
-trong	O
-thời_hạn	B-NP
-3	O
 tháng	B-NP
 .	O
 
-Chi_phí	B-NP
-dịch_vụ	O
+Phụ cấp	B-NP
+ăn	O
+trưa	B-NP
+:	O
+800.000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Phụ	O
+cấp	B-NP
+điện thoại	I-NP
+:	O
+500.000	O
+đồng	B-NP
+/	O
+tháng	B-NP
+.	O
+
+Tổng	B-NP
+thu nhập	I-NP
+hàng	I-NP
+tháng	I-NP
+của	O
+Bên	B-NP
+B	I-NP
+(	O
+chưa	O
+bao gồm	O
+các	O
+khoản	B-NP
+thưởng	O
+)	O
+:	O
+17.300.000	O
+đồng	B-NP
+(	O
+mười	O
+bảy	O
+triệu	O
+ba	O
+trăm	O
+nghìn	O
+đồng	B-NP
+)	O
+.	O
+
+Tiền lương	B-NP
+được	O
+thanh toán	O
+vào	O
+ngày	B-NP
+10	O
+(	O
+mười	O
+)	O
+của	O
+tháng	B-NP
+sau	I-NP
+,	O
+bằng	O
+hình thức	B-NP
+chuyển khoản	O
+vào	O
+tài khoản	B-NP
+ngân hàng	I-NP
+do	O
+Bên	B-NP
+B	I-NP
+cung cấp	O
+.	O
+
+Bên	B-NP
+A	I-NP
+thực hiện	O
+khấu trừ	B-NP
+thuế thu nhập	O
+cá nhân	B-NP
+và	O
+các	O
+khoản	B-NP
+bảo hiểm	I-NP
+bắt buộc	O
+theo	O
+quy định	B-NP
+của	O
+pháp luật	B-NP
+trước	O
+khi	O
+thanh toán	O
+cho	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Bên	B-NP
+A	I-NP
+có thể	O
+xét	O
+thưởng	O
+hiệu suất	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+quy chế	B-NP
+lương thưởng	I-NP
+nội bộ	I-NP
+của	O
+công ty	B-NP
+,	O
+căn cứ	B-NP
+trên	O
+kết quả	B-NP
+đánh giá	O
+công việc	B-NP
+hằng	O
+quý	B-NP
+.	O
+
+Mức	B-NP
+thưởng	O
+cụ thể	O
+do	O
+Bên A	B-NP
+quyết định	O
+và	O
+không	O
+phải	O
 là	O
+khoản	B-NP
+bắt buộc	O
+theo	O
+hợp đồng	B-NP
+này	O
+.	O
+
+Bên	B-NP
+A	I-NP
+có	O
+nghĩa vụ	B-NP
+đóng	O
+bảo hiểm xã hội	B-NP
+,	O
+bảo hiểm y tế	B-NP
+và	O
+bảo hiểm	B-NP
+thất nghiệp	O
+cho	O
+Bên	B-NP
+B	I-NP
+theo	O
+đúng	O
+quy định	B-NP
+của	O
+Luật Bảo hiểm xã hội	B-NP
+năm	I-NP
+2014	O
+(	O
+sửa đổi	B-NP
+,	O
+bổ sung	O
+năm	B-NP
+2019	O
+)	O
+,	O
+Luật Bảo hiểm y tế	O
+năm	B-NP
+2008	O
+(	O
+sửa đổi	B-NP
+,	O
+bổ sung	O
+năm	B-NP
+2014	O
+)	O
+và	O
+Luật	B-NP
+Việc làm	I-NP
+năm	I-NP
+2013	O
+.	O
+
+Mức	B-NP
+đóng	O
+được	O
+tính	O
+trên	O
+mức	B-NP
+lương	I-NP
+cơ bản	O
 15.000.000	O
 đồng	B-NP
 /	O
@@ -2364,656 +1942,1024 @@ tháng	B-NP
 .	O
 
 Bên	B-NP
+B	I-NP
+được	O
+hưởng	O
+chế độ	B-NP
+nghỉ phép	O
+năm	B-NP
+12	O
+(	O
+mười	O
+hai	O
+)	O
+ngày	B-NP
+làm việc	O
+có	O
+hưởng	O
+lương	B-NP
+trong	O
+năm	B-NP
+đầu tiên	O
+theo	O
+Điều	B-NP
+113	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+.	O
+
+Ngày	B-NP
+nghỉ phép	O
+tăng	O
+thêm	O
+01	B-NP
+(	O
+một	O
+)	O
+ngày	B-NP
+cho	O
+mỗi	O
+05	B-NP
+(	O
+năm	O
+)	O
+năm	B-NP
+làm việc	O
+tại	O
+Bên A	B-NP
+.	O
+
+Bên	B-NP
+B	I-NP
+được	O
+nghỉ	O
+các	O
+ngày	B-NP
+lễ	I-NP
+,	O
+tết	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+112	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+và	O
+được	O
+hưởng	O
+nguyên lương	O
+trong	O
+những	O
+ngày	B-NP
+nghỉ	O
+này	O
+.	O
+
+Bên	B-NP
 A	I-NP
 có	O
-trách_nhiệm	B-NP
-tối_ưu_chiến_dịch	O
-quảng_cáo	B-NP
-để	O
-đạt	O
-hiệu_quả	B-NP
-tốt	O
-nhất	O
-.	O
-
-Bên	B-NP
-A_nhận	I-NP
-thiết_kế	O
-logo	O
-.	O
-
-Và	O
-bộ	B-NP
-nhận_diện	I-NP
-thương_hiệu	O
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Thời_gian	B-NP
-thực_hiện	O
-là	O
-20	O
-ngày	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	I-NP
-50	O
-%	B-NP
-trước	I-NP
-.	O
-
-Và	O
-50	O
-%	B-NP
+các	O
+quyền	B-NP
 sau	I-NP
 .	O
 
-Khi	B-NP
-hoàn_thành	O
-.	O
-
-Hai	O
-bên	B-NP
-thống_nhất	I-NP
-hợp_tác	O
-sản_xuất	B-NP
-nội_dung	O
-số	B-NP
-trên	O
-nền_tảng_mạng	B-NP
-xã_hội	I-NP
-.	O
-
-Doanh_thu	B-NP
-từ	O
-quảng_cáo	B-NP
-sẽ	O
-được	O
-chia	O
-theo	O
-tỷ_lệ	B-NP
-70	O
-%	B-NP
-cho	O
-Bên_A	B-NP
-.	O
-
-Và	O
-30	O
-%	B-NP
-cho	O
+Phân công	B-NP
+,	O
+điều chuyển	B-NP
+công việc	I-NP
+của	O
 Bên	B-NP
 B	I-NP
+trong	O
+phạm vi	B-NP
+hợp đồng	I-NP
+này	O
+,	O
+phù hợp	O
+với	O
+trình độ	B-NP
+chuyên môn	I-NP
+và	O
+sức khỏe	B-NP
+của	O
+Bên	B-NP
+B	I-NP
+.	O
+
+Khen thưởng	B-NP
+Bên B	I-NP
+khi	O
+hoàn thành	O
+xuất sắc	O
+nhiệm vụ	B-NP
+được	O
+giao	O
+.	O
+
+Xử lý	O
+kỷ luật	B-NP
+lao động	I-NP
+đối với	O
+Bên	B-NP
+B	I-NP
+theo	O
+đúng	O
+trình tự	B-NP
+,	O
+thủ tục	B-NP
+quy định	O
+tại	O
+Điều	B-NP
+122	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+và	O
+Nội quy	O
+lao động	B-NP
+của	O
+công ty	B-NP
+khi	O
+Bên	B-NP
+B	I-NP
+vi phạm	O
+kỷ luật	B-NP
 .	O
 
 Bên	B-NP
 A	I-NP
+có	O
+các	O
+nghĩa vụ	B-NP
+sau	I-NP
+.	O
+
+Thanh toán	O
+lương	B-NP
+và	O
+các	O
+khoản	B-NP
+phúc lợi	O
 cho	O
 Bên	B-NP
 B	I-NP
-vay	O
-số	B-NP
-tiền	I-NP
-30.000.000	O
-đồng	B-NP
-trong	O
-thời_hạn	B-NP
-2	O
-tháng	B-NP
+đầy đủ	O
+và	O
+đúng	O
+hạn	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+3	O
 .	O
 
-Lãi_suất	B-NP
-là	O
-1	O
-%	B-NP
-/	O
-tháng	B-NP
+Cung cấp	O
+đầy đủ	O
+công cụ	B-NP
+,	O
+thiết bị	B-NP
+,	O
+phần mềm	B-NP
+và	O
+tài nguyên	B-NP
+kỹ thuật	I-NP
+cần thiết	O
+để	O
+Bên	B-NP
+B	I-NP
+thực hiện	O
+công việc	B-NP
+,	O
+bao gồm	O
+máy tính xách tay	B-NP
+,	O
+tài khoản	O
+phần mềm	B-NP
+và	O
+quyền	B-NP
+truy cập	O
+hệ thống	B-NP
+.	O
+
+Đảm bảo	O
+điều kiện	B-NP
+làm việc	O
+an toàn	O
+,	O
+vệ sinh	O
+theo	O
+quy định	B-NP
+của	O
+Luật	B-NP
+An toàn	O
+,	O
+vệ sinh	O
+lao động	B-NP
+năm	I-NP
+2015	O
+.	O
+
+Đào tạo	B-NP
+,	O
+hướng dẫn	O
+Bên	B-NP
+B	I-NP
+về	O
+kỹ thuật	B-NP
+an toàn	O
+,	O
+các	O
+quy định	B-NP
+nội bộ	I-NP
+và	O
+quy trình	B-NP
+làm việc	O
+trước	O
+khi	O
+Bên	B-NP
+B	I-NP
+bắt đầu	O
+công việc	B-NP
+.	O
+
+Không	O
+phân biệt	O
+đối xử	O
+,	O
+quấy rối	O
+hoặc	O
+ép buộc	O
+lao động	B-NP
+trái ý muốn	I-NP
+của	O
+Bên	B-NP
+B	I-NP
 .	O
 
 Bên	B-NP
 B	I-NP
 có	O
-trách_nhiệm	B-NP
-hoàn_trả	O
-đầy_đủ	B-NP
+các	O
+quyền	B-NP
+sau	I-NP
 .	O
 
-Khi	B-NP
-đến	O
-hạn	B-NP
+Hưởng	O
+đầy đủ	O
+lương	B-NP
+và	O
+các	O
+chế độ	B-NP
+phúc lợi	O
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+3	O
+và	O
+Điều	B-NP
+4	O
+của	O
+hợp đồng	B-NP
+này	O
 .	O
 
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-tổ_chức	B-NP
-sự_kiện	O
-cho	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Sự_kiện	B-NP
-sẽ	O
-được	O
-tổ_chức	O
-vào	O
-ngày	B-NP
-đã	O
-thỏa_thuận	O
-với	O
-tổng chi_phí	B-NP
-là	O
-100.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-A_chịu trách_nhiệm	I-NP
-về	O
-toàn_bộ	B-NP
-khâu	I-NP
-tổ_chức	O
-.	O
-
-Bên	B-NP
-A thực_hiện	I-NP
-bảo_trì	I-NP
-hệ_thống mạng	O
-nội_bộ	O
-cho	O
-Bên	B-NP
-B	I-NP
+Được	O
+làm việc	O
 trong	O
-thời_hạn	B-NP
-6	O
-tháng	B-NP
+môi trường	B-NP
+an toàn	O
+,	O
+được	O
+trang bị	O
+đầy đủ	O
+phương tiện	B-NP
+và	O
+công cụ	O
+lao động	B-NP
 .	O
 
-Chi_phí	B-NP
-là	O
-4.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
+Nghỉ phép	B-NP
+,	O
+nghỉ	O
+lễ	B-NP
+theo	O
+đúng	O
+quy định	B-NP
+của	O
+pháp luật	B-NP
+và	O
+hợp đồng	B-NP
 .	O
 
+Đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+35	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+.	O
+
+Bên	B-NP
+B	I-NP
+có	O
+các	O
+nghĩa vụ	B-NP
+sau	I-NP
+.	O
+
+Thực hiện	O
+đầy đủ	O
+,	O
+đúng	O
+tiến độ	B-NP
+các	O
+công việc	B-NP
+được	O
+phân công	O
+theo	O
+mô tả	O
+tại	O
+Điều	B-NP
+1	O
+và	O
+chấp hành	O
+sự	B-NP
+điều hành	O
+hợp pháp	O
+của	O
+Bên A	B-NP
+.	O
+
+Tuân thủ	O
+Nội quy lao động	B-NP
+,	O
+Quy chế	B-NP
+bảo mật	O
+thông tin	B-NP
+và	O
+các	O
+quy định	B-NP
+nội bộ	I-NP
+khác	O
+của	O
+Bên A	B-NP
+.	O
+
+Bảo mật	O
+tuyệt đối	O
+mọi	O
+thông tin	B-NP
+,	O
+dữ liệu	B-NP
+,	O
+bí quyết	O
+kinh doanh	O
+và	O
+công nghệ	B-NP
+của	O
+Bên A	B-NP
+trong	O
+suốt	O
+thời hạn	B-NP
+hợp đồng	I-NP
+và	O
+sau	B-NP
+khi	O
+hợp đồng	B-NP
+chấm dứt	O
+trong	O
+vòng	B-NP
+02	I-NP
+(	O
+hai	O
+)	O
+năm	B-NP
+tiếp theo	O
+,	O
+trừ	O
+khi	O
+được	O
+sự	B-NP
+đồng ý	O
+bằng	O
+văn bản	B-NP
+của	O
+Bên A	B-NP
+.	O
+
+Không	O
+được	O
+đồng thời	O
+làm việc	O
+cho	O
+các	O
+công ty	B-NP
+có	O
+hoạt động	O
+kinh doanh	O
+cạnh tranh	O
+trực tiếp	O
+với	O
+Bên A	B-NP
+trong	O
+suốt	O
+thời gian	B-NP
+hợp đồng	I-NP
+có	O
+hiệu lực	B-NP
+.	O
+
+Không	O
+được	O
+sử dụng	O
+tài nguyên	B-NP
+,	O
+thiết bị	B-NP
+và	O
+thông tin	B-NP
+của	O
 Bên	B-NP
 A	I-NP
-phải	O
-đảm_bảo	O
-hệ_thống	B-NP
-hoạt_động	O
-ổn_định	B-NP
+vào	O
+mục đích	B-NP
+cá nhân	I-NP
+hoặc	O
+mục đích	B-NP
+không	O
+liên quan	O
+đến	O
+công việc	B-NP
+được	O
+giao	O
 .	O
 
-Bên	B-NP
-A_chuyển_nhượng quyền	I-NP
-sử_dụng	I-NP
-tên	I-NP
-miền	I-NP
-internet	O
+Bồi thường	O
+thiệt hại	O
+thực tế	B-NP
 cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-60.000.000	O
-đồng	B-NP
+Bên A	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+130	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+nếu	O
+gây	O
+ra	O
+thiệt hại	O
+do	O
+lỗi	B-NP
+của	O
+mình	O
 .	O
 
-Bên	B-NP
-B	I-NP
-thanh_toán	O
-đầy_đủ	O
-trước	B-NP
-.	O
-
-Khi	B-NP
-nhận	O
-quyền	B-NP
-sử_dụng	I-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-tư_vấn	B-NP
-pháp_lý	O
-cho	O
-Bên	B-NP
-B	I-NP
+Hợp đồng	B-NP
+lao động	O
+chấm dứt	O
 trong	O
-thời_hạn	B-NP
-6	O
-tháng	B-NP
+các	O
+trường hợp	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+34	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+,	O
+bao gồm	O
+:	O
+hết	O
+hạn	B-NP
+hợp đồng	I-NP
+;	O
+hai	O
+bên	B-NP
+thỏa thuận	I-NP
+chấm dứt	O
+;	O
+Bên	B-NP
+B	I-NP
+đủ	O
+điều kiện	B-NP
+hưởng	O
+lương	B-NP
+hưu	O
+theo	O
+quy định	B-NP
+.	O
+
+Hợp đồng	B-NP
+đương nhiên	O
+chấm dứt	O
+hiệu lực	O
 kể	O
 từ	O
 ngày	B-NP
-ký	O
-hợp_đồng	B-NP
-.	O
-
-Nội_dung	B-NP
-tư_vấn	O
-bao_gồm	O
-các	O
-vấn_đề	B-NP
-liên_quan	O
-đến	O
-hoạt_động	B-NP
-kinh_doanh	I-NP
-của	O
-Bên	B-NP
-B	I-NP
-.	O
-
-Chi_phí	B-NP
-dịch_vụ	O
-là	O
-10.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Và	O
-được	O
-thanh_toán	O
-vào	O
-đầu	B-NP
-mỗi	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
+09/03/2026	O
+nếu	O
+không	O
 có	O
-trách_nhiệm	B-NP
-bảo_mật	O
-thông_tin	B-NP
-.	O
-
-Và	O
-cung_cấp	B-NP
-ý_kiến	O
-tư_vấn	B-NP
-chính_xác	O
-.	O
-
-Kịp_thời	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-thuê	O
-thiết_bị	B-NP
-âm_thanh	O
-phục_vụ	B-NP
-sự_kiện	O
-trong	O
-thời_hạn	B-NP
-3	O
+thỏa thuận	B-NP
+gia hạn	O
+bằng	O
+văn bản	B-NP
+từ	O
+cả	O
+hai	O
+bên	B-NP
+trước	I-NP
+thời điểm	I-NP
+đó	O
+ít nhất	O
+30	O
+(	O
+ba mươi	B-NP
+)	O
 ngày	B-NP
 .	O
 
-Tổng chi_phí	B-NP
-thuê	O
-là	O
+Bên	B-NP
+B	I-NP
+có	O
+quyền	B-NP
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+lao động	O
+trước	O
+thời hạn	B-NP
+bằng	O
+cách	B-NP
+thông báo	O
+bằng	O
+văn bản	B-NP
+cho	O
+Bên	B-NP
+A	I-NP
+trước	O
+ít nhất	O
+30	O
+(	O
+ba mươi	B-NP
+)	O
+ngày	B-NP
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+35	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+.	O
+
+Nếu	O
+Bên	B-NP
+B	I-NP
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+mà	O
+không	O
+thông báo	O
+trước	B-NP
+đúng	O
+thời hạn	B-NP
+quy định	I-NP
+tại	O
+khoản	B-NP
+7.3	I-NP
+,	O
+Bên	B-NP
+B	I-NP
+phải	O
+bồi thường	O
+cho	O
+Bên	B-NP
+A	I-NP
+một	O
+khoản	B-NP
+tiền	I-NP
+tương đương	O
+01	B-NP
+(	O
+một	O
+)	O
+tháng	B-NP
+lương	I-NP
+cơ bản	O
+theo	O
+hợp đồng	B-NP
+,	O
+tức là	O
 15.000.000	O
 đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-phải	O
-đặt_cọc	O
-5.000.000	O
+(	O
+mười	O
+lăm triệu	O
 đồng	B-NP
+)	O
 .	O
 
-Và	O
-hoàn_trả	B-NP
-thiết_bị	O
-đúng	O
-thời_hạn	B-NP
-.	O
-
-Đúng	O
-tình_trạng	B-NP
-ban_đầu	I-NP
-.	O
-
-Bên	B-NP
-A_bán	I-NP
-nguyên_vật_liệu	O
-xây_dựng	O
+Hoàn trả	O
+toàn bộ	O
+chi phí	B-NP
+đào tạo	O
+mà	O
+Bên A	B-NP
+đã	O
+chi trả	O
 cho	O
 Bên	B-NP
 B	I-NP
-với	O
-tổng giá_trị	B-NP
-là	O
-250.000.000	O
-đồng	B-NP
-.	O
-
-Bên	B-NP
-B	I-NP
-thanh_toán	I-NP
-70	O
-%	B-NP
-trước	I-NP
-.	O
-
-Khi	B-NP
-giao	O
-hàng	B-NP
-.	O
-
-Và	O
-30	O
-%	B-NP
-sau	I-NP
-.	O
-
-Khi	B-NP
-nhận	O
-hàng	B-NP
+(	O
+nếu	O
+có	O
+)	O
+theo	O
+quy định	B-NP
+tại	O
+Điều	B-NP
+40	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
 .	O
 
 Bên	B-NP
 A	I-NP
 có	O
-trách_nhiệm	B-NP
-giao	O
-hàng	B-NP
-đúng	O
-số_lượng	B-NP
-.	O
-
-Chất_lượng	B-NP
-.	O
-
-Và	O
-thời_gian	B-NP
-đã	O
-thỏa_thuận	O
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-bảo_trì	B-NP
-thang_máy	O
-cho	O
-Bên	B-NP
-B	I-NP
+quyền	B-NP
+đơn phương	O
+chấm dứt	O
+hợp đồng	B-NP
+lao động	O
+trước	O
+thời hạn	B-NP
 trong	O
-thời_hạn	B-NP
-12	O
-tháng	B-NP
-.	O
-
-Chi_phí	B-NP
-bảo_trì	O
-là	O
-6.000.000	O
-đồng	B-NP
-/	O
-tháng	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-thang_máy	B-NP
-hoạt_động	O
-an_toàn	B-NP
-.	O
-
-Và	O
-xử_lý	B-NP
-sự_cố	O
-kịp_thời	B-NP
-.	O
-
-Bên	B-NP
-A_nhận	I-NP
-thi_công	O
-hệ_thống	B-NP
-phòng	I-NP
-cháy	O
-chữa_cháy	O
-cho	O
+các	O
+trường hợp	B-NP
+quy định	O
+tại	O
+Điều	B-NP
+36	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+,	O
+cụ thể	O
+khi	O
+:	O
 Bên	B-NP
 B	I-NP
+thường xuyên	O
+không	O
+hoàn thành	O
+công việc	B-NP
 theo	O
-thiết_kế	B-NP
+mức độ	B-NP
 đã	O
-phê_duyệt	O
+thỏa thuận	O
+,	O
+Bên	B-NP
+B	I-NP
+bị	O
+xử lý	O
+kỷ luật	B-NP
+sa thải	I-NP
 .	O
 
-Thời_gian	B-NP
-thi_công	I-NP
-là	O
-60	O
+Bên	B-NP
+B	I-NP
+có	O
+hành vi	B-NP
+gian lận	O
+khi	O
+ký kết	O
+hợp đồng	B-NP
+.	O
+
+Khi	O
+chấm dứt	O
+hợp đồng	B-NP
+,	O
+Bên	B-NP
+B	I-NP
+có	O
+nghĩa vụ	B-NP
+bàn giao	O
+đầy đủ	O
+công việc	B-NP
+đang	O
+thực hiện	O
+,	O
+tài liệu	B-NP
+kỹ thuật	I-NP
+,	O
+thiết bị	B-NP
+và	O
+tất cả	O
+tài sản	B-NP
+của	O
+Bên A	B-NP
+cho	O
+người	B-NP
+được	O
+ủy	O
+quyền	B-NP
+tiếp nhận	O
+trong	O
+vòng	B-NP
+05	I-NP
+(	O
+năm	O
+)	O
 ngày	B-NP
+làm việc	O
+cuối cùng	O
 .	O
 
 Bên	B-NP
 B	I-NP
-thanh_toán	O
-theo	O
-tiến_độ	B-NP
-thi_công	I-NP
-.	O
-
-Và	O
-nghiệm_thu	O
-từng	O
-giai_đoạn	B-NP
-.	O
-
-Hai	O
+cam kết	O
+không	O
+tiết lộ	O
+cho	O
 bên	B-NP
-thống_nhất	I-NP
-hợp_tác	O
-phát_triển	B-NP
-ứng_dụng	O
-di_động	B-NP
-.	O
-
-Bên	B-NP
-A_chịu	I-NP
-trách_nhiệm	O
-kỹ_thuật	B-NP
-.	O
-
+thứ	I-NP
+ba	O
+bất kỳ	O
+thông tin	B-NP
+mật	I-NP
+nào	O
+về	O
+công nghệ	B-NP
+,	O
+khách hàng	B-NP
+,	O
+chiến lược	B-NP
+kinh doanh	O
+hoặc	O
+quy trình	O
+nội bộ	B-NP
+của	O
+Bên A	B-NP
+mà	O
 Bên	B-NP
 B	I-NP
-chịu	O
-trách_nhiệm	O
-kinh_doanh	B-NP
-.	O
-
-Lợi_nhuận	B-NP
+tiếp cận	O
 được	O
-chia	O
-theo	O
-tỷ_lệ	B-NP
-50/50	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-trừ	O
-chi_phí	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-vay	O
-số	B-NP
-tiền	I-NP
-75.000.000	O
-đồng	B-NP
 trong	O
-thời_hạn	B-NP
-5	O
+quá trình	B-NP
+làm việc	O
+.	O
+
+Trong	O
+vòng	B-NP
+12	O
+(	O
+mười	O
+hai	O
+)	O
 tháng	B-NP
-.	O
-
-Lãi_suất	B-NP
-áp_dụng	O
-là	O
-1	O
-.	O
-
-1	O
-%	B-NP
-/	O
-tháng	B-NP
-.	O
-
+sau	I-NP
+khi	O
+hợp đồng	B-NP
+chấm dứt	O
+,	O
 Bên	B-NP
 B	I-NP
-có	O
-trách_nhiệm	O
-thanh_toán	B-NP
-lãi	O
-hàng	B-NP
-tháng	I-NP
-.	O
-
-Và	O
-hoàn_trả	B-NP
-gốc	I-NP
-.	O
-
-Khi	B-NP
-đến	O
-hạn	B-NP
-.	O
-
-Bên	B-NP
-A_cung_cấp	I-NP
-dịch_vụ	O
-in_ấn	B-NP
-tài_liệu	O
-cho	O
-Bên	B-NP
-B	I-NP
-theo	O
-từng	O
-đơn đặt_hàng	B-NP
-.	O
-
-Chi_phí	B-NP
+không	O
 được	O
-tính	O
-theo	O
-số_lượng	B-NP
+làm việc	O
+hoặc	O
+cung cấp	O
+dịch vụ	B-NP
+tư vấn	O
+cho	O
+bất kỳ	O
+công ty	B-NP
+nào	O
+là	O
+đối thủ	B-NP
+cạnh tranh	O
+trực tiếp	O
+của	O
+Bên A	B-NP
+trong	O
+lĩnh vực	B-NP
+phát triển	O
+phần mềm	B-NP
+quản lý	O
+doanh nghiệp	B-NP
+tại	O
+thị trường	B-NP
+Việt Nam	I-NP
 .	O
 
-Và	O
-loại	B-NP
-tài_liệu	I-NP
-.	O
-
+Nếu	O
+vi phạm	O
+,	O
+Bên	B-NP
+B	I-NP
+phải	O
+bồi thường	O
+cho	O
 Bên	B-NP
 A	I-NP
-phải	O
-đảm_bảo	O
-chất_lượng	B-NP
-in	O
-rõ_ràng	B-NP
-.	O
-
-Đúng	O
-yêu_cầu	B-NP
-.	O
-
-Bên	B-NP
-A thực_hiện	I-NP
-bảo_trì	I-NP
-hệ_thống	O
-chiếu	B-NP
-sáng	I-NP
-cho	O
-Bên	B-NP
-B	I-NP
-mỗi	O
-2	O
-tháng	B-NP
 một	O
-lần	B-NP
-.	O
-
-Chi_phí	B-NP
-bảo_trì	O
+khoản	B-NP
+tiền	I-NP
+phạt	O
 là	O
-2.500.000	O
+50.000.000	O
 đồng	B-NP
-/	O
-lần	B-NP
-.	O
-
-Bên	B-NP
-A	I-NP
-phải	O
-đảm_bảo	O
-hệ_thống	B-NP
-hoạt_động	I-NP
-ổn_định	O
-sau	B-NP
-.	O
-
-Khi	B-NP
-bảo_trì	O
-.	O
-
-Bên	B-NP
-A chuyển_nhượng	I-NP
-cổ_phần	O
-trong	O
-công_ty	B-NP
-cho	O
-Bên	B-NP
-B	I-NP
-với	O
-giá	B-NP
-500.000.000	O
+(	O
+năm mươi triệu	O
 đồng	B-NP
+)	O
 .	O
 
-Bên	B-NP
-B	I-NP
-thanh_toán	O
+Các	O
+bên	B-NP
+cam kết	I-NP
+ưu tiên	O
+giải quyết	O
+mọi	O
+tranh chấp	B-NP
+phát sinh	O
+liên quan	O
+đến	O
+hợp đồng	B-NP
+này	O
+thông qua	O
+hòa giải	O
+tại	O
+cơ sở	B-NP
 theo	O
-thỏa_thuận	B-NP
+Điều	B-NP
+188	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
 .	O
 
-Và	O
+Trong	O
+trường hợp	B-NP
+hòa giải	O
+không	O
+thành	O
+hoặc	O
+hết	O
+thời hạn	B-NP
+hòa	O
+giải	B-NP
+mà	O
+các	O
+bên	B-NP
+vẫn	O
+không	O
+đạt	O
 được	O
-hưởng	O
-quyền_lợi	B-NP
-tương_ứng	O
-với	O
-số	B-NP
-cổ_phần	I-NP
-đã	O
-mua	O
+thỏa thuận	O
+,	O
+tranh chấp	O
+sẽ	O
+được	O
+giải quyết	O
+tại	O
+Hội đồng trọng tài	B-NP
+lao động	I-NP
+hoặc	O
+Tòa án	O
+nhân dân	B-NP
+quận	I-NP
+Bình Thạnh	I-NP
+,	O
+Thành phố	B-NP
+Hồ Chí Minh	I-NP
+theo	O
+quy định	B-NP
+của	O
+Bộ luật Tố tụng dân sự	B-NP
+năm	I-NP
+2015	O
+và	O
+Bộ luật Lao động	O
+năm	B-NP
+2019	O
+.	O
+
+Hợp đồng	B-NP
+lao động	I-NP
+này	O
+được	O
+lập	O
+thành	O
+02	B-NP
+(	O
+hai	O
+)	O
+bản	B-NP
+có	O
+giá trị	B-NP
+pháp lý	I-NP
+như	O
+nhau	B-NP
+,	O
+Bên	B-NP
+A giữ	I-NP
+01	I-NP
+(	O
+một	O
+)	O
+bản	B-NP
+,	O
+Bên	B-NP
+B	I-NP
+giữ	O
+01	B-NP
+(	O
+một	O
+)	O
+bản	B-NP
+.	O
+
+Hợp đồng	B-NP
+có	O
+hiệu lực	B-NP
+từ	O
+ngày	B-NP
+10/03/2025	O
+và	O
+được	O
+điều chỉnh	O
+bởi	O
+pháp luật	B-NP
+lao động	I-NP
+Việt Nam	I-NP
+.	O
+
+Mọi	O
+vấn đề	B-NP
+không	O
+được	O
+quy định	O
+trong	O
+hợp đồng	B-NP
+này	O
+sẽ	O
+được	O
+giải quyết	O
+theo	O
+quy định	B-NP
+của	O
+Bộ luật Lao động	B-NP
+năm	I-NP
+2019	O
+và	O
+các	O
+văn bản	B-NP
+hướng dẫn	O
+thi hành	O
+.	O
+
+Các	O
+phụ lục	B-NP
+đính	O
+kèm	O
+(	O
+nếu	O
+có	O
+)	O
+là	O
+bộ phận	B-NP
+không	O
+tách	O
+rời	O
+của	O
+hợp đồng	B-NP
+này	O
+và	O
+có	O
+giá trị	B-NP
+pháp lý	I-NP
+như	O
+nhau	B-NP
 .	O
 

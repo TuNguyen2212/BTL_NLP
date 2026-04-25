@@ -1,119 +1,264 @@
-Bên B sẽ giao cho Bên A một khoản tiền đặt cọc để đảm bảo thực hiện hợp đồng cho thuê nhà ngay sau khi ký hợp đồng. Nếu Bên B đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên A thì Bên A sẽ không phải hoàn trả lại số tiền đặt cọc này. Nếu Bên A đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước cho Bên B thì Bên A sẽ phải hoàn trả lại Bên B số tiền đặt cọc và phải bồi thường thêm một khoản bằng chính tiền đặt cọc. Tiền đặt cọc của Bên B sẽ không được dùng để thanh toán tiền thuê. Nếu Bên B vi phạm hợp đồng làm phát sinh thiệt hại cho Bên A thì Bên A có quyền khấu trừ tiền đặt cọc để bù đắp các chi phí khắc phục thiệt hại phát sinh. Vào thời điểm kết thúc thời hạn thuê hoặc kể từ ngày chấm dứt hợp đồng, Bên A sẽ hoàn lại cho Bên B số tiền đặt cọc sau khi đã khấu trừ khoản chi phí khắc phục thiệt hại nếu có.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+———————
 
-Bên B phải thanh toán tiền thuê nhà theo đúng thời hạn đã thỏa thuận vào ngày 05 hàng tháng. Tiền thuê nhà không bao gồm các chi phí khác như tiền điện, nước và vệ sinh. Các chi phí này sẽ do Bên B thanh toán theo mức sử dụng thực tế và đơn giá của cơ quan nhà nước có thẩm quyền.
+HỢP ĐỒNG THUÊ MẶT BẰNG KINH DOANH
+Số: 12/2025/HĐTMB
 
-Việc thanh toán tiền thuê nhà được thực hiện bằng đồng tiền Việt Nam và thanh toán trực tiếp bằng tiền mặt. Nếu Bên B thanh toán chậm thì phải chịu trách nhiệm theo quy định trong hợp đồng.
+Hôm nay, ngày 01 tháng 03 năm 2025, tại Thành phố Hồ Chí Minh, chúng tôi gồm:
 
-Bên A có quyền yêu cầu Bên B thanh toán đầy đủ tiền thuê và các chi phí phát sinh đúng hạn. Bên A có quyền yêu cầu Bên B sửa chữa các hư hỏng hoặc thiệt hại do Bên B gây ra trong quá trình sử dụng.
+BÊN CHO THUÊ (BÊN A):
+Ông: Nguyễn Văn A
+Ngày sinh: 01/01/1970
+Số CCCD: 079000000001, cấp ngày 01/01/2020 tại Cục Cảnh sát ĐKQL cư trú và DLQG về dân cư
+Địa chỉ thường trú: 45 Đường Lê Lợi, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
+Số điện thoại: 0900 000 001
 
-Bên A có nghĩa vụ bàn giao diện tích thuê đúng thời gian đã thỏa thuận trong hợp đồng. Bên A phải đảm bảo quyền sử dụng diện tích thuê của Bên B được diễn ra liên tục và không bị gián đoạn, trừ trường hợp vi phạm pháp luật hoặc hợp đồng. Bên A không được xâm phạm trái phép tài sản của Bên B trong thời gian thuê. Nếu Bên A vi phạm gây thiệt hại thì phải bồi thường cho Bên B.
+BÊN THUÊ (BÊN B):
+Công ty TNHH Thương Mại Phú Hưng
+Mã số doanh nghiệp: 0316789012
+Địa chỉ trụ sở: 88 Đường Nguyễn Huệ, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
+Người đại diện theo pháp luật: Bà Trần Thị B – Chức vụ: Giám đốc
+Số điện thoại: 0900 000 002
 
-Bên B có quyền nhận bàn giao diện tích thuê đúng như thỏa thuận trong hợp đồng. Bên B có quyền sử dụng diện tích thuê làm nơi ở và các mục đích hợp pháp khác. Bên B có quyền yêu cầu Bên A sửa chữa các hư hỏng không do lỗi của Bên B để đảm bảo an toàn sử dụng.
+Hai bên thống nhất ký kết hợp đồng thuê mặt bằng kinh doanh với các điều khoản và điều kiện sau đây, trên cơ sở tự nguyện, bình đẳng và phù hợp với quy định của Bộ luật Dân sự năm 2015 và các văn bản pháp luật hiện hành có liên quan.
 
-Bên B có nghĩa vụ sử dụng diện tích thuê đúng mục đích đã thỏa thuận. Bên B phải giữ gìn tài sản thuê và chịu trách nhiệm sửa chữa các hư hỏng do mình gây ra. Bên B phải thanh toán tiền đặt cọc và tiền thuê đầy đủ, đúng thời hạn. Khi hết thời hạn thuê hoặc chấm dứt hợp đồng, Bên B phải trả lại toàn bộ diện tích thuê cho Bên A.
+Điều 1. Đối tượng hợp đồng
 
-Nếu Bên B muốn cải tạo, lắp đặt hoặc thay đổi kết cấu trong diện tích thuê thì phải thông báo bằng văn bản và chỉ được thực hiện khi có sự đồng ý của Bên A. Nếu không có sự đồng ý thì mọi thay đổi đều không hợp lệ.
+1.1. Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh có diện tích 120 m² (một trăm hai mươi mét vuông) tọa lạc tại số 45 Đường Lê Lợi, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh (sau đây gọi là "Mặt bằng thuê").
 
-Một trong hai bên có quyền đơn phương chấm dứt hợp đồng trước thời hạn nhưng phải thông báo bằng văn bản cho bên còn lại trước ít nhất 30 ngày. Nếu không thông báo đúng thời hạn thì bên vi phạm phải bồi thường một khoản tiền tương ứng với thời gian không thông báo và các thiệt hại phát sinh.
+1.2. Mặt bằng thuê bao gồm: một phòng kinh doanh chính rộng 100 m², một khu vệ sinh rộng 10 m² và một kho chứa hàng rộng 10 m², được bàn giao kèm theo toàn bộ cơ sở hạ tầng điện, nước và hệ thống phòng cháy chữa cháy đã được lắp đặt sẵn.
 
-Hợp đồng có hiệu lực kể từ ngày hai bên ký kết và được thực hiện trên cơ sở hợp tác và thiện chí. Mọi sửa đổi bổ sung chỉ có giá trị khi được lập thành văn bản và có chữ ký của cả hai bên. Hợp đồng được lập thành hai bản có giá trị pháp lý như nhau, mỗi bên giữ một bản.
+1.3. Bên B chỉ được phép sử dụng Mặt bằng thuê vào mục đích kinh doanh bán lẻ hàng tiêu dùng, không được sử dụng vào các mục đích khác khi chưa có sự đồng ý bằng văn bản của Bên A.
 
-Bên A đồng ý cho Bên B thuê căn hộ tại địa chỉ đã thỏa thuận với thời hạn 12 tháng kể từ ngày ký hợp đồng. Giá thuê là 8.000.000 đồng mỗi tháng, thanh toán vào ngày 05 hàng tháng. Bên B phải đặt cọc một khoản tiền tương đương một tháng tiền thuê. Khoản tiền này sẽ được hoàn trả khi kết thúc hợp đồng nếu không có thiệt hại phát sinh. Bên A có trách nhiệm bàn giao nhà đúng hiện trạng. Bên B có trách nhiệm sử dụng tài sản đúng mục đích và giữ gìn tài sản.
+Điều 2. Thời hạn thuê
 
-Bên A tuyển dụng Bên B vào vị trí nhân viên hành chính trong thời hạn 1 năm. Mức lương là 9.000.000 đồng/tháng. Bên B có trách nhiệm hoàn thành công việc được giao và tuân thủ nội quy công ty. Bên A có nghĩa vụ trả lương đầy đủ và đúng hạn. Hai bên có quyền chấm dứt hợp đồng nếu báo trước 30 ngày.
+2.1. Thời hạn thuê là 24 (hai mươi bốn) tháng, bắt đầu từ ngày 01/03/2025 và kết thúc vào ngày 28/02/2027.
 
-Bên A bán cho Bên B 100 sản phẩm theo danh mục đã thống nhất. Tổng giá trị hợp đồng là 50.000.000 đồng. Bên B thanh toán 100% trước khi nhận hàng. Bên A giao hàng trong vòng 7 ngày kể từ khi nhận đủ tiền. Nếu giao hàng chậm, Bên A phải chịu trách nhiệm bồi thường theo thỏa thuận.
+2.2. Trước khi hết hạn hợp đồng ít nhất 60 (sáu mươi) ngày, nếu Bên B có nhu cầu tiếp tục thuê, Bên B phải thông báo bằng văn bản cho Bên A. Hai bên sẽ thương lượng lại các điều khoản hợp đồng cho thời hạn tiếp theo.
 
-Bên A cung cấp dịch vụ vệ sinh văn phòng cho Bên B trong thời hạn 6 tháng. Chi phí dịch vụ là 5.000.000 đồng/tháng. Bên B thanh toán vào cuối mỗi tháng. Bên A có trách nhiệm đảm bảo chất lượng dịch vụ và tuân thủ các quy định an toàn.
+2.3. Nếu Bên B không thông báo gia hạn thuê trong thời hạn nêu trên, hợp đồng sẽ tự động chấm dứt hiệu lực vào ngày 28/02/2027 mà không cần thêm bất kỳ thủ tục nào.
 
-Bên A nhận gia công sản phẩm theo yêu cầu của Bên B với số lượng 1.000 sản phẩm. Thời gian hoàn thành là 30 ngày kể từ ngày nhận nguyên vật liệu. Bên B thanh toán theo tiến độ đã thỏa thuận. Bên A phải đảm bảo chất lượng sản phẩm đúng yêu cầu.
+Điều 3. Giá thuê và phương thức thanh toán
 
-Hai bên thống nhất hợp tác mở cửa hàng kinh doanh và cùng góp vốn. Lợi nhuận được chia theo tỷ lệ 60% cho Bên A và 40% cho Bên B. Mọi quyết định quan trọng liên quan đến hoạt động kinh doanh phải có sự đồng ý của cả hai bên.
+3.1. Giá thuê Mặt bằng là 18.000.000 đồng (mười tám triệu đồng) mỗi tháng, chưa bao gồm thuế giá trị gia tăng (VAT) theo quy định của Luật Thuế giá trị gia tăng hiện hành.
 
-Bên A cho Bên B vay số tiền 100.000.000 đồng trong thời hạn 6 tháng kể từ ngày nhận tiền. Lãi suất là 1%/tháng. Bên B có trách nhiệm hoàn trả đầy đủ cả gốc và lãi khi đến hạn. Nếu chậm thanh toán, Bên B phải chịu phạt theo thỏa thuận.
+3.2. Bên B thanh toán tiền thuê vào ngày 05 (năm) của mỗi tháng, bằng hình thức chuyển khoản ngân hàng vào tài khoản số 0000000000000 tại Ngân hàng TMCP Vietcombank, Chi nhánh Hồ Chí Minh, chủ tài khoản: Nguyễn Văn A.
 
-Bên A cung cấp dịch vụ vận chuyển hàng hóa cho Bên B theo yêu cầu. Thời gian giao hàng là 3 ngày kể từ khi nhận hàng. Bên A chịu trách nhiệm về an toàn hàng hóa trong quá trình vận chuyển. Bên B thanh toán chi phí sau khi nhận hàng.
+3.3. Trường hợp Bên B thanh toán chậm quá 07 (bảy) ngày so với ngày đến hạn, Bên B phải trả thêm khoản phạt chậm thanh toán bằng 0,5% (không phẩy năm phần trăm) trên số tiền chậm thanh toán cho mỗi ngày chậm trễ, tính từ ngày đến hạn cho đến ngày thực tế thanh toán.
 
-Bên A thực hiện bảo trì hệ thống điện cho Bên B định kỳ mỗi tháng. Chi phí bảo trì là 2.000.000 đồng/tháng. Bên A có trách nhiệm đảm bảo hệ thống hoạt động ổn định sau khi bảo trì. Bên B có trách nhiệm thanh toán đúng hạn.
+3.4. Tiền thuê có thể được điều chỉnh sau mỗi 12 (mười hai) tháng, mức điều chỉnh tăng không quá 10% (mười phần trăm) so với giá thuê hiện tại và phải được thông báo bằng văn bản cho Bên B trước ít nhất 30 (ba mươi) ngày.
 
-Bên A chuyển nhượng quyền sử dụng tài sản cho Bên B với giá 300.000.000 đồng. Bên B thanh toán theo tiến độ đã thỏa thuận. Sau khi hoàn tất thanh toán, Bên A có trách nhiệm bàn giao tài sản đầy đủ và hợp pháp cho Bên B.
+Điều 4. Tiền đặt cọc
 
-Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh trong thời hạn 24 tháng kể từ ngày ký hợp đồng. Giá thuê là 15.000.000 đồng mỗi tháng và được thanh toán vào ngày 01 hàng tháng. Bên B phải đặt cọc 2 tháng tiền thuê để đảm bảo thực hiện hợp đồng. Bên B có trách nhiệm sử dụng mặt bằng đúng mục đích và không được tự ý sửa chữa khi chưa có sự đồng ý của Bên A.
+4.1. Bên B phải nộp khoản tiền đặt cọc tương đương 02 (hai) tháng tiền thuê, tức là 36.000.000 đồng (ba mươi sáu triệu đồng), ngay sau khi ký kết hợp đồng này nhưng không muộn hơn ngày 05/03/2025.
 
-Bên A tuyển dụng Bên B vào vị trí kỹ thuật viên với thời hạn hợp đồng 2 năm. Mức lương là 12.000.000 đồng/tháng, chưa bao gồm phụ cấp. Bên B phải tuân thủ quy định an toàn lao động và hoàn thành công việc đúng tiến độ. Bên A có trách nhiệm đóng bảo hiểm đầy đủ cho Bên B theo quy định.
+4.2. Tiền đặt cọc được giữ nguyên trong suốt thời gian hợp đồng có hiệu lực và không được dùng để thay thế cho tiền thuê tháng cuối hoặc bất kỳ khoản thanh toán nào khác.
 
-Bên A bán cho Bên B 500 đơn vị hàng hóa theo thỏa thuận với tổng giá trị là 120.000.000 đồng. Bên B thanh toán 50% trước và 50% sau khi nhận hàng. Bên A phải giao hàng đúng chất lượng và thời gian. Nếu hàng hóa không đạt yêu cầu, Bên B có quyền từ chối nhận.
+4.3. Khi hợp đồng kết thúc, Bên A hoàn trả tiền đặt cọc cho Bên B trong vòng 15 (mười lăm) ngày làm việc sau khi Bên B bàn giao lại Mặt bằng, sau khi đã khấu trừ các khoản: tiền thuê còn nợ, chi phí sửa chữa hư hỏng do Bên B gây ra và các khoản phạt phát sinh (nếu có).
 
-Bên A cung cấp dịch vụ bảo vệ cho Bên B trong thời hạn 12 tháng. Chi phí dịch vụ là 20.000.000 đồng/tháng. Bên A phải đảm bảo an ninh trật tự tại khu vực được giao. Bên B thanh toán chi phí vào cuối mỗi tháng.
+4.4. Nếu Bên B đơn phương chấm dứt hợp đồng trước thời hạn mà không tuân thủ điều kiện báo trước theo Điều 7 của hợp đồng này, Bên A có quyền giữ lại toàn bộ tiền đặt cọc như một khoản bồi thường thiệt hại và không phải bồi thường thêm bất kỳ khoản nào khác.
 
-Bên A nhận thi công công trình cho Bên B theo thiết kế đã được phê duyệt. Thời gian thi công là 90 ngày. Bên B thanh toán theo từng giai đoạn hoàn thành công việc. Bên A phải đảm bảo chất lượng và an toàn trong quá trình thi công.
+Điều 5. Quyền và nghĩa vụ của Bên A
 
-Hai bên thống nhất hợp tác đầu tư dự án bất động sản với tổng vốn đầu tư là 2.000.000.000 đồng. Lợi nhuận được chia theo tỷ lệ góp vốn. Các quyết định quan trọng phải được sự đồng thuận của hai bên.
+5.1. Bên A có các quyền sau:
+(a) Yêu cầu Bên B thanh toán đầy đủ tiền thuê và các khoản phát sinh đúng hạn theo hợp đồng;
+(b) Kiểm tra Mặt bằng định kỳ mỗi 03 (ba) tháng một lần với thông báo trước ít nhất 48 (bốn mươi tám) giờ, hoặc kiểm tra đột xuất trong trường hợp nghi ngờ vi phạm hợp đồng;
+(c) Đơn phương chấm dứt hợp đồng và yêu cầu Bên B bàn giao Mặt bằng trong vòng 15 (mười lăm) ngày nếu Bên B vi phạm nghiêm trọng các điều khoản hợp đồng.
 
-Bên A cho Bên B vay số tiền 200.000.000 đồng trong thời hạn 12 tháng. Lãi suất áp dụng là 0,8%/tháng. Bên B có trách nhiệm thanh toán lãi hàng tháng và hoàn trả gốc khi đến hạn.
+5.2. Bên A có các nghĩa vụ sau:
+(a) Bàn giao Mặt bằng cho Bên B đúng ngày 01/03/2025 trong tình trạng sạch sẽ, an toàn và hoạt động bình thường;
+(b) Đảm bảo quyền sử dụng Mặt bằng của Bên B không bị gián đoạn trong suốt thời hạn hợp đồng, trừ các trường hợp bất khả kháng hoặc vi phạm hợp đồng của Bên B;
+(c) Thực hiện bảo trì, sửa chữa các hư hỏng thuộc kết cấu xây dựng của Mặt bằng trong vòng 07 (bảy) ngày làm việc kể từ khi nhận được thông báo bằng văn bản từ Bên B;
+(d) Không tự ý vào Mặt bằng khi Bên B không có mặt, trừ các trường hợp khẩn cấp như hỏa hoạn, sự cố điện nước đe dọa an toàn tài sản và tính mạng.
 
-Bên A cung cấp dịch vụ giao nhận hàng hóa cho Bên B theo từng đơn hàng. Thời gian giao hàng phụ thuộc vào khoảng cách và được thông báo trước. Bên A chịu trách nhiệm nếu hàng hóa bị mất hoặc hư hỏng.
+Điều 6. Quyền và nghĩa vụ của Bên B
 
-Bên A thực hiện bảo trì hệ thống máy lạnh cho Bên B mỗi quý một lần. Chi phí bảo trì là 5.000.000 đồng/lần. Bên A phải đảm bảo thiết bị hoạt động ổn định sau bảo trì.
+6.1. Bên B có các quyền sau:
+(a) Nhận bàn giao Mặt bằng đúng theo mô tả tại Điều 1 của hợp đồng này;
+(b) Sử dụng Mặt bằng ổn định, liên tục trong suốt thời hạn hợp đồng;
+(c) Yêu cầu Bên A sửa chữa các hư hỏng thuộc trách nhiệm của Bên A trong thời hạn hợp lý;
+(d) Được ưu tiên ký hợp đồng thuê mới với cùng điều kiện nếu Bên A cho thuê tiếp sau khi hợp đồng hết hạn.
 
-Bên A chuyển nhượng quyền sở hữu xe cho Bên B với giá 400.000.000 đồng. Bên B thanh toán đầy đủ trước khi nhận xe. Bên A có trách nhiệm cung cấp đầy đủ giấy tờ hợp lệ.
+6.2. Bên B có các nghĩa vụ sau:
+(a) Thanh toán tiền thuê và các chi phí phát sinh đầy đủ, đúng hạn theo quy định tại Điều 3;
+(b) Sử dụng Mặt bằng đúng mục đích đã thỏa thuận tại Điều 1, không tự ý thay đổi kết cấu, sửa chữa cải tạo khi chưa có sự đồng ý bằng văn bản của Bên A;
+(c) Bảo quản, giữ gìn Mặt bằng và tài sản gắn liền trong tình trạng tốt, chịu trách nhiệm sửa chữa các hư hỏng do lỗi sử dụng của mình gây ra;
+(d) Không được cho thuê lại Mặt bằng hoặc bất kỳ phần nào của Mặt bằng cho bên thứ ba dưới bất kỳ hình thức nào;
+(e) Chấp hành đầy đủ các quy định của pháp luật hiện hành liên quan đến hoạt động kinh doanh tại Mặt bằng, bao gồm các quy định về phòng cháy chữa cháy theo Luật Phòng cháy và chữa cháy, vệ sinh môi trường và an ninh trật tự;
+(f) Bàn giao lại Mặt bằng cho Bên A khi hợp đồng chấm dứt trong tình trạng tương đương lúc nhận bàn giao, trừ hao mòn tự nhiên theo thời gian.
 
-Bên A đồng ý cho Bên B thuê kho chứa hàng trong thời hạn 18 tháng kể từ ngày ký hợp đồng. Giá thuê là 10.000.000 đồng mỗi tháng và được thanh toán vào ngày 10 hàng tháng. Bên B phải đặt cọc một khoản tiền tương đương hai tháng tiền thuê. Bên B có trách nhiệm bảo quản hàng hóa và không được sử dụng kho vào mục đích trái pháp luật.
+Điều 7. Chấm dứt hợp đồng trước thời hạn
 
-Bên A tuyển dụng Bên B vào vị trí kế toán với thời hạn hợp đồng 12 tháng. Mức lương là 11.000.000 đồng/tháng. Bên B có trách nhiệm quản lý sổ sách kế toán và báo cáo tài chính đúng thời hạn. Bên A có nghĩa vụ cung cấp đầy đủ thông tin và công cụ làm việc cần thiết.
+7.1. Một trong hai bên có quyền đơn phương chấm dứt hợp đồng trước thời hạn bằng cách thông báo bằng văn bản cho bên kia trước ít nhất 60 (sáu mươi) ngày.
 
-Bên A bán cho Bên B 300 sản phẩm nội thất với tổng giá trị là 150.000.000 đồng. Bên B thanh toán 30% trước và phần còn lại sau khi nhận hàng. Bên A phải đảm bảo hàng hóa đúng mẫu mã và chất lượng đã cam kết.
+7.2. Nếu bên chấm dứt không thông báo đúng thời hạn 60 ngày theo quy định tại khoản 7.1, bên vi phạm phải bồi thường cho bên còn lại một khoản tiền tương đương với số ngày thông báo còn thiếu, tính theo đơn giá thuê hàng ngày (tiền thuê hàng tháng chia cho 30 ngày).
 
-Bên A cung cấp dịch vụ vệ sinh công nghiệp cho Bên B trong thời hạn 3 tháng. Chi phí dịch vụ là 8.000.000 đồng/tháng. Bên A phải đảm bảo vệ sinh sạch sẽ theo tiêu chuẩn đã thỏa thuận. Bên B thanh toán vào cuối mỗi tháng.
+7.3. Hợp đồng đương nhiên chấm dứt trong các trường hợp sau mà không cần thông báo trước:
+(a) Mặt bằng bị phá hủy hoàn toàn do thiên tai, hỏa hoạn hoặc các sự kiện bất khả kháng khác mà không thể khôi phục được;
+(b) Cơ quan nhà nước có thẩm quyền ra quyết định thu hồi đất hoặc Mặt bằng vì mục đích công cộng theo quy định của Luật Đất đai;
+(c) Bên B bị tuyên bố phá sản theo quyết định của Tòa án nhân dân có thẩm quyền.
 
-Bên A nhận sửa chữa hệ thống điện nước cho Bên B trong thời gian 15 ngày. Chi phí sửa chữa được tính theo khối lượng công việc thực tế. Bên A phải đảm bảo an toàn trong quá trình thi công.
+7.4. Bên A có quyền đơn phương chấm dứt hợp đồng ngay lập tức mà không cần bồi thường nếu Bên B vi phạm một trong các nghĩa vụ sau: chậm thanh toán tiền thuê quá 30 (ba mươi) ngày, tự ý cho thuê lại Mặt bằng, hoặc sử dụng Mặt bằng vào mục đích trái pháp luật.
 
-Hai bên thống nhất hợp tác kinh doanh quán cà phê. Tổng vốn đầu tư là 500.000.000 đồng, lợi nhuận được chia đều. Mọi hoạt động tài chính phải được ghi chép minh bạch.
+Điều 8. Giải quyết tranh chấp
 
-Bên A cho Bên B vay số tiền 50.000.000 đồng trong thời hạn 3 tháng. Lãi suất là 1,2%/tháng. Bên B có trách nhiệm hoàn trả đúng hạn cả gốc và lãi.
+8.1. Mọi tranh chấp phát sinh từ hoặc liên quan đến hợp đồng này trước tiên sẽ được các bên giải quyết thông qua thương lượng, hòa giải trên tinh thần hợp tác và thiện chí.
 
-Bên A cung cấp dịch vụ chuyển phát nhanh cho Bên B. Thời gian giao hàng từ 1 đến 2 ngày tùy khu vực. Bên A phải bồi thường nếu làm mất hàng hóa.
+8.2. Nếu các bên không thể giải quyết tranh chấp bằng thương lượng trong vòng 30 (ba mươi) ngày kể từ khi một bên gửi thông báo tranh chấp bằng văn bản, tranh chấp sẽ được đưa ra giải quyết tại Tòa án nhân dân có thẩm quyền tại Thành phố Hồ Chí Minh theo quy định của Bộ luật Tố tụng dân sự năm 2015.
 
-Bên A thực hiện bảo trì hệ thống camera giám sát cho Bên B mỗi 6 tháng một lần. Chi phí bảo trì là 3.000.000 đồng/lần. Bên A phải đảm bảo hệ thống hoạt động ổn định.
+Điều 9. Điều khoản chung
 
-Bên A chuyển nhượng quyền sử dụng đất cho Bên B với giá 1.000.000.000 đồng. Bên B thanh toán theo tiến độ đã thỏa thuận. Sau khi hoàn tất, Bên A bàn giao đầy đủ giấy tờ pháp lý.
+9.1. Hợp đồng này được lập thành 04 (bốn) bản có giá trị pháp lý như nhau, mỗi bên giữ 02 (hai) bản.
 
-Bên A cung cấp dịch vụ đào tạo kỹ năng mềm cho Bên B trong thời hạn 2 tháng. Nội dung đào tạo bao gồm kỹ năng giao tiếp, làm việc nhóm và quản lý thời gian. Tổng chi phí là 25.000.000 đồng và được thanh toán thành hai đợt. Bên A có trách nhiệm đảm bảo chất lượng giảng dạy, Bên B có trách nhiệm tham gia đầy đủ các buổi học.
+9.2. Mọi sửa đổi, bổ sung hợp đồng chỉ có giá trị khi được lập thành văn bản và có chữ ký xác nhận của cả hai bên hoặc người được ủy quyền hợp pháp.
 
-Bên A cho Bên B thuê xe ô tô trong thời hạn 7 ngày. Giá thuê là 1.000.000 đồng/ngày. Bên B phải đặt cọc 10.000.000 đồng và chịu trách nhiệm đối với mọi hư hỏng phát sinh trong thời gian thuê.
+9.3. Hợp đồng có hiệu lực kể từ ngày hai bên ký kết và được điều chỉnh bởi pháp luật Việt Nam, cụ thể là Bộ luật Dân sự năm 2015 và các văn bản hướng dẫn thi hành.
 
-Bên A bán bản quyền phần mềm cho Bên B với giá 80.000.000 đồng. Bên B được quyền sử dụng phần mềm trong phạm vi nội bộ và không được sao chép hoặc phân phối lại nếu không có sự đồng ý của Bên A.
+ĐẠI DIỆN BÊN A                                    ĐẠI DIỆN BÊN B
+(Ký, ghi rõ họ tên)                                (Ký, đóng dấu, ghi rõ họ tên)
 
-Bên A cung cấp dịch vụ quảng cáo trực tuyến cho Bên B trong thời hạn 3 tháng. Chi phí dịch vụ là 15.000.000 đồng/tháng. Bên A có trách nhiệm tối ưu chiến dịch quảng cáo để đạt hiệu quả tốt nhất.
+Nguyễn Văn A                                   Trần Thị B
+                                                    Giám đốc Công ty TNHH TM Phú Hưng
 
-Bên A nhận thiết kế logo và bộ nhận diện thương hiệu cho Bên B. Thời gian thực hiện là 20 ngày. Bên B thanh toán 50% trước và 50% sau khi hoàn thành.
+================================================================================
 
-Hai bên thống nhất hợp tác sản xuất nội dung số trên nền tảng mạng xã hội. Doanh thu từ quảng cáo sẽ được chia theo tỷ lệ 70% cho Bên A và 30% cho Bên B.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+———————
 
-Bên A cho Bên B vay số tiền 30.000.000 đồng trong thời hạn 2 tháng. Lãi suất là 1%/tháng. Bên B có trách nhiệm hoàn trả đầy đủ khi đến hạn.
+HỢP ĐỒNG LAO ĐỘNG
+Số: 08/2025/HĐLĐ
 
-Bên A cung cấp dịch vụ tổ chức sự kiện cho Bên B. Sự kiện sẽ được tổ chức vào ngày đã thỏa thuận với tổng chi phí là 100.000.000 đồng. Bên A chịu trách nhiệm về toàn bộ khâu tổ chức.
+Hôm nay, ngày 10 tháng 03 năm 2025, tại Thành phố Hồ Chí Minh, chúng tôi gồm:
 
-Bên A thực hiện bảo trì hệ thống mạng nội bộ cho Bên B trong thời hạn 6 tháng. Chi phí là 4.000.000 đồng/tháng. Bên A phải đảm bảo hệ thống hoạt động ổn định.
+NGƯỜI SỬ DỤNG LAO ĐỘNG (BÊN A):
+Công ty Cổ phần Công nghệ Sao Việt
+Mã số doanh nghiệp: 0314567890
+Địa chỉ: 120 Đường Điện Biên Phủ, Phường 15, Quận Bình Thạnh, Thành phố Hồ Chí Minh
+Người đại diện: Ông Lê Minh C – Chức vụ: Tổng Giám đốc
+Số điện thoại: 028 0000 0000
 
-Bên A chuyển nhượng quyền sử dụng tên miền internet cho Bên B với giá 60.000.000 đồng. Bên B thanh toán đầy đủ trước khi nhận quyền sử dụng.
+NGƯỜI LAO ĐỘNG (BÊN B):
+Họ và tên: Phạm Thị D
+Ngày sinh: 01/01/2000
+Số CCCD: 079000000002, cấp ngày 01/01/2022 tại Cục Cảnh sát ĐKQL cư trú và DLQG về dân cư
+Địa chỉ thường trú: 27 Đường Nơ Trang Long, Phường 14, Quận Bình Thạnh, Thành phố Hồ Chí Minh
+Số điện thoại: 0900 000 003
+Trình độ chuyên môn: Kỹ sư Công nghệ thông tin, Trường Đại học Bách Khoa TP.HCM
 
-Bên A cung cấp dịch vụ tư vấn pháp lý cho Bên B trong thời hạn 6 tháng kể từ ngày ký hợp đồng. Nội dung tư vấn bao gồm các vấn đề liên quan đến hoạt động kinh doanh của Bên B. Chi phí dịch vụ là 10.000.000 đồng/tháng và được thanh toán vào đầu mỗi tháng. Bên A có trách nhiệm bảo mật thông tin và cung cấp ý kiến tư vấn chính xác, kịp thời.
+Hai bên thống nhất giao kết hợp đồng lao động theo quy định của Bộ luật Lao động năm 2019 và Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động, với các điều khoản cụ thể như sau:
 
-Bên A cho Bên B thuê thiết bị âm thanh phục vụ sự kiện trong thời hạn 3 ngày. Tổng chi phí thuê là 15.000.000 đồng. Bên B phải đặt cọc 5.000.000 đồng và hoàn trả thiết bị đúng thời hạn, đúng tình trạng ban đầu.
+Điều 1. Loại hợp đồng và công việc
 
-Bên A bán nguyên vật liệu xây dựng cho Bên B với tổng giá trị là 250.000.000 đồng. Bên B thanh toán 70% trước khi giao hàng và 30% sau khi nhận hàng. Bên A có trách nhiệm giao hàng đúng số lượng, chất lượng và thời gian đã thỏa thuận.
+1.1. Loại hợp đồng: Hợp đồng lao động xác định thời hạn 12 (mười hai) tháng.
 
-Bên A cung cấp dịch vụ bảo trì thang máy cho Bên B trong thời hạn 12 tháng. Chi phí bảo trì là 6.000.000 đồng/tháng. Bên A phải đảm bảo thang máy hoạt động an toàn và xử lý sự cố kịp thời.
+1.2. Bên A tuyển dụng Bên B vào làm việc tại vị trí Lập trình viên Backend (Backend Developer), thuộc Phòng Kỹ thuật và Phát triển sản phẩm.
 
-Bên A nhận thi công hệ thống phòng cháy chữa cháy cho Bên B theo thiết kế đã phê duyệt. Thời gian thi công là 60 ngày. Bên B thanh toán theo tiến độ thi công và nghiệm thu từng giai đoạn.
+1.3. Nơi làm việc chính: 120 Đường Điện Biên Phủ, Phường 15, Quận Bình Thạnh, Thành phố Hồ Chí Minh. Trong trường hợp cần thiết, Bên A có thể yêu cầu Bên B làm việc tại các địa điểm khác nhưng phải thông báo trước ít nhất 07 (bảy) ngày.
 
-Hai bên thống nhất hợp tác phát triển ứng dụng di động. Bên A chịu trách nhiệm kỹ thuật, Bên B chịu trách nhiệm kinh doanh. Lợi nhuận được chia theo tỷ lệ 50/50 sau khi trừ chi phí.
+1.4. Mô tả công việc chính của Bên B bao gồm: thiết kế và phát triển các tính năng backend cho hệ thống phần mềm của Bên A; viết mã nguồn theo đúng tiêu chuẩn kỹ thuật được quy định; tham gia kiểm thử phần mềm và sửa lỗi; lập tài liệu kỹ thuật cho các module được phụ trách; và tham dự các cuộc họp kỹ thuật theo lịch của phòng ban.
 
-Bên A cho Bên B vay số tiền 75.000.000 đồng trong thời hạn 5 tháng. Lãi suất áp dụng là 1,1%/tháng. Bên B có trách nhiệm thanh toán lãi hàng tháng và hoàn trả gốc khi đến hạn.
+Điều 2. Thời gian làm việc
 
-Bên A cung cấp dịch vụ in ấn tài liệu cho Bên B theo từng đơn đặt hàng. Chi phí được tính theo số lượng và loại tài liệu. Bên A phải đảm bảo chất lượng in rõ ràng, đúng yêu cầu.
+2.1. Thời hạn hợp đồng: 12 (mười hai) tháng, bắt đầu từ ngày 10/03/2025 đến ngày 09/03/2026.
 
-Bên A thực hiện bảo trì hệ thống chiếu sáng cho Bên B mỗi 2 tháng một lần. Chi phí bảo trì là 2.500.000 đồng/lần. Bên A phải đảm bảo hệ thống hoạt động ổn định sau khi bảo trì.
+2.2. Giờ làm việc: từ 08 giờ 00 đến 17 giờ 00, từ Thứ Hai đến Thứ Sáu hàng tuần, nghỉ trưa 60 (sáu mươi) phút từ 12 giờ 00 đến 13 giờ 00. Tổng thời gian làm việc là 40 (bốn mươi) giờ mỗi tuần theo quy định tại Điều 105 Bộ luật Lao động năm 2019.
 
-Bên A chuyển nhượng cổ phần trong công ty cho Bên B với giá 500.000.000 đồng. Bên B thanh toán theo thỏa thuận và được hưởng quyền lợi tương ứng với số cổ phần đã mua.
+2.3. Trường hợp Bên A yêu cầu Bên B làm thêm giờ ngoài giờ làm việc tiêu chuẩn, Bên A phải có sự đồng ý của Bên B và phải trả tiền lương làm thêm giờ theo đúng quy định tại Điều 98 Bộ luật Lao động năm 2019, cụ thể: ngày thường trả 150%, ngày nghỉ hàng tuần trả 200%, ngày lễ và ngày nghỉ có hưởng lương trả 300% so với đơn giá tiền lương của giờ làm việc bình thường.
+
+Điều 3. Tiền lương và phúc lợi
+
+3.1. Mức lương cơ bản: 15.000.000 đồng (mười lăm triệu đồng) mỗi tháng.
+
+3.2. Phụ cấp: Bên B được hưởng các khoản phụ cấp sau:
+(a) Phụ cấp đi lại: 1.000.000 đồng/tháng;
+(b) Phụ cấp ăn trưa: 800.000 đồng/tháng;
+(c) Phụ cấp điện thoại: 500.000 đồng/tháng.
+
+3.3. Tổng thu nhập hàng tháng của Bên B (chưa bao gồm các khoản thưởng): 17.300.000 đồng (mười bảy triệu ba trăm nghìn đồng).
+
+3.4. Tiền lương được thanh toán vào ngày 10 (mười) của tháng sau, bằng hình thức chuyển khoản vào tài khoản ngân hàng do Bên B cung cấp.
+
+3.5. Bên A thực hiện khấu trừ thuế thu nhập cá nhân và các khoản bảo hiểm bắt buộc theo quy định của pháp luật trước khi thanh toán cho Bên B.
+
+3.6. Bên A có thể xét thưởng hiệu suất cho Bên B theo quy chế lương thưởng nội bộ của công ty, căn cứ trên kết quả đánh giá công việc hằng quý. Mức thưởng cụ thể do Bên A quyết định và không phải là khoản bắt buộc theo hợp đồng này.
+
+Điều 4. Bảo hiểm xã hội và chế độ phúc lợi
+
+4.1. Bên A có nghĩa vụ đóng bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp cho Bên B theo đúng quy định của Luật Bảo hiểm xã hội năm 2014 (sửa đổi, bổ sung năm 2019), Luật Bảo hiểm y tế năm 2008 (sửa đổi, bổ sung năm 2014) và Luật Việc làm năm 2013. Mức đóng được tính trên mức lương cơ bản 15.000.000 đồng/tháng.
+
+4.2. Bên B được hưởng chế độ nghỉ phép năm 12 (mười hai) ngày làm việc có hưởng lương trong năm đầu tiên theo Điều 113 Bộ luật Lao động năm 2019. Ngày nghỉ phép tăng thêm 01 (một) ngày cho mỗi 05 (năm) năm làm việc tại Bên A.
+
+4.3. Bên B được nghỉ các ngày lễ, tết theo quy định tại Điều 112 Bộ luật Lao động năm 2019 và được hưởng nguyên lương trong những ngày nghỉ này.
+
+Điều 5. Quyền và nghĩa vụ của Bên A
+
+5.1. Bên A có các quyền sau:
+(a) Phân công, điều chuyển công việc của Bên B trong phạm vi hợp đồng này, phù hợp với trình độ chuyên môn và sức khỏe của Bên B;
+(b) Khen thưởng Bên B khi hoàn thành xuất sắc nhiệm vụ được giao;
+(c) Xử lý kỷ luật lao động đối với Bên B theo đúng trình tự, thủ tục quy định tại Điều 122 Bộ luật Lao động năm 2019 và Nội quy lao động của công ty khi Bên B vi phạm kỷ luật.
+
+5.2. Bên A có các nghĩa vụ sau:
+(a) Thanh toán lương và các khoản phúc lợi cho Bên B đầy đủ và đúng hạn theo quy định tại Điều 3;
+(b) Cung cấp đầy đủ công cụ, thiết bị, phần mềm và tài nguyên kỹ thuật cần thiết để Bên B thực hiện công việc, bao gồm máy tính xách tay, tài khoản phần mềm và quyền truy cập hệ thống;
+(c) Đảm bảo điều kiện làm việc an toàn, vệ sinh theo quy định của Luật An toàn, vệ sinh lao động năm 2015;
+(d) Đào tạo, hướng dẫn Bên B về kỹ thuật an toàn, các quy định nội bộ và quy trình làm việc trước khi Bên B bắt đầu công việc;
+(e) Không phân biệt đối xử, quấy rối hoặc ép buộc lao động trái ý muốn của Bên B.
+
+Điều 6. Quyền và nghĩa vụ của Bên B
+
+6.1. Bên B có các quyền sau:
+(a) Hưởng đầy đủ lương và các chế độ phúc lợi theo quy định tại Điều 3 và Điều 4 của hợp đồng này;
+(b) Được làm việc trong môi trường an toàn, được trang bị đầy đủ phương tiện và công cụ lao động;
+(c) Nghỉ phép, nghỉ lễ theo đúng quy định của pháp luật và hợp đồng;
+(d) Đơn phương chấm dứt hợp đồng theo quy định tại Điều 35 Bộ luật Lao động năm 2019.
+
+6.2. Bên B có các nghĩa vụ sau:
+(a) Thực hiện đầy đủ, đúng tiến độ các công việc được phân công theo mô tả tại Điều 1 và chấp hành sự điều hành hợp pháp của Bên A;
+(b) Tuân thủ Nội quy lao động, Quy chế bảo mật thông tin và các quy định nội bộ khác của Bên A;
+(c) Bảo mật tuyệt đối mọi thông tin, dữ liệu, bí quyết kinh doanh và công nghệ của Bên A trong suốt thời hạn hợp đồng và sau khi hợp đồng chấm dứt trong vòng 02 (hai) năm tiếp theo, trừ khi được sự đồng ý bằng văn bản của Bên A;
+(d) Không được đồng thời làm việc cho các công ty có hoạt động kinh doanh cạnh tranh trực tiếp với Bên A trong suốt thời gian hợp đồng có hiệu lực;
+(e) Không được sử dụng tài nguyên, thiết bị và thông tin của Bên A vào mục đích cá nhân hoặc mục đích không liên quan đến công việc được giao;
+(f) Bồi thường thiệt hại thực tế cho Bên A theo quy định tại Điều 130 Bộ luật Lao động năm 2019 nếu gây ra thiệt hại do lỗi của mình.
+
+Điều 7. Chấm dứt hợp đồng lao động
+
+7.1. Hợp đồng lao động chấm dứt trong các trường hợp theo quy định tại Điều 34 Bộ luật Lao động năm 2019, bao gồm: hết hạn hợp đồng; hai bên thỏa thuận chấm dứt; Bên B đủ điều kiện hưởng lương hưu theo quy định.
+
+7.2. Hợp đồng đương nhiên chấm dứt hiệu lực kể từ ngày 09/03/2026 nếu không có thỏa thuận gia hạn bằng văn bản từ cả hai bên trước thời điểm đó ít nhất 30 (ba mươi) ngày.
+
+7.3. Bên B có quyền đơn phương chấm dứt hợp đồng lao động trước thời hạn bằng cách thông báo bằng văn bản cho Bên A trước ít nhất 30 (ba mươi) ngày theo quy định tại Điều 35 Bộ luật Lao động năm 2019.
+
+7.4. Nếu Bên B đơn phương chấm dứt hợp đồng mà không thông báo trước đúng thời hạn quy định tại khoản 7.3, Bên B phải bồi thường cho Bên A một khoản tiền tương đương 01 (một) tháng lương cơ bản theo hợp đồng, tức là 15.000.000 đồng (mười lăm triệu đồng), và hoàn trả toàn bộ chi phí đào tạo mà Bên A đã chi trả cho Bên B (nếu có) theo quy định tại Điều 40 Bộ luật Lao động năm 2019.
+
+7.5. Bên A có quyền đơn phương chấm dứt hợp đồng lao động trước thời hạn trong các trường hợp quy định tại Điều 36 Bộ luật Lao động năm 2019, cụ thể khi: Bên B thường xuyên không hoàn thành công việc theo mức độ đã thỏa thuận, Bên B bị xử lý kỷ luật sa thải, hoặc Bên B có hành vi gian lận khi ký kết hợp đồng.
+
+7.6. Khi chấm dứt hợp đồng, Bên B có nghĩa vụ bàn giao đầy đủ công việc đang thực hiện, tài liệu kỹ thuật, thiết bị và tất cả tài sản của Bên A cho người được ủy quyền tiếp nhận trong vòng 05 (năm) ngày làm việc cuối cùng.
+
+Điều 8. Điều khoản bảo mật và không cạnh tranh
+
+8.1. Bên B cam kết không tiết lộ cho bên thứ ba bất kỳ thông tin mật nào về công nghệ, khách hàng, chiến lược kinh doanh hoặc quy trình nội bộ của Bên A mà Bên B tiếp cận được trong quá trình làm việc.
+
+8.2. Trong vòng 12 (mười hai) tháng sau khi hợp đồng chấm dứt, Bên B không được làm việc hoặc cung cấp dịch vụ tư vấn cho bất kỳ công ty nào là đối thủ cạnh tranh trực tiếp của Bên A trong lĩnh vực phát triển phần mềm quản lý doanh nghiệp tại thị trường Việt Nam. Nếu vi phạm, Bên B phải bồi thường cho Bên A một khoản tiền phạt là 50.000.000 đồng (năm mươi triệu đồng).
+
+Điều 9. Giải quyết tranh chấp
+
+9.1. Các bên cam kết ưu tiên giải quyết mọi tranh chấp phát sinh liên quan đến hợp đồng này thông qua hòa giải tại cơ sở theo Điều 188 Bộ luật Lao động năm 2019.
+
+9.2. Trong trường hợp hòa giải không thành hoặc hết thời hạn hòa giải mà các bên vẫn không đạt được thỏa thuận, tranh chấp sẽ được giải quyết tại Hội đồng trọng tài lao động hoặc Tòa án nhân dân quận Bình Thạnh, Thành phố Hồ Chí Minh theo quy định của Bộ luật Tố tụng dân sự năm 2015 và Bộ luật Lao động năm 2019.
+
+Điều 10. Điều khoản chung
+
+10.1. Hợp đồng lao động này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, Bên A giữ 01 (một) bản, Bên B giữ 01 (một) bản.
+
+10.2. Hợp đồng có hiệu lực từ ngày 10/03/2025 và được điều chỉnh bởi pháp luật lao động Việt Nam. Mọi vấn đề không được quy định trong hợp đồng này sẽ được giải quyết theo quy định của Bộ luật Lao động năm 2019 và các văn bản hướng dẫn thi hành.
+
+10.3. Các phụ lục đính kèm (nếu có) là bộ phận không tách rời của hợp đồng này và có giá trị pháp lý như nhau.
+
+ĐẠI DIỆN BÊN A                                    BÊN B
+(Ký, đóng dấu, ghi rõ họ tên)                     (Ký, ghi rõ họ tên)
+
+Lê Minh C                                       Phạm Thị D
+Tổng Giám đốc
+Công ty CP Công nghệ Sao Việt

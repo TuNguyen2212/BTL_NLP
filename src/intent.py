@@ -1,5 +1,3 @@
-"""Inference cho Intent Classification bằng TF-IDF + LR."""
-
 import os
 import sys
 import json
@@ -15,20 +13,34 @@ from config import (
 )
 
 
-_model = None
+_tfidf_model = None
+_phobert_cls = None
 
 
-def _get_model():
-    global _model
-    if _model is None:
+def _get_tfidf_model():
+    global _tfidf_model
+    if _tfidf_model is None:
         if not os.path.exists(INTENT_MODEL_PATH):
             raise FileNotFoundError(
-                f"Model không tìm thấy tại {INTENT_MODEL_PATH}.\n"
+                f"TF-IDF model không tìm thấy tại {INTENT_MODEL_PATH}.\n"
                 f"Hãy chạy: python train_intent.py"
             )
-        _model = joblib.load(INTENT_MODEL_PATH)
-        print(f"[Intent] Model loaded <- {INTENT_MODEL_PATH}")
-    return _model
+        _tfidf_model = joblib.load(INTENT_MODEL_PATH)
+        print(f"[Intent] TF-IDF model loaded <- {INTENT_MODEL_PATH}")
+    return _tfidf_model
+
+
+def _get_phobert():
+    global _phobert_cls
+    if _phobert_cls is None:
+        from src.phobert_intent import PhoBERTIntentClassifier
+
+        _phobert_cls = PhoBERTIntentClassifier()
+        if _phobert_cls.is_available():
+            _phobert_cls.load()
+        else:
+            _phobert_cls = False
+    return _phobert_cls if _phobert_cls else None
 
 
 def _rule_based_predict(clause: str) -> str:
@@ -40,37 +52,43 @@ def _rule_based_predict(clause: str) -> str:
 
 
 def predict_intent(clause: str, confidence_threshold: float = 0.5) -> dict:
-    """Dự đoán intent cho một clause."""
     if not clause or not clause.strip():
         return {"intent": "Obligation", "confidence": 0.0, "source": "default"}
 
-    model = _get_model()
+    phobert = _get_phobert()
+    if phobert:
+        return phobert.predict_single(clause)
 
-    proba = model.predict_proba([clause])[0]
-    classes = model.classes_
-    max_idx = proba.argmax()
-    confidence = float(proba[max_idx])
-    predicted = classes[max_idx]
+    if os.path.exists(INTENT_MODEL_PATH):
+        model = _get_tfidf_model()
+        proba = model.predict_proba([clause])[0]
+        classes = model.classes_
+        max_idx = proba.argmax()
+        confidence = float(proba[max_idx])
+        predicted = classes[max_idx]
 
-    if confidence < confidence_threshold:
-        rule_pred = _rule_based_predict(clause)
+        if confidence < confidence_threshold:
+            return {
+                "intent": _rule_based_predict(clause),
+                "confidence": confidence,
+                "source": "rule",
+            }
         return {
-            "intent": rule_pred,
-            "confidence": confidence,
-            "source": "rule",
+            "intent": predicted,
+            "confidence": round(confidence, 4),
+            "source": "tfidf",
         }
 
     return {
-        "intent": predicted,
-        "confidence": round(confidence, 4),
-        "source": "model",
+        "intent": _rule_based_predict(clause),
+        "confidence": 0.0,
+        "source": "rule",
     }
 
 
 def run_intent(
     clauses_path: str = CLAUSES_PATH, output_path: str = INTENT_OUTPUT_PATH
 ) -> list[dict]:
-    """Chạy dự đoán intent cho toàn bộ clause."""
     with open(clauses_path, encoding="utf-8") as f:
         clauses = [line.strip() for line in f if line.strip()]
 
@@ -101,12 +119,12 @@ def run_intent(
     from collections import Counter
 
     counts = Counter(r["intent"] for r in results)
-    rule_count = sum(1 for r in results if r["source"] == "rule")
+    sources = Counter(r["source"] for r in results)
     avg_conf = sum(r["confidence"] for r in results) / len(results)
 
     print(f"[Intent] Processed {len(results)} clauses -> {output_path}")
     print(f"  Avg confidence : {avg_conf:.3f}")
-    print(f"  Rule fallback  : {rule_count}/{len(results)} clauses")
+    print(f"  Sources        : {dict(sources)}")
     print(f"  Distribution   :")
     for label in INTENT_LABELS:
         print(f"    {label:25}: {counts.get(label, 0)}")

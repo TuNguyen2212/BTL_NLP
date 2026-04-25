@@ -3,6 +3,9 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_DIR = os.path.join(BASE_DIR, "input")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+
+INPUT_PATH = os.path.join(INPUT_DIR, "raw_contracts.txt")
+CHUNKS_PATH = os.path.join(OUTPUT_DIR, "chunks.txt")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 
@@ -15,6 +18,7 @@ INTENT_OUTPUT_PATH = os.path.join(OUTPUT_DIR, "intent_classification.txt")
 ANNOTATED_NER_PATH = os.path.join(DATA_DIR, "annotated_ner.json")
 ANNOTATED_INTENT_PATH = os.path.join(DATA_DIR, "annotated_intent.json")
 INTENT_MODEL_PATH = os.path.join(MODEL_DIR, "intent_tfidf.pkl")
+PHOBERT_MODEL_PATH = os.path.join(MODEL_DIR, "intent_phobert")
 
 NER_LABELS = ["PARTY", "MONEY", "DATE", "RATE", "PENALTY", "LAW"]
 
@@ -26,27 +30,39 @@ NER_PATTERNS = {
         r"mỗi bên",
         r"bên vi phạm",
         r"bên còn lại",
+        r"bên kia",
+        r"bên chấm dứt",
         r"Bên [AB]",
+        r"Người lao động",
+        r"Người sử dụng lao động",
+        r"Công ty",
+        r"Nhân viên",
     ],
     "MONEY": [
-        r"\d[\d.,]*\s*(?:VNĐ|đồng|triệu|tỷ)",
+        r"\d[\d.,]*\s*(?:VNĐ|đồng|triệu|tỷ)(?:\s*/\s*tháng)?",
         r"tiền đặt cọc",
         r"tiền thuê nhà",
         r"tiền thuê",
+        r"tiền lương",
+        r"tiền phạt",
         r"tiền mặt",
         r"tiền điện",
+        r"tiền nước",
+        r"lương cơ bản",
+        r"mức lương",
         r"khoản tiền",
         r"số tiền",
+        r"phụ cấp[\w\s]{0,20}",
+        r"thu nhập",
     ],
     "DATE": [
-        r"trước ít nhất \d+ ngày",
-        r"kể từ ngày\s+[\w\s]+ký kết",
-        r"kể từ ngày\s+\w+",
+        r"trước ít nhất \d+[\s\(][\w\s]*\)?\s*(?:ngày|tháng|năm)",
+        r"kể từ ngày[\w\s]+ký kết",
         r"ngày \d+\s+hàng tháng",
         r"ngày \d{1,2}/\d{1,2}/\d{4}",
         r"ngày \d+",
-        r"hàng tháng",
-        r"\d+ ngày",
+        r"hàng năm",
+        r"\d+[\s\(][\w\s]*\)?\s*(?:ngày|tháng|năm)",
         r"hết thời hạn thuê",
         r"thời hạn thuê",
         r"trước thời hạn",
@@ -58,15 +74,21 @@ NER_PATTERNS = {
         r"\d+(?:[.,]\d+)?\s*%",
     ],
     "PENALTY": [
-        r"bồi thường",
+        r"[Bb]ồi thường",
         r"khấu trừ",
-        r"bị phạt",
+        r"khoản phạt",
+        r"tiền phạt",
+        r"mức phạt",
+        r"phạt chậm",
     ],
     "LAW": [
-        r"Điều \d+",
-        r"Bộ luật \w+",
-        r"Luật \w+",
-        r"Nghị định",
+        r"Điều \d+(?:\.\d+)?",
+        r"khoản \d+(?:\.\d+)?",
+        r"Bộ luật\s+\w+(?:\s+(?!và\b|hoặc\b|của\b|theo\b|các\b|hiện\b|này\b)\w+){0,5}",
+        r"(?<!ộ )(?<!pháp )Luật\s+\w+(?:\s+(?!và\b|hoặc\b|của\b|theo\b|các\b|hiện\b|này\b)\w+){0,5}",
+        r"Nghị định(?:\s+số\s+[\d/\w-]+)?(?:\s+ngày\s+\d{1,2}/\d{1,2}/\d{4})?",
+        r"Quyết định(?:\s+số\s+[\d/\w-]+)?",
+        r"Thông tư(?:\s+số\s+[\d/\w-]+)?",
     ],
 }
 

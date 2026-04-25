@@ -1,5 +1,3 @@
-"""Semantic Role Labeling theo hướng hybrid."""
-
 import os
 import sys
 import json
@@ -16,7 +14,6 @@ from config import (
 
 
 def _resolve_to_entity(token: str, clause: str, entities: list[dict]) -> str:
-    """Mở rộng token dependency thành span entity gần nhất nếu có."""
     token_pos = clause.find(token)
     if token_pos == -1:
         return token
@@ -45,7 +42,6 @@ def _find_money_entities(entities: list[dict]) -> list[str]:
 
 
 def _extract_condition(clause: str) -> str | None:
-    """Lấy phần điều kiện đứng trước từ khóa `thì` nếu có."""
     for marker in CONDITION_MARKERS:
         if clause.startswith(marker) or f" {marker} " in clause:
             for end_marker in CONDITION_END_MARKERS:
@@ -64,12 +60,11 @@ def _is_negated(deps: list[dict]) -> bool:
 
 
 def extract_roles(clause: str, deps: list[dict], entities: list[dict]) -> dict:
-    """Suy ra predicate và các vai nghĩa chính cho một clause."""
     roles = {
         role: None for role in ["Agent", "Theme", "Recipient", "Time", "Condition"]
     }
 
-    root_token = next((d["token"] for d in deps if d["dep"] == "root"), None)
+    root_token = next((d["token"] for d in deps if d["head"] == 0), None)
     negated = _is_negated(deps)
     nsubj_tokens = [d["token"] for d in deps if d["dep"] == "nsubj"]
     party_entities = _find_party_entities(entities)
@@ -90,13 +85,27 @@ def extract_roles(clause: str, deps: list[dict], entities: list[dict]) -> dict:
 
     obl_iobj = [d["token"] for d in deps if d["dep"] == "obl:iobj"]
     if obl_iobj and len(party_entities) >= 2:
-        agent = roles["Agent"]
+        agent = roles.get("Agent")
         for p in party_entities:
             if p != agent:
                 roles["Recipient"] = p
                 break
     elif obl_iobj:
         roles["Recipient"] = _resolve_to_entity(obl_iobj[0], clause, entities)
+
+    if not roles.get("Recipient") and len(party_entities) >= 2:
+        for marker in ["cho", "với", "đến", "tới"]:
+            if f" {marker} " in clause.lower():
+                agent = roles.get("Agent")
+                for p in party_entities:
+                    if p != agent and (
+                        f" {marker} {p}" in clause
+                        or f" {marker} {p.lower()}" in clause.lower()
+                    ):
+                        roles["Recipient"] = p
+                        break
+                if roles.get("Recipient"):
+                    break
 
     date_entities = _find_date_entities(entities)
     if date_entities:
@@ -122,7 +131,6 @@ def run_srl(
     ner_path: str = NER_OUTPUT_PATH,
     output_path: str = SRL_OUTPUT_PATH,
 ) -> list[dict]:
-    """Chạy SRL cho toàn bộ clause và ghi ra file JSON."""
     with open(clauses_path, encoding="utf-8") as f:
         clauses = [line.strip() for line in f if line.strip()]
 
@@ -174,6 +182,10 @@ def run_srl(
 
 if __name__ == "__main__":
     import argparse
+    import sys
+    import io
+
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
     parser = argparse.ArgumentParser()
     parser.add_argument(

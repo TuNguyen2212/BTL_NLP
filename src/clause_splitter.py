@@ -1,51 +1,48 @@
 import re
 
 CONNECTORS = ["và", "hoặc", "nhưng", "nếu", "khi", "trong trường hợp"]
+_SPLIT_CONNECTORS = ["trong trường hợp", "không", "và", "hoặc", "nhưng", "nếu", "khi"]
+_LEADING_COORD = re.compile(r"^(?:và|hoặc|nhưng)\s+", re.IGNORECASE)
 
 
-# Protect numeric dots (e.g., 20.000.000)
 def protect_numbers(text):
-    return re.sub(r'(\d)\.(\d)', r'\1<dot>\2', text)
+    return re.sub(r"(\d)\.(\d)", r"\1<dot>\2", text)
 
 
-# Restore numeric dots
 def restore_numbers(text):
-    return text.replace('<dot>', '.')
+    return text.replace("<dot>", ".")
+
+
+def protect_decimal_comma(text):
+    return re.sub(r"(\d),(\d)", r"\1<comma>\2", text)
+
+
+def restore_decimal_comma(text):
+    return text.replace("<comma>", ",")
 
 
 def normalize_text(text):
-    # Xoá khoảng trắng thừa
-    text = re.sub(r'\s+', ' ', text.strip())
-
-    # Đảm bảo sau dấu chấm, ?, ! luôn có 1 dấu cách
-    text = re.sub(r'([.!?])(?!\s)', r'\1 ', text)
-
+    text = re.sub(r"\s+", " ", text.strip())
+    text = re.sub(r"([.!?])(?!\s)", r"\1 ", text)
     return text
 
 
 def split_sentences(text):
-    # Protect numbers BEFORE normalize & split
     text = protect_numbers(text)
-
     text = normalize_text(text)
-
-    # Chỉ tách khi:
-    # - Có dấu .!? 
-    # - Sau đó là dấu cách
-    sentences = re.split(r'(?<=[.!?])\s+', text)
-
-    # Restore numbers AFTER split
+    sentences = re.split(r"(?<=[.!?])\s+", text)
     sentences = [restore_numbers(s) for s in sentences]
-
-    # Loại bỏ câu rỗng
     return [s.strip() for s in sentences if s.strip()]
 
 
 def split_clauses(sentence):
-    # Protect numbers before clause split
-    sentence = protect_numbers(sentence)
+    if not sentence or not sentence.strip():
+        return []
 
-    pattern = r',\s*|(?=\b(?:' + '|'.join(CONNECTORS) + r')\b)'
+    sentence = protect_numbers(sentence)
+    sentence = protect_decimal_comma(sentence)
+
+    pattern = r",\s*(?=\b(?:" + "|".join(_SPLIT_CONNECTORS) + r")\b)"
     clauses = re.split(pattern, sentence)
 
     results = []
@@ -54,16 +51,26 @@ def split_clauses(sentence):
         if not c:
             continue
 
-        # Đảm bảo kết thúc bằng dấu chấm
-        if not re.search(r'[.!?]$', c):
-            c += '.'
+        c = _LEADING_COORD.sub("", c).strip()
+        if not c:
+            continue
 
-        # Viết hoa chữ cái đầu
+        if len(c.split()) < 3:
+            continue
+
+        if not re.search(r"[.!?]$", c):
+            c += "."
+
         c = c[0].upper() + c[1:]
-
-        # Restore numbers before append
         c = restore_numbers(c)
-
+        c = restore_decimal_comma(c)
         results.append(c)
+
+    if not results:
+        c = restore_numbers(sentence)
+        c = restore_decimal_comma(c)
+        if not re.search(r"[.!?]$", c):
+            c += "."
+        return [c[0].upper() + c[1:]]
 
     return results

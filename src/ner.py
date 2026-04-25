@@ -8,7 +8,6 @@ from config import NER_PATTERNS, NER_LABELS, CLAUSES_PATH, NER_OUTPUT_PATH
 
 
 def _find_all_matches(clause: str) -> list[dict]:
-    """Tìm tất cả candidate entity trong một clause."""
     candidates = []
     for label in NER_LABELS:
         patterns = NER_PATTERNS.get(label, [])
@@ -26,8 +25,22 @@ def _find_all_matches(clause: str) -> list[dict]:
 
 
 def _resolve_overlaps(candidates: list[dict]) -> list[dict]:
+    label_priority = {
+        "PARTY": 5,
+        "MONEY": 4,
+        "DATE": 3,
+        "LAW": 3,
+        "RATE": 2,
+        "PENALTY": 1,
+    }
+
     sorted_cands = sorted(
-        candidates, key=lambda x: (-(x["end"] - x["start"]), x["start"])
+        candidates,
+        key=lambda x: (
+            -label_priority.get(x["label"], 0),
+            -(x["end"] - x["start"]),
+            x["start"],
+        ),
     )
 
     selected = []
@@ -44,12 +57,28 @@ def _resolve_overlaps(candidates: list[dict]) -> list[dict]:
     return selected
 
 
+def _is_valid_entity(entity: dict, clause: str) -> bool:
+    text = entity["text"]
+    label = entity["label"]
+
+    if label == "MONEY":
+        if (
+            text in ["phụ cấp"]
+            and ":" not in clause[entity["start"] : entity["end"] + 20]
+        ):
+            return False
+
+    return True
+
+
 def extract_entities(clause: str) -> list[dict]:
-    """Trả về danh sách entity đã loại overlap."""
     if not clause or not clause.strip():
         return []
     candidates = _find_all_matches(clause)
-    return _resolve_overlaps(candidates)
+    resolved = _resolve_overlaps(candidates)
+
+    valid_entities = [e for e in resolved if _is_valid_entity(e, clause)]
+    return valid_entities
 
 
 def run_ner(
@@ -78,7 +107,6 @@ def run_ner(
 
 
 def evaluate(annotated_path: str) -> dict:
-    """Đánh giá NER theo exact span match cho từng nhãn."""
     with open(annotated_path, encoding="utf-8") as f:
         gold_data = json.load(f)
 

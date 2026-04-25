@@ -1,11 +1,13 @@
-"""Huấn luyện mô hình Intent bằng TF-IDF và Logistic Regression."""
-
 import os
 import sys
+import io
 import json
 import joblib
 import argparse
 import numpy as np
+
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,6 +25,7 @@ from config import (
     INTENT_LR_PARAMS,
     INTENT_KEYWORDS,
 )
+from src.phobert_intent import PhoBERTIntentClassifier, check_phobert_availability
 
 
 def load_data(path: str = ANNOTATED_INTENT_PATH):
@@ -61,7 +64,6 @@ def train(texts, labels, model_path: str = INTENT_MODEL_PATH):
 
 
 def evaluate_cv(texts, labels, n_splits: int = 5):
-    """Đánh giá bằng Stratified K-Fold."""
     n_splits = min(n_splits, min(Counter(labels).values()))
     pipeline = build_pipeline()
 
@@ -91,7 +93,7 @@ def evaluate_cv(texts, labels, n_splits: int = 5):
 
 def full_report(pipeline, texts, labels):
     preds = pipeline.predict(texts)
-    print("\n[Eval] Classification report (train set - chỉ để tham khảo):")
+    print("\n[Eval] Classification report (train set):")
     print(
         classification_report(
             labels, preds, target_names=INTENT_LABELS, zero_division=0
@@ -104,7 +106,7 @@ def rule_based_predict(clause: str) -> str:
         for kw in INTENT_KEYWORDS.get(intent, []):
             if kw in clause:
                 return intent
-    return "Obligation"  # default
+    return "Obligation"
 
 
 def compare_with_rules(texts, labels, pipeline):
@@ -114,7 +116,7 @@ def compare_with_rules(texts, labels, pipeline):
     rule_correct = sum(r == g for r, g in zip(rule_preds, labels))
     model_correct = sum(m == g for m, g in zip(model_preds, labels))
 
-    print("\n[Compare] Rule-based vs TF-IDF+LR (trên toàn bộ training set):")
+    print("\n[Compare] Rule-based vs TF-IDF+LR (training set):")
     print(
         f"  Rule-based accuracy : {rule_correct}/{len(labels)} = {rule_correct/len(labels):.3f}"
     )
@@ -134,6 +136,80 @@ def compare_with_rules(texts, labels, pipeline):
             print(f"    '{t[:70]}'")
 
 
+def compare_with_phobert(texts, labels, tfidf_pipeline):
+    print("\n" + "=" * 80)
+    print("[Compare] PhoBERT vs TF-IDF+LR")
+    print("=" * 80)
+
+    phobert = PhoBERTIntentClassifier()
+
+    if not phobert.is_available():
+        print(f"\nPhoBERT model không tìm thấy tại {phobert.model_path}")
+        print("Train model trên Colab và tải model về để so sánh.")
+        return
+
+    print("\n[1] Evaluating TF-IDF + Logistic Regression...")
+    tfidf_preds = tfidf_pipeline.predict(texts)
+    tfidf_correct = sum(t == g for t, g in zip(tfidf_preds, labels))
+    tfidf_acc = tfidf_correct / len(labels)
+
+    from sklearn.metrics import f1_score
+
+    tfidf_f1_macro = f1_score(labels, tfidf_preds, average="macro")
+    tfidf_f1_weighted = f1_score(labels, tfidf_preds, average="weighted")
+
+    print(f"  Accuracy    : {tfidf_acc:.4f}")
+    print(f"  F1 macro    : {tfidf_f1_macro:.4f}")
+    print(f"  F1 weighted : {tfidf_f1_weighted:.4f}")
+
+    print("\n[2] Evaluating PhoBERT...")
+    phobert_results = phobert.evaluate(texts, labels)
+
+    print(f"  Accuracy    : {phobert_results['accuracy']:.4f}")
+    print(f"  F1 macro    : {phobert_results['f1_macro']:.4f}")
+    print(f"  F1 weighted : {phobert_results['f1_weighted']:.4f}")
+
+    print("\n[3] Comparison Summary:")
+    print(f"  {'Metric':<15} {'TF-IDF+LR':<12} {'PhoBERT':<12} {'Diff':<12}")
+    print(f"  {'-'*15} {'-'*12} {'-'*12} {'-'*12}")
+
+    acc_diff = phobert_results["accuracy"] - tfidf_acc
+    f1m_diff = phobert_results["f1_macro"] - tfidf_f1_macro
+    f1w_diff = phobert_results["f1_weighted"] - tfidf_f1_weighted
+
+    print(
+        f"  {'Accuracy':<15} {tfidf_acc:<12.4f} {phobert_results['accuracy']:<12.4f} {acc_diff:+.4f}"
+    )
+    print(
+        f"  {'F1 macro':<15} {tfidf_f1_macro:<12.4f} {phobert_results['f1_macro']:<12.4f} {f1m_diff:+.4f}"
+    )
+    print(
+        f"  {'F1 weighted':<15} {tfidf_f1_weighted:<12.4f} {phobert_results['f1_weighted']:<12.4f} {f1w_diff:+.4f}"
+    )
+
+    phobert_preds = phobert_results["predictions"]
+    disagreements = [
+        (t, tf, pb, g)
+        for t, tf, pb, g in zip(texts, tfidf_preds, phobert_preds, labels)
+        if tf != pb
+    ]
+
+    if disagreements:
+        print(f"\n[4] Disagreements giữa 2 models ({len(disagreements)} clauses):")
+        for i, (text, tf_pred, pb_pred, gold) in enumerate(disagreements[:10]):
+            correct_marker_tf = "OK" if tf_pred == gold else "X"
+            correct_marker_pb = "OK" if pb_pred == gold else "X"
+            print(f"\n  [{i+1}] TF-IDF={tf_pred:<25} {correct_marker_tf}")
+            print(f"      PhoBERT={pb_pred:<25} {correct_marker_pb}")
+            print(f"      Gold={gold}")
+            print(f"      Text: '{text[:100]}...'")
+
+    print("\n[5] Detailed Classification Report - PhoBERT:")
+    print(phobert_results["report"])
+
+    print("\n" + "=" * 80)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -143,6 +219,11 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--compare", action="store_true", help="So sánh Rule-based vs TF-IDF+LR"
+    )
+    parser.add_argument(
+        "--phobert",
+        action="store_true",
+        help="So sánh PhoBERT vs TF-IDF+LR (cần có model PhoBERT đã train)",
     )
     args = parser.parse_args()
 
@@ -155,3 +236,6 @@ if __name__ == "__main__":
 
     if args.compare:
         compare_with_rules(texts, labels, pipeline)
+
+    if args.phobert:
+        compare_with_phobert(texts, labels, pipeline)

@@ -1,19 +1,28 @@
-from underthesea import word_tokenize, pos_tag
+from underthesea import pos_tag
+
+_FORCED_O = {
+    "khi",
+    "trước khi",
+    "sau khi",
+    "nếu",
+    "nếu như",
+    "mà",
+    "thì",
+    "rằng",
+}
 
 
 def np_chunk(sentence):
     if isinstance(sentence, list):
         sentence = " ".join(sentence)
 
-    tokens = word_tokenize(sentence, format="text")
-
-    pos_tags = pos_tag(tokens)
+    pos_tags = pos_tag(sentence)
 
     result = []
     inside_np = False
 
     for word, pos in pos_tags:
-        if pos.startswith("N"):
+        if pos.startswith("N") and word.lower() not in _FORCED_O:
             if not inside_np:
                 result.append((word, "B-NP"))
                 inside_np = True
