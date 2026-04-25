@@ -21,6 +21,7 @@ Giai đoạn 2: Trích xuất & hiểu ngữ nghĩa
 Raw Contracts
       ↓
 [Preprocess - Bài 1]
+  - Contract Cleaner
   - Sentence Split
   - Clause Split
   - NP Chunking
@@ -40,15 +41,15 @@ Structured Legal Information
 ## 📁 Cấu trúc thư mục
 
 project/
-├── input/
+├── input/                                    # Văn bản hợp đồng thô
 │   └── raw_contracts.txt
-├── data/
+├── data/                                     # Dữ liệu annotated
 │   ├── annotated_ner.json
 │   └── annotated_intent.json
-├── models/
+├── models/                                   # Models đã train
 │   ├── intent_tfidf.pkl
-│   └── intent_phobert/
-├── output/
+│   └── intent_phobert/                       # PhoBERT (train trên Colab)
+├── output/                                   # Kết quả pipeline
 │   ├── clauses.txt
 │   ├── chunks.txt
 │   ├── dependency.json
@@ -57,19 +58,21 @@ project/
 │   ├── intent_classification.txt
 │   └── intent_classification_detail.json
 ├── src/
-│   ├── clause_splitter.py
-│   ├── np_chunker.py
-│   ├── dependency_parser.py
-│   ├── ner.py
-│   ├── srl.py
-│   ├── intent.py
-│   ├── intent_model.py
+│   ├── clause_splitter.py                    # Bài 1.1
+│   ├── np_chunker.py                         # Bài 1.2
+│   ├── dependency_parser.py                  # Bài 1.3
+│   ├── contract_cleaner.py                   # Tiền xử lý văn bản
+│   ├── ner.py                                # Bài 2.1
+│   ├── srl.py                                # Bài 2.2
+│   ├── intent.py                             # Bài 2.3 — inference
+│   ├── phobert_intent.py                     # PhoBERT classifier (inference)
 │   └── utils.py
-├── preprocess.py
-├── extract.py
-├── train_intent.py
-├── setup_stanza.py
-├── config.py
+├── preprocess.py                   # Chạy Bài 1
+├── extract.py                      # Chạy Bài 2
+├── train_intent.py                 # Train TF-IDF + so sánh PhoBERT
+├── train_phobert_intent_colab.ipynb # Train PhoBERT trên Colab
+├── setup_stanza.py                 # Download Stanza model
+├── config.py                       # Cấu hình chung
 └── requirements.txt
 
 ---
@@ -84,132 +87,63 @@ python setup_stanza.py
 ## ▶️ Cách chạy pipeline
 
 1. Chạy tiền xử lý (Bài 1)
-python preprocess.py
 
-Output:
-- clauses.txt
-- chunks.txt
-- dependency.json
+```bash
+python preprocess.py
+```
+
+Output: `clauses.txt`, `chunks.txt`, `dependency.json`
 
 2. Train model Intent (nếu chưa có)
+
+```bash
+# Train TF-IDF + Logistic Regression
 python train_intent.py
 
+# Train + cross-validation + so sánh rule-based
+python train_intent.py --eval --compare
+
+# So sánh TF-IDF vs PhoBERT (cần có model PhoBERT)
+python train_intent.py --phobert
+```
+
+**PhoBERT:** Train trên Google Colab bằng `train_phobert_intent_colab.ipynb`, sau đó copy folder model về `models/intent_phobert/`.
+
 3. Chạy trích xuất thông tin (Bài 2)
+```bash
+# Chạy toàn bộ pipeline
 python extract.py
 
-Hoặc:
+# Chạy + evaluation
 python extract.py --eval
 
-4. Chạy từng module
+# Chạy từng task
 python extract.py --task ner
 python extract.py --task srl
 python extract.py --task intent
-
-5. So sánh TF-IDF vs PhoBERT
-python src/intent_model.py --eval
-
----
-
-## 📥 Input
-
-File:
-input/raw_contracts.txt
-
-Ví dụ:
-Bên B sẽ thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng, và nếu thanh toán trễ hạn, mức phạt 1% mỗi ngày sẽ được áp dụng.
-
----
-
-## 📤 Output
-
-Giai đoạn 1:
-
-clauses.txt
-Bên B sẽ thanh toán toàn bộ tiền thuê trước ngày 5 hàng tháng.
-Nếu thanh toán trễ hạn, mức phạt 1% mỗi ngày sẽ được áp dụng.
-
-chunks.txt (IOB)
-Bên    B-NP
-B      I-NP
-sẽ     O
-thanh  O
-toán   O
-toàn   B-NP
-bộ     I-NP
-tiền   I-NP
-thuê   I-NP
-.      O
-
-dependency.json
-[
-  {
-    "clause": "Bên B sẽ thanh toán toàn bộ tiền thuê.",
-    "dependencies": [
-      {"token": "Bên", "head": 3, "dep": "nsubj"},
-      {"token": "thanh", "head": 0, "dep": "root"},
-      {"token": "tiền thuê", "head": 4, "dep": "obj"}
-    ]
-  }
-]
-
----
-
-Giai đoạn 2:
-
-ner_results.json
-- PARTY, MONEY, DATE, RATE...
-
-srl_results.json
-- Agent, Theme, Time, Condition...
-
-intent_classification.txt
-clause<TAB>intent
-
-intent_classification_detail.json
-- confidence + model source
-
----
+```
 
 ## 🧠 Methodology
 
-Clause Splitting
-- Rule-based (regex + liên từ)
-- Có xử lý số tiền (20.000.000) để tránh tách sai
+| Task                  | Phương pháp                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| Clause Splitting      | Rule-based (regex + liên từ), xử lý số tiền                         |
+| NP Chunking           | POS tagging (Underthesea) + IOB labeling                            |
+| Dependency Parsing    | Stanza (pre-trained Vietnamese)                                     |
+| NER                   | Rule-based + regex pháp lý (PARTY, MONEY, DATE, RATE, PENALTY, LAW) |
+| SRL                   | Heuristic từ dependency tree + NER entities                         |
+| Intent Classification | TF-IDF+LR baseline + PhoBERT fine-tuned                             |
 
-NP Chunking
-- POS tagging bằng Underthesea
-- IOB: B-NP, I-NP, O
-
-Dependency Parsing
-- Stanza
-- token, head, dep
-
-NER
-- Rule-based + regex pháp lý
-- PARTY, MONEY, DATE, RATE...
-
-SRL
-- Heuristic từ dependency + NER
-
-Intent Classification
-- TF-IDF + Logistic Regression
-- Labels:
-  - Obligation
-  - Prohibition
-  - Right
-  - Termination Condition
-- Có PhoBERT để so sánh
+**Intent Labels:** Obligation, Prohibition, Right, Termination Condition
 
 ---
 
 ## ⚠️ Lưu ý
 
-- Phải chạy setup_stanza.py trước
-- Model Stanza ~500MB
-- Bài 2 phụ thuộc output Bài 1
-- Đã fix lỗi số tiền:
-  - 20.000.000
-  - 1.000.000.000
+- Chạy `setup_stanza.py` trước lần đầu (download ~500MB model)
+- Bài 2 phụ thuộc output Bài 1 — chạy `preprocess.py` trước
+- PhoBERT model (~500MB) cần train trên Colab rồi copy về local
+- Inference PhoBERT hỗ trợ CPU only (`low_cpu_mem_usage=True`)
 
 ---
 
