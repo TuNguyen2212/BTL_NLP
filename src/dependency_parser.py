@@ -1,5 +1,10 @@
 import stanza
+import stanza.resources.common
 import unicodedata
+import logging
+import torch
+
+logging.getLogger("stanza").setLevel(logging.WARNING)
 
 _nlp = None
 _SUP2_PLACEHOLDER = "SSUP2SS"
@@ -12,6 +17,8 @@ def _get_nlp():
             lang="vi",
             processors="tokenize,pos,lemma,depparse",
             use_gpu=False,
+            download_method=stanza.DownloadMethod.REUSE_RESOURCES,
+            verbose=False,
         )
     return _nlp
 
@@ -81,3 +88,32 @@ def parse_dependency(sentence):
 
     results = _fix_n_dot(results)
     return _merge_ben_tokens(results)
+
+
+def parse_dependency_batch(clauses):
+    nlp = _get_nlp()
+    all_results = []
+
+    with torch.no_grad():
+        for i, clause in enumerate(clauses):
+            try:
+                text = _preprocess(clause)
+                doc = nlp(text)
+                deps = []
+                for sent in doc.sentences:
+                    for word in sent.words:
+                        deps.append(
+                            {
+                                "token": _postprocess_token(word.text),
+                                "head": word.head,
+                                "dep": word.deprel,
+                            }
+                        )
+                deps = _fix_n_dot(deps)
+                deps = _merge_ben_tokens(deps)
+            except Exception as e:
+                print(f"[Dep] WARNING #{i}: {clause[:60]!r} -> {e}")
+                deps = []
+            all_results.append(deps)
+
+    return all_results

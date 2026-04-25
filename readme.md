@@ -5,11 +5,13 @@
 Project này xây dựng một pipeline NLP hoàn chỉnh cho xử lý hợp đồng pháp lý tiếng Việt, gồm 2 giai đoạn chính:
 
 Giai đoạn 1: Tiền xử lý (Preprocessing)
+
 - Tách câu và mệnh đề (Clause Splitting)
 - Chunk danh từ (IOB tagging)
 - Phân tích phụ thuộc (Dependency Parsing - Stanza)
 
 Giai đoạn 2: Trích xuất & hiểu ngữ nghĩa
+
 - Nhận diện thực thể (NER)
 - Gán vai nghĩa (SRL)
 - Phân loại ý định (Intent Classification)
@@ -19,26 +21,28 @@ Giai đoạn 2: Trích xuất & hiểu ngữ nghĩa
 ## 🧱 Pipeline tổng thể
 
 Raw Contracts
-      ↓
+↓
 [Preprocess - Bài 1]
-  - Contract Cleaner
-  - Sentence Split
-  - Clause Split
-  - NP Chunking
-  - Dependency Parsing
-      ↓
-Clauses + Dependency
-      ↓
-[Extraction - Bài 2]
-  - NER
-  - SRL
-  - Intent Classification
-      ↓
-Structured Legal Information
+
+- Contract Cleaner
+- Sentence Split
+- Clause Split
+- NP Chunking
+- Dependency Parsing
+  ↓
+  Clauses + Dependency
+  ↓
+  [Extraction - Bài 2]
+- NER
+- SRL
+- Intent Classification
+  ↓
+  Structured Legal Information
 
 ---
 
 ## 📁 Cấu trúc thư mục
+
 ```text
 project/
 ├── input/                                    # Văn bản hợp đồng thô
@@ -67,14 +71,15 @@ project/
 │   ├── intent.py                             # Bài 2.3 — inference
 │   ├── phobert_intent.py                     # PhoBERT classifier (inference)
 │   └── utils.py
-├── preprocess.py                   # Chạy Bài 1
-├── extract.py                      # Chạy Bài 2
-├── train_intent.py                 # Train TF-IDF + so sánh PhoBERT
-├── train_phobert_intent_colab.ipynb # Train PhoBERT trên Colab
-├── setup_stanza.py                 # Download Stanza model
-├── config.py                       # Cấu hình chung
+├── preprocess.py                             # Chạy Bài 1
+├── extract.py                                # Chạy Bài 2
+├── train_intent.py                           # Train TF-IDF + so sánh PhoBERT
+├── train_phobert_intent_colab.ipynb          # Train PhoBERT trên Colab
+├── setup_stanza.py                           # Download Stanza model
+├── config.py                                 # Cấu hình chung
 └── requirements.txt
 ```
+
 ---
 
 ## ⚙️ Cài đặt
@@ -110,6 +115,7 @@ python train_intent.py --phobert
 **PhoBERT:** Train trên Google Colab bằng `train_phobert_intent_colab.ipynb`, sau đó copy folder model về `models/intent_phobert/`.
 
 3. Chạy trích xuất thông tin (Bài 2)
+
 ```bash
 # Chạy toàn bộ pipeline
 python extract.py
