@@ -33,12 +33,15 @@ def _get_tfidf_model():
 def _get_phobert():
     global _phobert_cls
     if _phobert_cls is None:
-        from src.phobert_intent import PhoBERTIntentClassifier
+        try:
+            from src.phobert_intent import PhoBERTIntentClassifier
 
-        _phobert_cls = PhoBERTIntentClassifier()
-        if _phobert_cls.is_available():
-            _phobert_cls.load()
-        else:
+            _phobert_cls = PhoBERTIntentClassifier()
+            if _phobert_cls.is_available():
+                _phobert_cls.load()
+            else:
+                _phobert_cls = False
+        except ImportError:
             _phobert_cls = False
     return _phobert_cls if _phobert_cls else None
 
@@ -55,35 +58,53 @@ def predict_intent(clause: str, confidence_threshold: float = 0.5) -> dict:
     if not clause or not clause.strip():
         return {"intent": "Obligation", "confidence": 0.0, "source": "default"}
 
-    phobert = _get_phobert()
-    if phobert:
-        return phobert.predict_single(clause)
+    candidates = []
 
+    # TF-IDF prediction
     if os.path.exists(INTENT_MODEL_PATH):
         model = _get_tfidf_model()
         proba = model.predict_proba([clause])[0]
         classes = model.classes_
         max_idx = proba.argmax()
-        confidence = float(proba[max_idx])
-        predicted = classes[max_idx]
-
-        if confidence < confidence_threshold:
-            return {
-                "intent": _rule_based_predict(clause),
-                "confidence": confidence,
-                "source": "rule",
-            }
-        return {
-            "intent": predicted,
-            "confidence": round(confidence, 4),
+        candidates.append({
+            "intent": classes[max_idx],
+            "confidence": round(float(proba[max_idx]), 4),
             "source": "tfidf",
-        }
+        })
 
-    return {
+    # PhoBERT prediction
+    phobert = _get_phobert()
+    if phobert:
+        candidates.append(phobert.predict_single(clause))
+
+    # Rule-based fallback
+    candidates.append({
         "intent": _rule_based_predict(clause),
         "confidence": 0.0,
         "source": "rule",
-    }
+    })
+
+    if len(candidates) >= 2 and candidates[0]["source"] == "tfidf" and candidates[1]["source"] == "phobert":
+        tfidf_pred = candidates[0]
+        phobert_pred = candidates[1]
+        if tfidf_pred["intent"] == phobert_pred["intent"]:
+            # Both agree → ensemble
+            return {
+                "intent": tfidf_pred["intent"],
+                "confidence": round(max(tfidf_pred["confidence"], phobert_pred["confidence"]), 4),
+                "source": "ensemble",
+            }
+        else:
+            # Disagree → pick higher conf
+            best = max([tfidf_pred, phobert_pred], key=lambda x: x["confidence"])
+            return best
+
+    # Single model available
+    for c in candidates:
+        if c["confidence"] >= confidence_threshold:
+            return c
+
+    return candidates[-1]  # rule-based fallback
 
 
 def run_intent(

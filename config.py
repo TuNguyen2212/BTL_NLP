@@ -92,16 +92,6 @@ NER_PATTERNS = {
     ],
 }
 
-SRL_ROLES = ["Agent", "Predicate", "Theme", "Recipient", "Time", "Condition"]
-
-SRL_DEP_TO_ROLE = {
-    "nsubj": "Agent",
-    "obj": "Theme",
-    "obl:iobj": "Recipient",
-    "obl": "Time",
-    "advcl": "Condition",
-}
-
 CONDITION_MARKERS = ["Nếu", "nếu", "Khi", "khi", "Trừ", "trừ"]
 CONDITION_END_MARKERS = ["thì", "Thì"]
 
@@ -126,8 +116,6 @@ INTENT_KEYWORDS = {
         "thanh lý hợp đồng",
     ],
 }
-
-PHOBERT_MODEL_NAME = "vinai/phobert-base"
 
 INTENT_TFIDF_PARAMS = {
     "ngram_range": (1, 2),

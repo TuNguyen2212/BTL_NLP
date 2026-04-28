@@ -2,6 +2,8 @@
   {
     "clause_id": "C001",
     "text": "Hai bên thống nhất ký kết hợp đồng thuê mặt bằng kinh doanh với các điều khoản và điều kiện sau đây, trên cơ sở tự nguyện, bình đẳng và phù hợp với quy định của Bộ luật Dân sự năm 2015 và các văn bản pháp luật hiện hành có liên quan.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Hai bên",
@@ -26,11 +28,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3372513271705002
+    "intent_confidence": 0.3373
   },
   {
     "clause_id": "C002",
     "text": "Bên A đồng ý cho Bên B thuê mặt bằng kinh doanh có diện tích 120 m² (một trăm hai mươi mét vuông) tọa lạc tại số 45 Đường Lê Lợi, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh (sau đây gọi là \"Mặt bằng thuê\").",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -56,11 +60,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.41127401729450974
+    "intent_confidence": 0.6061
   },
   {
     "clause_id": "C003",
     "text": "Mặt bằng thuê bao gồm: một phòng kinh doanh chính rộng 100 m², một khu vệ sinh rộng 10 m² và một kho chứa hàng rộng 10 m², được bàn giao kèm theo toàn bộ cơ sở hạ tầng điện, nước và hệ thống phòng cháy chữa cháy đã được lắp đặt sẵn.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "gồm",
@@ -70,11 +76,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.46704563096200535
+    "intent_confidence": 0.6544
   },
   {
     "clause_id": "C004",
     "text": "Bên B chỉ được phép sử dụng Mặt bằng thuê vào mục đích kinh doanh bán lẻ hàng tiêu dùng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -92,11 +100,13 @@
       "negated": false
     },
     "intent": "Right",
-    "intent_confidence": 0.3977136323862181
+    "intent_confidence": 0.3977
   },
   {
     "clause_id": "C005",
     "text": "Không được sử dụng vào các mục đích khác khi chưa có sự đồng ý bằng văn bản của Bên A.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -114,12 +124,14 @@
       },
       "negated": true
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.34017891994838206
+    "intent": "Prohibition",
+    "intent_confidence": 0.5118
   },
   {
     "clause_id": "C006",
     "text": "Thời hạn thuê là 24 (hai mươi bốn) tháng, bắt đầu từ ngày 01/03/2025 và kết thúc vào ngày 28/02/2027.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Thời hạn thuê",
@@ -148,11 +160,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4747232564538577
+    "intent_confidence": 0.5855
   },
   {
     "clause_id": "C007",
     "text": "Trước khi hết hạn hợp đồng ít nhất 60 (sáu mươi) ngày.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "khi",
@@ -162,11 +176,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3749398246107802
+    "intent_confidence": 0.4909
   },
   {
     "clause_id": "C008",
     "text": "Nếu Bên B có nhu cầu tiếp tục thuê, Bên B phải thông báo bằng văn bản cho Bên A.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -197,11 +213,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3333935295048041
+    "intent_confidence": 0.3898
   },
   {
     "clause_id": "C009",
     "text": "Hai bên sẽ thương lượng lại các điều khoản hợp đồng cho thời hạn tiếp theo.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Hai bên",
@@ -219,11 +237,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3498384973446077
+    "intent_confidence": 0.5706
   },
   {
     "clause_id": "C010",
     "text": "Nếu Bên B không thông báo gia hạn thuê trong thời hạn nêu trên, hợp đồng sẽ tự động chấm dứt hiệu lực vào ngày 28/02/2027 mà không cần thêm bất kỳ thủ tục nào.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -248,11 +268,13 @@
       "negated": true
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5331
+    "intent_confidence": 0.6765
   },
   {
     "clause_id": "C011",
     "text": "Giá thuê Mặt bằng là 18.000.000 đồng (mười tám triệu đồng) mỗi tháng, chưa bao gồm thuế giá trị gia tăng (VAT) theo quy định của Luật Thuế giá trị gia tăng hiện hành.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "18.000.000 đồng",
@@ -275,11 +297,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.5037
+    "intent_confidence": 0.7051
   },
   {
     "clause_id": "C012",
     "text": "Bên B thanh toán tiền thuê vào ngày 05 (năm) của mỗi tháng, bằng hình thức chuyển khoản ngân hàng vào tài khoản số 0000000000000 tại Ngân hàng TMCP Vietcombank, Chi nhánh Hồ Chí Minh, chủ tài khoản: Nguyễn Văn A.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -310,11 +334,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.46368326556659745
+    "intent_confidence": 0.639
   },
   {
     "clause_id": "C013",
     "text": "Trường hợp Bên B thanh toán chậm quá 07 (bảy) ngày so với ngày đến hạn, Bên B phải trả thêm khoản phạt chậm thanh toán bằng 0,5% (không phẩy năm phần trăm) trên số tiền chậm thanh toán cho mỗi ngày chậm trễ, tính từ ngày đến hạn cho đến ngày thực tế thanh toán.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -357,11 +383,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.45385436194060624
+    "intent_confidence": 0.5151
   },
   {
     "clause_id": "C014",
     "text": "Tiền thuê có thể được điều chỉnh sau mỗi 12 (mười hai) tháng, mức điều chỉnh tăng không quá 10% (mười phần trăm) so với giá thuê hiện tại và phải được thông báo bằng văn bản cho Bên B trước ít nhất 30 (ba mươi) ngày.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Tiền thuê",
@@ -392,12 +420,14 @@
       },
       "negated": true
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.45853368954594453
+    "intent": "Right",
+    "intent_confidence": 0.4585
   },
   {
     "clause_id": "C015",
     "text": "Bên B phải nộp khoản tiền đặt cọc tương đương 02 (hai) tháng tiền thuê, tức là 36.000.000 đồng (ba mươi sáu triệu đồng), ngay sau khi ký kết hợp đồng này nhưng không muộn hơn ngày 05/03/2025.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -440,11 +470,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4201943056418561
+    "intent_confidence": 0.5001
   },
   {
     "clause_id": "C016",
     "text": "Tiền đặt cọc được giữ nguyên trong suốt thời gian hợp đồng có hiệu lực và không được dùng để thay thế cho tiền thuê tháng cuối hoặc bất kỳ khoản thanh toán nào khác.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Tiền đặt cọc",
@@ -468,11 +500,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.6213
+    "intent_confidence": 0.778
   },
   {
     "clause_id": "C017",
     "text": "Khi hợp đồng kết thúc, Bên A hoàn trả tiền đặt cọc cho Bên B trong vòng 15 (mười lăm) ngày làm việc sau khi Bên B bàn giao lại Mặt bằng, sau khi đã khấu trừ các khoản: tiền thuê còn nợ, chi phí sửa chữa hư hỏng do Bên B gây ra và các khoản phạt phát sinh (nếu có).",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -534,11 +568,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3981697362810819
+    "intent_confidence": 0.4639
   },
   {
     "clause_id": "C018",
     "text": "Nếu Bên B đơn phương chấm dứt hợp đồng trước thời hạn mà không tuân thủ điều kiện báo trước theo Điều 7 của hợp đồng này, Bên A có quyền giữ lại toàn bộ tiền đặt cọc như một khoản bồi thường thiệt hại và không phải bồi thường thêm bất kỳ khoản nào khác.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -592,12 +628,14 @@
       },
       "negated": true
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.44876383183546653
+    "intent": "Right",
+    "intent_confidence": 0.5123
   },
   {
     "clause_id": "C019",
     "text": "Bên A có các quyền sau.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -615,11 +653,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.34743569929941
+    "intent_confidence": 0.4927
   },
   {
     "clause_id": "C020",
     "text": "Yêu cầu Bên B thanh toán đầy đủ tiền thuê và các khoản phát sinh đúng hạn theo hợp đồng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -642,12 +682,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4401821379912443
+    "intent": "Right",
+    "intent_confidence": 0.4774
   },
   {
     "clause_id": "C021",
     "text": "Kiểm tra Mặt bằng định kỳ mỗi 03 (ba) tháng một lần với thông báo trước ít nhất 48 (bốn mươi tám) giờ.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "Kiểm tra",
@@ -658,11 +700,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.44504094133681
+    "intent_confidence": 0.5365
   },
   {
     "clause_id": "C022",
     "text": "Kiểm tra đột xuất trong trường hợp nghi ngờ vi phạm hợp đồng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "Kiểm tra",
@@ -671,12 +715,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4055594977502993
+    "intent": "Right",
+    "intent_confidence": 0.4056
   },
   {
     "clause_id": "C023",
     "text": "Đơn phương chấm dứt hợp đồng và yêu cầu Bên B bàn giao Mặt bằng trong vòng 15 (mười lăm) ngày nếu Bên B vi phạm nghiêm trọng các điều khoản hợp đồng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -701,11 +747,13 @@
       "negated": false
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5589
+    "intent_confidence": 0.5885
   },
   {
     "clause_id": "C024",
     "text": "Bên A có các nghĩa vụ sau.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -723,11 +771,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.33266540783076787
+    "intent_confidence": 0.5395
   },
   {
     "clause_id": "C025",
     "text": "Bàn giao Mặt bằng cho Bên B đúng ngày 01/03/2025 trong tình trạng sạch sẽ, an toàn và hoạt động bình thường.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -753,11 +803,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4076946474576488
+    "intent_confidence": 0.6268
   },
   {
     "clause_id": "C026",
     "text": "Đảm bảo quyền sử dụng Mặt bằng của Bên B không bị gián đoạn trong suốt thời hạn hợp đồng, trừ các trường hợp bất khả kháng hoặc vi phạm hợp đồng của Bên B.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -780,12 +832,14 @@
       },
       "negated": true
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.3076812415925615
+    "intent": "Prohibition",
+    "intent_confidence": 0.4055
   },
   {
     "clause_id": "C027",
     "text": "Thực hiện bảo trì, sửa chữa các hư hỏng thuộc kết cấu xây dựng của Mặt bằng trong vòng 07 (bảy) ngày làm việc kể từ khi nhận được thông báo bằng văn bản từ Bên B.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -804,11 +858,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4092424521988624
+    "intent_confidence": 0.5393
   },
   {
     "clause_id": "C028",
     "text": "Không tự ý vào Mặt bằng khi Bên B không có mặt, trừ các trường hợp khẩn cấp như hỏa hoạn, sự cố điện nước đe dọa an toàn tài sản và tính mạng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -827,11 +883,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.43693824114396385
+    "intent_confidence": 0.6238
   },
   {
     "clause_id": "C029",
     "text": "Bên B có các quyền sau.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -849,11 +907,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.34743569929941
+    "intent_confidence": 0.5024
   },
   {
     "clause_id": "C030",
     "text": "Nhận bàn giao Mặt bằng đúng theo mô tả tại Điều 1 của hợp đồng này.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Điều 1",
@@ -869,12 +929,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.44769703599464383
+    "intent": "Right",
+    "intent_confidence": 0.5509
   },
   {
     "clause_id": "C031",
     "text": "Sử dụng Mặt bằng ổn định, liên tục trong suốt thời hạn hợp đồng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "Sử dụng",
@@ -883,12 +945,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.44748939969099616
+    "intent": "Right",
+    "intent_confidence": 0.4475
   },
   {
     "clause_id": "C032",
     "text": "Yêu cầu Bên A sửa chữa các hư hỏng thuộc trách nhiệm của Bên A trong thời hạn hợp lý.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -912,12 +976,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4490854276145653
+    "intent": "Right",
+    "intent_confidence": 0.5956
   },
   {
     "clause_id": "C033",
     "text": "Được ưu tiên ký hợp đồng thuê mới với cùng điều kiện nếu Bên A cho thuê tiếp sau khi hợp đồng hết hạn.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -935,12 +1001,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.43357303995090424
+    "intent": "Right",
+    "intent_confidence": 0.4336
   },
   {
     "clause_id": "C034",
     "text": "Bên B có các nghĩa vụ sau.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -958,11 +1026,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.33266540783076787
+    "intent_confidence": 0.5415
   },
   {
     "clause_id": "C035",
     "text": "Thanh toán tiền thuê và các chi phí phát sinh đầy đủ, đúng hạn theo quy định tại Điều 3.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "tiền thuê",
@@ -985,11 +1055,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.40960271971659895
+    "intent_confidence": 0.656
   },
   {
     "clause_id": "C036",
     "text": "Sử dụng Mặt bằng đúng mục đích đã thỏa thuận tại Điều 1.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Điều 1",
@@ -1006,11 +1078,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.34092548507023057
+    "intent_confidence": 0.5238
   },
   {
     "clause_id": "C037",
     "text": "Không tự ý thay đổi kết cấu, sửa chữa cải tạo khi chưa có sự đồng ý bằng văn bản của Bên A.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -1029,11 +1103,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4099628750347063
+    "intent_confidence": 0.41
   },
   {
     "clause_id": "C038",
     "text": "Bảo quản, giữ gìn Mặt bằng và tài sản gắn liền trong tình trạng tốt, chịu trách nhiệm sửa chữa các hư hỏng do lỗi sử dụng của mình gây ra.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "Bảo quản",
@@ -1043,11 +1119,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4541964694321813
+    "intent_confidence": 0.553
   },
   {
     "clause_id": "C039",
     "text": "Không được cho thuê lại Mặt bằng hoặc bất kỳ phần nào của Mặt bằng cho bên thứ ba dưới bất kỳ hình thức nào.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "cho",
@@ -1057,11 +1135,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.5894
+    "intent_confidence": 0.7866
   },
   {
     "clause_id": "C040",
     "text": "Chấp hành đầy đủ các quy định của pháp luật hiện hành liên quan đến hoạt động kinh doanh tại Mặt bằng, bao gồm các quy định về phòng cháy chữa cháy theo Luật Phòng cháy và chữa cháy, vệ sinh môi trường và an ninh trật tự.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Luật Phòng cháy",
@@ -1078,11 +1158,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.471802733322794
+    "intent_confidence": 0.5285
   },
   {
     "clause_id": "C041",
     "text": "Bàn giao lại Mặt bằng cho Bên A khi hợp đồng chấm dứt trong tình trạng tương đương lúc nhận bàn giao, trừ hao mòn tự nhiên theo thời gian.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -1101,11 +1183,13 @@
       "negated": false
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5586
+    "intent_confidence": 0.6757
   },
   {
     "clause_id": "C042",
     "text": "Một trong hai bên có quyền đơn phương chấm dứt hợp đồng trước thời hạn bằng cách thông báo bằng văn bản cho bên kia trước ít nhất 60 (sáu mươi) ngày.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Một trong hai bên",
@@ -1137,11 +1221,13 @@
       "negated": false
     },
     "intent": "Right",
-    "intent_confidence": 0.533
+    "intent_confidence": 0.6435
   },
   {
     "clause_id": "C043",
     "text": "Nếu bên chấm dứt không thông báo đúng thời hạn 60 ngày theo quy định tại khoản 7.1, bên vi phạm phải bồi thường cho bên còn lại một khoản tiền tương đương với số ngày thông báo còn thiếu, tính theo đơn giá thuê hàng ngày (tiền thuê hàng tháng chia cho 30 ngày).",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "bên chấm dứt",
@@ -1209,11 +1295,13 @@
       "negated": true
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.539
+    "intent_confidence": 0.6436
   },
   {
     "clause_id": "C044",
     "text": "Hợp đồng đương nhiên chấm dứt trong các trường hợp sau mà không cần thông báo trước.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "chấm dứt",
@@ -1222,12 +1310,14 @@
       },
       "negated": true
     },
-    "intent": "Termination Condition",
-    "intent_confidence": 0.4436622411039089
+    "intent": "Right",
+    "intent_confidence": 0.4761
   },
   {
     "clause_id": "C045",
     "text": "Mặt bằng bị phá hủy hoàn toàn do thiên tai, hỏa hoạn hoặc các sự kiện bất khả kháng khác mà không thể khôi phục được.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "phá",
@@ -1235,11 +1325,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.5662
+    "intent_confidence": 0.7729
   },
   {
     "clause_id": "C046",
     "text": "Cơ quan nhà nước có thẩm quyền ra quyết định thu hồi đất hoặc Mặt bằng vì mục đích công cộng theo quy định của Luật Đất đai.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "quyết định",
@@ -1262,11 +1354,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4242814553830837
+    "intent_confidence": 0.5905
   },
   {
     "clause_id": "C047",
     "text": "Bên B bị tuyên bố phá sản theo quyết định của Tòa án nhân dân có thẩm quyền.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên B",
@@ -1289,12 +1383,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.3975738731119397
+    "intent": "Right",
+    "intent_confidence": 0.4302
   },
   {
     "clause_id": "C048",
     "text": "Bên A có quyền đơn phương chấm dứt hợp đồng ngay lập tức mà không cần bồi thường nếu Bên B vi phạm một trong các nghĩa vụ sau: chậm thanh toán tiền thuê quá 30 (ba mươi) ngày, tự ý cho thuê lại Mặt bằng.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bên A",
@@ -1330,11 +1426,13 @@
       "negated": true
     },
     "intent": "Right",
-    "intent_confidence": 0.4355857172227806
+    "intent_confidence": 0.5527
   },
   {
     "clause_id": "C049",
     "text": "Sử dụng Mặt bằng vào mục đích trái pháp luật.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "Sử dụng",
@@ -1343,12 +1441,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.36648646975365257
+    "intent": "Right",
+    "intent_confidence": 0.3665
   },
   {
     "clause_id": "C050",
     "text": "Mọi tranh chấp phát sinh từ hoặc liên quan đến hợp đồng này trước tiên sẽ được các bên giải quyết thông qua thương lượng, hòa giải trên tinh thần hợp tác và thiện chí.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [],
     "srl": {
       "predicate": "được",
@@ -1359,11 +1459,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3997924488746704
+    "intent_confidence": 0.505
   },
   {
     "clause_id": "C051",
     "text": "Nếu các bên không thể giải quyết tranh chấp bằng thương lượng trong vòng 30 (ba mươi) ngày kể từ khi một bên gửi thông báo tranh chấp bằng văn bản, tranh chấp sẽ được đưa ra giải quyết tại Tòa án nhân dân có thẩm quyền tại Thành phố Hồ Chí Minh theo quy định của Bộ luật Tố tụng dân sự năm 2015.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "Bộ luật Tố tụng dân sự năm 2015",
@@ -1381,11 +1483,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.5149
+    "intent_confidence": 0.7826
   },
   {
     "clause_id": "C052",
     "text": "Hợp đồng này được lập thành 04 (bốn) bản có giá trị pháp lý như nhau, mỗi bên giữ 02 (hai) bản.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "mỗi bên",
@@ -1403,11 +1507,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.48744201467482845
+    "intent_confidence": 0.542
   },
   {
     "clause_id": "C053",
     "text": "Mọi sửa đổi, bổ sung hợp đồng chỉ có giá trị khi được lập thành văn bản và có chữ ký xác nhận của cả hai bên hoặc người được ủy quyền hợp pháp.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "cả hai bên",
@@ -1425,11 +1531,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.43582398485604557
+    "intent_confidence": 0.5689
   },
   {
     "clause_id": "C054",
     "text": "Hợp đồng có hiệu lực kể từ ngày hai bên ký kết và được điều chỉnh bởi pháp luật Việt Nam, cụ thể là Bộ luật Dân sự năm 2015 và các văn bản hướng dẫn thi hành.",
+    "contract_id": "lease",
+    "contract_name": "HĐ Thuê mặt bằng",
     "entities": [
       {
         "text": "hai bên",
@@ -1453,12 +1561,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.3311076588245553
+    "intent": "Prohibition",
+    "intent_confidence": 0.6326
   },
   {
     "clause_id": "C055",
     "text": "Hai bên thống nhất giao kết hợp đồng lao động theo quy định của Bộ luật Lao động năm 2019 và Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động, với các điều khoản cụ thể như sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Hai bên",
@@ -1494,12 +1604,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.30668107743904577
+    "intent": "Right",
+    "intent_confidence": 0.3759
   },
   {
     "clause_id": "C056",
     "text": "Loại hợp đồng: Hợp đồng lao động xác định thời hạn 12 (mười hai) tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "xác định",
@@ -1509,11 +1621,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3893688775128557
+    "intent_confidence": 0.7079
   },
   {
     "clause_id": "C057",
     "text": "Bên A tuyển dụng Bên B vào làm việc tại vị trí Lập trình viên Backend (Backend Developer), thuộc Phòng Kỹ thuật và Phát triển sản phẩm.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -1537,11 +1651,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4673456008042008
+    "intent_confidence": 0.6089
   },
   {
     "clause_id": "C058",
     "text": "Nơi làm việc chính: 120 Đường Điện Biên Phủ, Phường 15, Quận Bình Thạnh, Thành phố Hồ Chí Minh.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "Nơi",
@@ -1549,11 +1665,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3266471588286025
+    "intent_confidence": 0.4268
   },
   {
     "clause_id": "C059",
     "text": "Trong trường hợp cần thiết, Bên A có thể yêu cầu Bên B làm việc tại các địa điểm khác nhưng phải thông báo trước ít nhất 07 (bảy) ngày.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -1576,12 +1694,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.47413913564547167
+    "intent": "Right",
+    "intent_confidence": 0.5799
   },
   {
     "clause_id": "C060",
     "text": "Mô tả công việc chính của Bên B bao gồm: thiết kế và phát triển các tính năng backend cho hệ thống phần mềm của Bên A; viết mã nguồn theo đúng tiêu chuẩn kỹ thuật được quy định; tham gia kiểm thử phần mềm và sửa lỗi; lập tài liệu kỹ thuật cho các module được phụ trách; và tham dự các cuộc họp kỹ thuật theo lịch của phòng ban.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -1605,11 +1725,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.45625614838484185
+    "intent_confidence": 0.5045
   },
   {
     "clause_id": "C061",
     "text": "Thời hạn hợp đồng: 12 (mười hai) tháng, bắt đầu từ ngày 10/03/2025 đến ngày 09/03/2026.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "ngày 10/03/2025",
@@ -1632,11 +1754,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4420740104916465
+    "intent_confidence": 0.6432
   },
   {
     "clause_id": "C062",
     "text": "Giờ làm việc: từ 08 giờ 00 đến 17 giờ 00, từ Thứ Hai đến Thứ Sáu hàng tuần, nghỉ trưa 60 (sáu mươi) phút từ 12 giờ 00 đến 13 giờ 00.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "nghỉ",
@@ -1647,11 +1771,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4714764286311188
+    "intent_confidence": 0.6145
   },
   {
     "clause_id": "C063",
     "text": "Tổng thời gian làm việc là 40 (bốn mươi) giờ mỗi tuần theo quy định tại Điều 105 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 105",
@@ -1675,11 +1801,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.36272419183203036
+    "intent_confidence": 0.526
   },
   {
     "clause_id": "C064",
     "text": "Trường hợp Bên A yêu cầu Bên B làm thêm giờ ngoài giờ làm việc tiêu chuẩn, Bên A phải có sự đồng ý của Bên B và phải trả tiền lương làm thêm giờ theo đúng quy định tại Điều 98 Bộ luật Lao động năm 2019, cụ thể: ngày thường trả 150%, ngày nghỉ hàng tuần trả 200%, ngày lễ và ngày nghỉ có hưởng lương trả 300% so với đơn giá tiền lương của giờ làm việc bình thường.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -1758,11 +1886,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4033673452243335
+    "intent_confidence": 0.4711
   },
   {
     "clause_id": "C065",
     "text": "Mức lương cơ bản: 15.000.000 đồng (mười lăm triệu đồng) mỗi tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "lương cơ bản",
@@ -1786,11 +1916,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.490638031593035
+    "intent_confidence": 0.7052
   },
   {
     "clause_id": "C066",
     "text": "Phụ cấp: Bên B được hưởng các khoản phụ cấp sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Phụ cấp",
@@ -1820,11 +1952,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.47137830923984925
+    "intent_confidence": 0.5831
   },
   {
     "clause_id": "C067",
     "text": "Phụ cấp đi lại: 1.000.000 đồng/tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Phụ cấp đi lại",
@@ -1847,11 +1981,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.5269
+    "intent_confidence": 0.7116
   },
   {
     "clause_id": "C068",
     "text": "Phụ cấp ăn trưa: 800.000 đồng/tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Phụ cấp ăn trưa",
@@ -1874,11 +2010,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.5238
+    "intent_confidence": 0.7193
   },
   {
     "clause_id": "C069",
     "text": "Phụ cấp điện thoại: 500.000 đồng/tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Phụ cấp điện thoại",
@@ -1901,11 +2039,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.5238
+    "intent_confidence": 0.7285
   },
   {
     "clause_id": "C070",
     "text": "Tổng thu nhập hàng tháng của Bên B (chưa bao gồm các khoản thưởng): 17.300.000 đồng (mười bảy triệu ba trăm nghìn đồng).",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "thu nhập",
@@ -1935,11 +2075,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.49083487079011323
+    "intent_confidence": 0.6977
   },
   {
     "clause_id": "C071",
     "text": "Tiền lương được thanh toán vào ngày 10 (mười) của tháng sau, bằng hình thức chuyển khoản vào tài khoản ngân hàng do Bên B cung cấp.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Tiền lương",
@@ -1970,11 +2112,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.47155710684907254
+    "intent_confidence": 0.6423
   },
   {
     "clause_id": "C072",
     "text": "Bên A thực hiện khấu trừ thuế thu nhập cá nhân và các khoản bảo hiểm bắt buộc theo quy định của pháp luật trước khi thanh toán cho Bên B.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2012,11 +2156,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4676074031020219
+    "intent_confidence": 0.6082
   },
   {
     "clause_id": "C073",
     "text": "Bên A có thể xét thưởng hiệu suất cho Bên B theo quy chế lương thưởng nội bộ của công ty, căn cứ trên kết quả đánh giá công việc hằng quý.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2047,11 +2193,13 @@
       "negated": false
     },
     "intent": "Right",
-    "intent_confidence": 0.4135887025371045
+    "intent_confidence": 0.5582
   },
   {
     "clause_id": "C074",
     "text": "Mức thưởng cụ thể do Bên A quyết định và không phải là khoản bắt buộc theo hợp đồng này.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2073,12 +2221,14 @@
       },
       "negated": true
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.3892123220929901
+    "intent": "Right",
+    "intent_confidence": 0.5557
   },
   {
     "clause_id": "C075",
     "text": "Bên A có nghĩa vụ đóng bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp cho Bên B theo đúng quy định của Luật Bảo hiểm xã hội năm 2014 (sửa đổi, bổ sung năm 2019), Luật Bảo hiểm y tế năm 2008 (sửa đổi, bổ sung năm 2014) và Luật Việc làm năm 2013.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2122,11 +2272,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.44999926761932973
+    "intent_confidence": 0.6212
   },
   {
     "clause_id": "C076",
     "text": "Mức đóng được tính trên mức lương cơ bản 15.000.000 đồng/tháng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "lương cơ bản",
@@ -2149,11 +2301,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.46877238231878826
+    "intent_confidence": 0.6206
   },
   {
     "clause_id": "C077",
     "text": "Bên B được hưởng chế độ nghỉ phép năm 12 (mười hai) ngày làm việc có hưởng lương trong năm đầu tiên theo Điều 113 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2184,11 +2338,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4021166206039074
+    "intent_confidence": 0.5067
   },
   {
     "clause_id": "C078",
     "text": "Ngày nghỉ phép tăng thêm 01 (một) ngày cho mỗi 05 (năm) năm làm việc tại Bên A.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2205,11 +2361,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4266847879710747
+    "intent_confidence": 0.523
   },
   {
     "clause_id": "C079",
     "text": "Bên B được nghỉ các ngày lễ, tết theo quy định tại Điều 112 Bộ luật Lao động năm 2019 và được hưởng nguyên lương trong những ngày nghỉ này.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2234,11 +2392,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3900232909004058
+    "intent_confidence": 0.3981
   },
   {
     "clause_id": "C080",
     "text": "Bên A có các quyền sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2256,11 +2416,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.34743569929941
+    "intent_confidence": 0.4927
   },
   {
     "clause_id": "C081",
     "text": "Phân công, điều chuyển công việc của Bên B trong phạm vi hợp đồng này, phù hợp với trình độ chuyên môn và sức khỏe của Bên B.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2283,12 +2445,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4748189515351718
+    "intent": "Right",
+    "intent_confidence": 0.6696
   },
   {
     "clause_id": "C082",
     "text": "Khen thưởng Bên B khi hoàn thành xuất sắc nhiệm vụ được giao.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2306,12 +2470,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4512423055585499
+    "intent": "Right",
+    "intent_confidence": 0.5582
   },
   {
     "clause_id": "C083",
     "text": "Xử lý kỷ luật lao động đối với Bên B theo đúng trình tự, thủ tục quy định tại Điều 122 Bộ luật Lao động năm 2019 và Nội quy lao động của công ty khi Bên B vi phạm kỷ luật.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2353,12 +2519,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4305266250069899
+    "intent": "Right",
+    "intent_confidence": 0.5812
   },
   {
     "clause_id": "C084",
     "text": "Bên A có các nghĩa vụ sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2376,11 +2544,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.33266540783076787
+    "intent_confidence": 0.5395
   },
   {
     "clause_id": "C085",
     "text": "Thanh toán lương và các khoản phúc lợi cho Bên B đầy đủ và đúng hạn theo quy định tại Điều 3.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2404,11 +2574,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3992435518945385
+    "intent_confidence": 0.5956
   },
   {
     "clause_id": "C086",
     "text": "Cung cấp đầy đủ công cụ, thiết bị, phần mềm và tài nguyên kỹ thuật cần thiết để Bên B thực hiện công việc, bao gồm máy tính xách tay, tài khoản phần mềm và quyền truy cập hệ thống.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2426,11 +2598,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4453999284473677
+    "intent_confidence": 0.657
   },
   {
     "clause_id": "C087",
     "text": "Đảm bảo điều kiện làm việc an toàn, vệ sinh theo quy định của Luật An toàn, vệ sinh lao động năm 2015.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Luật An toàn",
@@ -2448,11 +2622,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4535343312099373
+    "intent_confidence": 0.5992
   },
   {
     "clause_id": "C088",
     "text": "Đào tạo, hướng dẫn Bên B về kỹ thuật an toàn, các quy định nội bộ và quy trình làm việc trước khi Bên B bắt đầu công việc.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2477,11 +2653,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4743996058556059
+    "intent_confidence": 0.4817
   },
   {
     "clause_id": "C089",
     "text": "Không phân biệt đối xử, quấy rối hoặc ép buộc lao động trái ý muốn của Bên B.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2499,11 +2677,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4213925458116568
+    "intent_confidence": 0.6098
   },
   {
     "clause_id": "C090",
     "text": "Bên B có các quyền sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2521,11 +2701,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.34743569929941
+    "intent_confidence": 0.5024
   },
   {
     "clause_id": "C091",
     "text": "Hưởng đầy đủ lương và các chế độ phúc lợi theo quy định tại Điều 3 và Điều 4 của hợp đồng này.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 3",
@@ -2547,12 +2729,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4621807291550483
+    "intent": "Right",
+    "intent_confidence": 0.5814
   },
   {
     "clause_id": "C092",
     "text": "Được làm việc trong môi trường an toàn, được trang bị đầy đủ phương tiện và công cụ lao động.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "Được",
@@ -2561,12 +2745,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.42490089055285896
+    "intent": "Right",
+    "intent_confidence": 0.6033
   },
   {
     "clause_id": "C093",
     "text": "Nghỉ phép, nghỉ lễ theo đúng quy định của pháp luật và hợp đồng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "Nghỉ phép",
@@ -2575,12 +2761,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.42903308909211607
+    "intent": "Right",
+    "intent_confidence": 0.5236
   },
   {
     "clause_id": "C094",
     "text": "Đơn phương chấm dứt hợp đồng theo quy định tại Điều 35 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 35",
@@ -2609,6 +2797,8 @@
   {
     "clause_id": "C095",
     "text": "Bên B có các nghĩa vụ sau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2626,11 +2816,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.33266540783076787
+    "intent_confidence": 0.5415
   },
   {
     "clause_id": "C096",
     "text": "Thực hiện đầy đủ, đúng tiến độ các công việc được phân công theo mô tả tại Điều 1 và chấp hành sự điều hành hợp pháp của Bên A.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 1",
@@ -2653,12 +2845,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.3965660665715966
+    "intent": "Right",
+    "intent_confidence": 0.4725
   },
   {
     "clause_id": "C097",
     "text": "Tuân thủ Nội quy lao động, Quy chế bảo mật thông tin và các quy định nội bộ khác của Bên A.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2676,11 +2870,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4127781882900992
+    "intent_confidence": 0.6509
   },
   {
     "clause_id": "C098",
     "text": "Bảo mật tuyệt đối mọi thông tin, dữ liệu, bí quyết kinh doanh và công nghệ của Bên A trong suốt thời hạn hợp đồng và sau khi hợp đồng chấm dứt trong vòng 02 (hai) năm tiếp theo, trừ khi được sự đồng ý bằng văn bản của Bên A.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2705,11 +2901,13 @@
       "negated": false
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5073
+    "intent_confidence": 0.5664
   },
   {
     "clause_id": "C099",
     "text": "Không được đồng thời làm việc cho các công ty có hoạt động kinh doanh cạnh tranh trực tiếp với Bên A trong suốt thời gian hợp đồng có hiệu lực.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "công ty",
@@ -2735,11 +2933,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.6118
+    "intent_confidence": 0.7845
   },
   {
     "clause_id": "C100",
     "text": "Không được sử dụng tài nguyên, thiết bị và thông tin của Bên A vào mục đích cá nhân hoặc mục đích không liên quan đến công việc được giao.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -2757,11 +2957,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.5416
+    "intent_confidence": 0.737
   },
   {
     "clause_id": "C101",
     "text": "Bồi thường thiệt hại thực tế cho Bên A theo quy định tại Điều 130 Bộ luật Lao động năm 2019 nếu gây ra thiệt hại do lỗi của mình.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bồi thường",
@@ -2799,11 +3001,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3997990022489967
+    "intent_confidence": 0.5217
   },
   {
     "clause_id": "C102",
     "text": "Hợp đồng lao động chấm dứt trong các trường hợp theo quy định tại Điều 34 Bộ luật Lao động năm 2019, bao gồm: hết hạn hợp đồng; hai bên thỏa thuận chấm dứt; Bên B đủ điều kiện hưởng lương hưu theo quy định.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 34",
@@ -2840,11 +3044,13 @@
       "negated": false
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5789
+    "intent_confidence": 0.6292
   },
   {
     "clause_id": "C103",
     "text": "Hợp đồng đương nhiên chấm dứt hiệu lực kể từ ngày 09/03/2026 nếu không có thỏa thuận gia hạn bằng văn bản từ cả hai bên trước thời điểm đó ít nhất 30 (ba mươi) ngày.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "ngày 09/03/2026",
@@ -2869,11 +3075,13 @@
       "negated": true
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5046
+    "intent_confidence": 0.6541
   },
   {
     "clause_id": "C104",
     "text": "Bên B có quyền đơn phương chấm dứt hợp đồng lao động trước thời hạn bằng cách thông báo bằng văn bản cho Bên A trước ít nhất 30 (ba mươi) ngày theo quy định tại Điều 35 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2917,11 +3125,13 @@
       "negated": false
     },
     "intent": "Right",
-    "intent_confidence": 0.4603257490945184
+    "intent_confidence": 0.6605
   },
   {
     "clause_id": "C105",
     "text": "Nếu Bên B đơn phương chấm dứt hợp đồng mà không thông báo trước đúng thời hạn quy định tại khoản 7.3, Bên B phải bồi thường cho Bên A một khoản tiền tương đương 01 (một) tháng lương cơ bản theo hợp đồng, tức là 15.000.000 đồng (mười lăm triệu đồng).",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -2982,11 +3192,13 @@
       "negated": true
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.5094
+    "intent_confidence": 0.567
   },
   {
     "clause_id": "C106",
     "text": "Hoàn trả toàn bộ chi phí đào tạo mà Bên A đã chi trả cho Bên B (nếu có) theo quy định tại Điều 40 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -3024,11 +3236,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3570006740978785
+    "intent_confidence": 0.4933
   },
   {
     "clause_id": "C107",
     "text": "Bên A có quyền đơn phương chấm dứt hợp đồng lao động trước thời hạn trong các trường hợp quy định tại Điều 36 Bộ luật Lao động năm 2019, cụ thể khi: Bên B thường xuyên không hoàn thành công việc theo mức độ đã thỏa thuận, Bên B bị xử lý kỷ luật sa thải.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -3083,11 +3297,13 @@
       "negated": true
     },
     "intent": "Right",
-    "intent_confidence": 0.46335947455536314
+    "intent_confidence": 0.6498
   },
   {
     "clause_id": "C108",
     "text": "Bên B có hành vi gian lận khi ký kết hợp đồng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -3106,11 +3322,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3513456642707794
+    "intent_confidence": 0.4142
   },
   {
     "clause_id": "C109",
     "text": "Khi chấm dứt hợp đồng, Bên B có nghĩa vụ bàn giao đầy đủ công việc đang thực hiện, tài liệu kỹ thuật, thiết bị và tất cả tài sản của Bên A cho người được ủy quyền tiếp nhận trong vòng 05 (năm) ngày làm việc cuối cùng.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -3134,12 +3352,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4972613310219099
+    "intent": "Termination Condition",
+    "intent_confidence": 0.6809
   },
   {
     "clause_id": "C110",
     "text": "Bên B cam kết không tiết lộ cho bên thứ ba bất kỳ thông tin mật nào về công nghệ, khách hàng, chiến lược kinh doanh hoặc quy trình nội bộ của Bên A mà Bên B tiếp cận được trong quá trình làm việc.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -3169,11 +3389,13 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.3816550002965681
+    "intent_confidence": 0.3817
   },
   {
     "clause_id": "C111",
     "text": "Trong vòng 12 (mười hai) tháng sau khi hợp đồng chấm dứt, Bên B không được làm việc hoặc cung cấp dịch vụ tư vấn cho bất kỳ công ty nào là đối thủ cạnh tranh trực tiếp của Bên A trong lĩnh vực phát triển phần mềm quản lý doanh nghiệp tại thị trường Việt Nam.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -3205,11 +3427,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.5655
+    "intent_confidence": 0.7855
   },
   {
     "clause_id": "C112",
     "text": "Nếu vi phạm, Bên B phải bồi thường cho Bên A một khoản tiền phạt là 50.000.000 đồng (năm mươi triệu đồng).",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên B",
@@ -3252,11 +3476,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.30750810031761644
+    "intent_confidence": 0.4084
   },
   {
     "clause_id": "C113",
     "text": "Các bên cam kết ưu tiên giải quyết mọi tranh chấp phát sinh liên quan đến hợp đồng này thông qua hòa giải tại cơ sở theo Điều 188 Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Điều 188",
@@ -3280,11 +3506,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.40166881609356514
+    "intent_confidence": 0.5738
   },
   {
     "clause_id": "C114",
     "text": "Trong trường hợp hòa giải không thành hoặc hết thời hạn hòa giải mà các bên vẫn không đạt được thỏa thuận, tranh chấp sẽ được giải quyết tại Hội đồng trọng tài lao động hoặc Tòa án nhân dân quận Bình Thạnh, Thành phố Hồ Chí Minh theo quy định của Bộ luật Tố tụng dân sự năm 2015 và Bộ luật Lao động năm 2019.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bộ luật Tố tụng dân sự năm 2015",
@@ -3308,11 +3536,13 @@
       "negated": true
     },
     "intent": "Termination Condition",
-    "intent_confidence": 0.4548282600587761
+    "intent_confidence": 0.5422
   },
   {
     "clause_id": "C115",
     "text": "Hợp đồng lao động này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, Bên A giữ 01 (một) bản, Bên B giữ 01 (một) bản.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bên A",
@@ -3336,11 +3566,13 @@
       "negated": false
     },
     "intent": "Obligation",
-    "intent_confidence": 0.4769067763557219
+    "intent_confidence": 0.6609
   },
   {
     "clause_id": "C116",
     "text": "Hợp đồng có hiệu lực từ ngày 10/03/2025 và được điều chỉnh bởi pháp luật lao động Việt Nam.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "ngày 10/03/2025",
@@ -3357,12 +3589,14 @@
       },
       "negated": false
     },
-    "intent": "Obligation",
-    "intent_confidence": 0.4012056908140103
+    "intent": "Prohibition",
+    "intent_confidence": 0.4545
   },
   {
     "clause_id": "C117",
     "text": "Mọi vấn đề không được quy định trong hợp đồng này sẽ được giải quyết theo quy định của Bộ luật Lao động năm 2019 và các văn bản hướng dẫn thi hành.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [
       {
         "text": "Bộ luật Lao động năm 2019",
@@ -3379,11 +3613,13 @@
       "negated": true
     },
     "intent": "Prohibition",
-    "intent_confidence": 0.4285801560030871
+    "intent_confidence": 0.7158
   },
   {
     "clause_id": "C118",
     "text": "Các phụ lục đính kèm (nếu có) là bộ phận không tách rời của hợp đồng này và có giá trị pháp lý như nhau.",
+    "contract_id": "labor",
+    "contract_name": "HĐ Lao động",
     "entities": [],
     "srl": {
       "predicate": "bộ phận",
@@ -3393,6 +3629,6 @@
       "negated": true
     },
     "intent": "Obligation",
-    "intent_confidence": 0.462051172978608
+    "intent_confidence": 0.4937
   }
 ]

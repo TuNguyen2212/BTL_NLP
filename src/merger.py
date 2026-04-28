@@ -7,10 +7,7 @@ def load_clauses(path):
         for i, line in enumerate(f, start=1):
             line = line.strip()
             if line:
-                clauses.append({
-                    "id": i,
-                    "text": line
-                })
+                clauses.append({"id": i, "text": line})
     return clauses
 
 
@@ -31,24 +28,33 @@ def merge_all(clauses_path, ner_path, srl_path, intent_path):
 
     enriched = []
 
+    contract_id = "lease"
+    contract_name = "HĐ Thuê mặt bằng"
+
     for c in clauses:
         cid = c["id"]
+        text_lower = c["text"].lower()
 
-        enriched.append({
-            "clause_id": f"C{cid:03}",
-            "text": c["text"],
+        if "giao kết hợp đồng lao động" in text_lower:
+            contract_id = "labor"
+            contract_name = "HĐ Lao động"
 
-            "entities": ner_map.get(cid, {}).get("entities", []),
-
-            "srl": {
-                "predicate": srl_map.get(cid, {}).get("predicate"),
-                "roles": srl_map.get(cid, {}).get("roles", {}),
-                "negated": srl_map.get(cid, {}).get("negated", False)
-            },
-
-            "intent": intent_map.get(cid, {}).get("intent"),
-            "intent_confidence": intent_map.get(cid, {}).get("confidence")
-        })
+        enriched.append(
+            {
+                "clause_id": f"C{cid:03}",
+                "text": c["text"],
+                "contract_id": contract_id,
+                "contract_name": contract_name,
+                "entities": ner_map.get(cid, {}).get("entities", []),
+                "srl": {
+                    "predicate": srl_map.get(cid, {}).get("predicate"),
+                    "roles": srl_map.get(cid, {}).get("roles", {}),
+                    "negated": srl_map.get(cid, {}).get("negated", False),
+                },
+                "intent": intent_map.get(cid, {}).get("intent"),
+                "intent_confidence": intent_map.get(cid, {}).get("confidence"),
+            }
+        )
 
     return enriched
 

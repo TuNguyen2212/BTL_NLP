@@ -4,7 +4,6 @@ import io
 import json
 import joblib
 import argparse
-import numpy as np
 
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
@@ -12,8 +11,7 @@ if sys.platform == "win32":
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import StratifiedKFold, cross_validate
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, f1_score, accuracy_score
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +23,6 @@ from config import (
     INTENT_LR_PARAMS,
     INTENT_KEYWORDS,
 )
-from src.phobert_intent import PhoBERTIntentClassifier, check_phobert_availability
 
 
 def load_data(path: str = ANNOTATED_INTENT_PATH):
@@ -63,42 +60,22 @@ def train(texts, labels, model_path: str = INTENT_MODEL_PATH):
     return pipeline
 
 
-def evaluate_cv(texts, labels, n_splits: int = 5):
-    n_splits = min(n_splits, min(Counter(labels).values()))
-    pipeline = build_pipeline()
-
-    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
-    scores = cross_validate(
-        pipeline,
-        texts,
-        labels,
-        cv=cv,
-        scoring=["accuracy", "f1_macro", "f1_weighted"],
-        return_train_score=False,
-    )
-
-    print(f"\n[Eval] Stratified {n_splits}-Fold Cross-Validation:")
-    print(
-        f"  Accuracy    : {np.mean(scores['test_accuracy']):.3f} +/- {np.std(scores['test_accuracy']):.3f}"
-    )
-    print(
-        f"  F1 macro    : {np.mean(scores['test_f1_macro']):.3f} +/- {np.std(scores['test_f1_macro']):.3f}"
-    )
-    print(
-        f"  F1 weighted : {np.mean(scores['test_f1_weighted']):.3f} +/- {np.std(scores['test_f1_weighted']):.3f}"
-    )
-
-    return scores
-
-
-def full_report(pipeline, texts, labels):
+def evaluate(pipeline, texts, labels):
     preds = pipeline.predict(texts)
-    print("\n[Eval] Classification report (train set):")
-    print(
-        classification_report(
-            labels, preds, target_names=INTENT_LABELS, zero_division=0
-        )
-    )
+
+    acc = accuracy_score(labels, preds)
+    f1_mac = f1_score(labels, preds, average="macro", zero_division=0)
+    f1_w = f1_score(labels, preds, average="weighted", zero_division=0)
+
+    print(f"\n[Eval] TF-IDF+LR trên training data (tham khảo, train=test):")
+    print(f"  Accuracy    : {acc:.3f}")
+    print(f"  F1 macro    : {f1_mac:.3f}")
+    print(f"  F1 weighted : {f1_w:.3f}")
+
+    print(f"\n[Eval] Classification report:")
+    print(classification_report(labels, preds, target_names=INTENT_LABELS, zero_division=0))
+
+    return preds
 
 
 def rule_based_predict(clause: str) -> str:
@@ -109,24 +86,23 @@ def rule_based_predict(clause: str) -> str:
     return "Obligation"
 
 
-def compare_with_rules(texts, labels, pipeline):
+def compare_with_rules(texts, labels, tfidf_preds):
     rule_preds = [rule_based_predict(t) for t in texts]
-    model_preds = pipeline.predict(texts)
 
-    rule_correct = sum(r == g for r, g in zip(rule_preds, labels))
-    model_correct = sum(m == g for m, g in zip(model_preds, labels))
+    rule_acc = accuracy_score(labels, rule_preds)
+    model_acc = accuracy_score(labels, tfidf_preds)
+    rule_f1 = f1_score(labels, rule_preds, average="macro", zero_division=0)
+    model_f1 = f1_score(labels, tfidf_preds, average="macro", zero_division=0)
 
-    print("\n[Compare] Rule-based vs TF-IDF+LR (training set):")
-    print(
-        f"  Rule-based accuracy : {rule_correct}/{len(labels)} = {rule_correct/len(labels):.3f}"
-    )
-    print(
-        f"  TF-IDF+LR accuracy  : {model_correct}/{len(labels)} = {model_correct/len(labels):.3f}"
-    )
+    print("\n[Compare] Rule-based vs TF-IDF+LR (tham khảo, train=test):")
+    print(f"  {'Metric':<15} {'Rule-based':<12} {'TF-IDF+LR':<12}")
+    print(f"  {'-'*15} {'-'*12} {'-'*12}")
+    print(f"  {'Accuracy':<15} {rule_acc:<12.3f} {model_acc:<12.3f}")
+    print(f"  {'F1 macro':<15} {rule_f1:<12.3f} {model_f1:<12.3f}")
 
     diffs = [
         (t, r, m, g)
-        for t, r, m, g in zip(texts, rule_preds, model_preds, labels)
+        for t, r, m, g in zip(texts, rule_preds, tfidf_preds, labels)
         if r != m
     ]
     if diffs:
@@ -136,9 +112,11 @@ def compare_with_rules(texts, labels, pipeline):
             print(f"    '{t[:70]}'")
 
 
-def compare_with_phobert(texts, labels, tfidf_pipeline):
+def compare_with_phobert(texts, labels, tfidf_preds):
+    from src.phobert_intent import PhoBERTIntentClassifier
+
     print("\n" + "=" * 80)
-    print("[Compare] PhoBERT vs TF-IDF+LR")
+    print("[Compare] PhoBERT vs TF-IDF+LR (tham khảo, train=test)")
     print("=" * 80)
 
     phobert = PhoBERTIntentClassifier()
@@ -148,28 +126,23 @@ def compare_with_phobert(texts, labels, tfidf_pipeline):
         print("Train model trên Colab và tải model về để so sánh.")
         return
 
-    print("\n[1] Evaluating TF-IDF + Logistic Regression...")
-    tfidf_preds = tfidf_pipeline.predict(texts)
-    tfidf_correct = sum(t == g for t, g in zip(tfidf_preds, labels))
-    tfidf_acc = tfidf_correct / len(labels)
+    tfidf_acc = accuracy_score(labels, tfidf_preds)
+    tfidf_f1_macro = f1_score(labels, tfidf_preds, average="macro", zero_division=0)
+    tfidf_f1_weighted = f1_score(labels, tfidf_preds, average="weighted", zero_division=0)
 
-    from sklearn.metrics import f1_score
-
-    tfidf_f1_macro = f1_score(labels, tfidf_preds, average="macro")
-    tfidf_f1_weighted = f1_score(labels, tfidf_preds, average="weighted")
-
+    print("\n[1] TF-IDF+LR:")
     print(f"  Accuracy    : {tfidf_acc:.4f}")
     print(f"  F1 macro    : {tfidf_f1_macro:.4f}")
     print(f"  F1 weighted : {tfidf_f1_weighted:.4f}")
 
-    print("\n[2] Evaluating PhoBERT...")
+    print("\n[2] PhoBERT:")
     phobert_results = phobert.evaluate(texts, labels)
 
     print(f"  Accuracy    : {phobert_results['accuracy']:.4f}")
     print(f"  F1 macro    : {phobert_results['f1_macro']:.4f}")
     print(f"  F1 weighted : {phobert_results['f1_weighted']:.4f}")
 
-    print("\n[3] Comparison Summary:")
+    print("\n[3] So sánh (tham khảo, cả 2 predict trên training data):")
     print(f"  {'Metric':<15} {'TF-IDF+LR':<12} {'PhoBERT':<12} {'Diff':<12}")
     print(f"  {'-'*15} {'-'*12} {'-'*12} {'-'*12}")
 
@@ -204,7 +177,7 @@ def compare_with_phobert(texts, labels, tfidf_pipeline):
             print(f"      Gold={gold}")
             print(f"      Text: '{text[:100]}...'")
 
-    print("\n[5] Detailed Classification Report - PhoBERT:")
+    print("\n[5] Classification Report - PhoBERT:")
     print(phobert_results["report"])
 
     print("\n" + "=" * 80)
@@ -215,7 +188,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--eval",
         action="store_true",
-        help="Chạy cross-validation và in report sau khi train",
+        help="Evaluate trên training data (tham khảo)",
     )
     parser.add_argument(
         "--compare", action="store_true", help="So sánh Rule-based vs TF-IDF+LR"
@@ -230,12 +203,12 @@ if __name__ == "__main__":
     texts, labels = load_data()
     pipeline = train(texts, labels)
 
-    if args.eval:
-        evaluate_cv(texts, labels)
-        full_report(pipeline, texts, labels)
+    tfidf_preds = None
+    if args.eval or args.compare or args.phobert:
+        tfidf_preds = evaluate(pipeline, texts, labels)
 
     if args.compare:
-        compare_with_rules(texts, labels, pipeline)
+        compare_with_rules(texts, labels, tfidf_preds)
 
     if args.phobert:
-        compare_with_phobert(texts, labels, pipeline)
+        compare_with_phobert(texts, labels, tfidf_preds)

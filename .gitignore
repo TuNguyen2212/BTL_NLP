@@ -24,3 +24,6 @@ models/
 
 # Large temporary archives
 *.zip
+
+# Environment variables
+.env

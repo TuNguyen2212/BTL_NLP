@@ -8,3 +8,9 @@ datasets>=2.18.0
 torch>=2.0.0
 fastembed
 faiss-cpu>=1.7.4
+openai
+streamlit
+python-dotenv
+rank_bm25
+requests
+sentence-transformers>=3.0.0,<4.0.0

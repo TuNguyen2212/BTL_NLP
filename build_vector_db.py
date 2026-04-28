@@ -5,7 +5,7 @@ import os
 
 
 def main():
-    print("🔄 Merging data...")
+    print("[VectorDB] Merging data...")
 
     enriched = merge_all(
         "output/clauses.txt",
@@ -18,14 +18,14 @@ def main():
 
     save_json(enriched, "vector_db/enriched_clauses.json")
 
-    print("🧠 Embedding...")
+    print("[VectorDB] Embedding...")
 
     embedder = Embedder()
     texts = [c["text"] for c in enriched]
 
     vectors = embedder.embed_passages(texts)
 
-    print("📦 Building FAISS index...")
+    print("[VectorDB] Building FAISS index...")
 
     store = VectorStore(dim=len(vectors[0]))
     store.add(vectors)
@@ -33,7 +33,7 @@ def main():
     store.save("vector_db/faiss.index")
     save_metadata(enriched, "vector_db/metadata.json")
 
-    print("✅ Done!")
+    print("[VectorDB] Done.")
 
 
 if __name__ == "__main__":

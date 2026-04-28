@@ -1,11 +1,12 @@
-from fastembed import TextEmbedding
-
 class Embedder:
     def __init__(self):
-        self.model = TextEmbedding(model_name="BAAI/bge-small-en-v1.5")
+        from fastembed import TextEmbedding
+        self.model = TextEmbedding(model_name="intfloat/multilingual-e5-large")
 
     def embed_passages(self, texts):
-        return list(self.model.embed(texts))
+        prefixed = [f"passage: {t}" for t in texts]
+        return list(self.model.embed(prefixed))
 
     def embed_query(self, query):
-        return list(self.model.embed([query]))[0]
+        prefixed = f"query: {query}"
+        return list(self.model.embed([prefixed]))[0]
