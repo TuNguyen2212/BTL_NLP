@@ -52,7 +52,7 @@ OPENROUTER_API_KEY=sk-or-v1-xxxxxxxx
 Khởi chạy app, nhập API key vào ô "API Key" trên sidebar.
 
 > Tạo key miễn phí tại: https://openrouter.ai/keys
-> (Đăng ký bằng Google, không cần thẻ tín dụng)
+> (Đăng ký bằng Google, không cần thẻ tín dụng hoặc lấy key free trong report)
 
 ### 3. Khởi chạy
 
